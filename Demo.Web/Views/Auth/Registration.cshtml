@@ -1,0 +1,130 @@
+@model Demo.Web.Models.RegistrationViewModel
+@{
+    Layout=null;
+}
+@section Scripts {
+  @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+  }
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js"></script>
+</head>
+<body>
+<div class="row body-background position-absolute h-100 backgroundImage w-100 justify-content-center">
+    <div class="col-sm-12 col-md-10 d-flex flex-column align-items-center justify-content-center">
+        <div class="card dashboard-card-size shadow login-card-size  d-flex flex-row align-items-center justify-content-center w-75">
+            <div class="d-none d-md-block col-md-6 col-sm-12">
+                <img class="w-100 h-75 object-fit-cover" src="~/images/user-management.png" alt="">
+            </div>
+            <div class="w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+                <div class="d-flex align-items-center justify-content-start pb-5">
+                    <h4>Welcome</h4>
+                </div>
+                <div class="d-flex align-items-center justify-content-center flex-column w-100">
+                <form class="form-container d-flex flex-column gap-3 w-75 "  id="registration-form" >
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="d-flex flex-column">
+                            <select class="form-select mb-3" id="role" name="RoleId" asp-for="@Model.RoleId">
+                                <option value=2>User</option>
+                                <option value=1>Admin</option>
+                            </select>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <div class="input-group" class="py-2 d-flex flex-column">
+                                <input type="text" class="form-control" placeholder="FirstName*" id="firstName" asp-for="@Model.FirstName" name="FirstName">
+                            </div>
+                                <span asp-validation-for="@Model.FirstName" class="text-danger"></span>
+                            
+                        </div>
+                        <div class="d-flex flex-column">
+                            <div class="input-group" class="py-2 d-flex flex-column">
+                                <input type="text" class="form-control" placeholder="LastName*" id="lastName" asp-for="@Model.LastName" name="LastName">
+                            </div>
+                                <span asp-validation-for="@Model.FirstName" class="text-danger"></span>
+                            
+                        </div>
+                        <div class="d-flex flex-column">
+                            <div class="input-group" class="py-2 d-flex flex-column">
+                            
+                                <input type="email" class="form-control" placeholder="Email*" id="email" asp-for="@Model.Email" name="Email">
+                                <img src="~/images/person.svg" alt="" class="tiny-svg">
+                            </div>
+                                <span asp-validation-for="@Model.Email" class="text-danger"></span>
+                            
+                        </div>
+                        <div class="d-flex flex-column">
+                            <div class="input-group" class="py-2 d-flex flex-column">
+                                <input type="number" class="form-control" placeholder="PhoneNumber*" id="phoneNumber" asp-for="@Model.PhoneNumber" name="PhoneNumber">
+                            </div>
+                                <span asp-validation-for="@Model.FirstName" class="text-danger"></span>
+                            
+                        </div>
+                        <div class="d-flex flex-column">
+                            <div class="input-group" class="py-2 d-flex flex-column">
+                                <textarea type="text" class="form-control" placeholder="Address*" id="address" asp-for="@Model.Address" name="Address"></textarea>
+                            </div>
+                            <span asp-validation-for="@Model.Address" class="text-danger"></span>
+                        </div>
+                        <div>
+                        <div class="input-group">
+                            <input type="password" class="form-control input::-ms-reveal"  placeholder="Password*"
+                                id="password" asp-for="@Model.Password" name="Password">
+                            <img src="~/images/show-password.svg" onclick="showPassword()" class="tiny-svg "
+                                id="showpassword" />
+                            <img src="~/images/hide-password.svg" onclick="showPassword()" class="tiny-svg d-none"
+                                id="hidepassword" />
+                        </div>
+                            <span asp-validation-for="@Model.Password" class="text-danger"></span>
+                            
+                        </div>
+                        <div>
+                        <div class="input-group">
+                            <input type="password" class="form-control input::-ms-reveal"  placeholder="Confirm Password*"
+                                id="confirm-password" asp-for="@Model.ConfirmPassword" name="ConfirmPassword">
+                            <img src="~/images/show-password.svg" onclick="showPasswordConfirm()" class="tiny-svg "
+                                id="confirm-showpassword" />
+                            <img src="~/images/hide-password.svg" onclick="showPasswordConfirm()" class="tiny-svg d-none"
+                                id="confirm-hidepassword" />
+                        </div>
+                            <span asp-validation-for="@Model.ConfirmPassword" class="text-danger"></span>
+                            <p  id="confirmation-password-error" class="text-danger"></p>
+                        </div>
+
+                    <div class="input-group pb-4">
+                      <input type="file" id="upload-btn" asp-for="@Model.Image"
+                        name="Image" class="position-absolute file-input-btn" 
+                        accept="image/*">
+                    </div>
+                    <span asp-validation-for="@Model.Image" class="text-danger"></span>
+                        <button type="submit" class="btn btn-primary">Register</button>
+                    </form>
+                    
+                </div>
+            </div>  
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+<script src="~/js/registration.js" asp-append-version="true"></script>
+
+    </body>
+</html>
