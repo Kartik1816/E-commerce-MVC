@@ -10,17 +10,17 @@ public class RegistrationViewModel
     public string Email { get; set; } = null!;
 
     [Required(ErrorMessage = "Password is required.")]
-    [MinLength(8, ErrorMessage = "Password must be at least 6 characters.")]
+    [MinLength(8, ErrorMessage = "Password must be at least 8 characters.")]
     [MaxLength(50, ErrorMessage = "Password cannot exceed 50 characters.")]
     [RegularExpression(@"^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$", ErrorMessage = "Please Enter correct Password")]
-    public string Password { get; set; } = null!;
+    public string? Password { get; set; } 
 
     [Required(ErrorMessage = "Confirm Password is required.")]
-    [MinLength(8, ErrorMessage = "Confirm Password must be at least 6 characters.")]
+    [MinLength(8, ErrorMessage = "Confirm Password must be at least 8 characters.")]
     [MaxLength(50, ErrorMessage = "Confirm Password cannot exceed 50 characters.")]
     [RegularExpression(@"^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$", ErrorMessage = "Please Enter correct Confirm Password")]
     [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
-    public string ConfirmPassword { get; set; } = null!;
+    public string? ConfirmPassword { get; set; } 
 
     [Required(ErrorMessage = "First Name is required.")]
     [MaxLength(20, ErrorMessage = "First Name cannot exceed 20 characters.")]
@@ -39,10 +39,13 @@ public class RegistrationViewModel
 
     [Required(ErrorMessage = "Address is required.")]
     [RegularExpression(@"^[a-zA-Z0-9\s,.'-]{3,}$", ErrorMessage = "Address must be at least 3 characters long and can include letters, numbers, spaces, commas, periods, and hyphens.")]
+    [MinLength(3, ErrorMessage = "Address must be at least 3 characters long.")]
     public string Address { get; set; } = null!;
 
     [Required(ErrorMessage = "Image is required.")]
-    public IFormFile? Image { get; set; } = null!;
+    public IFormFile? Image { get; set; } 
     public int RoleId { get; set; }
     public string? ImageUrl { get; set; } = null;
+    public int Id { get; set; }
+
 }

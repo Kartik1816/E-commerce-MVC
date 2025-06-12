@@ -1,6 +1,7 @@
 using System.Text;
 using Demo.Web.Controllers;
 using Demo.Web.Middleware;
+using Demo.Web.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 
@@ -9,6 +10,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient<AuthController>();
+builder.Services.AddHttpClient<EditProfileController>();
+builder.Services.AddHttpClient<ForgotPasswordController>();
+builder.Services.AddSingleton<EmailService>();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowMVC", policy =>

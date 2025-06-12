@@ -24,13 +24,14 @@
 <body>
 <div class="row body-background position-absolute h-100 backgroundImage w-100 justify-content-center">
     <div class="col-sm-12 col-md-10 d-flex flex-column align-items-center justify-content-center">
+        <h1 class="text-center text-white mb-5">Computers, Laptops And Accessories</h1>
         <div class="card dashboard-card-size shadow login-card-size  d-flex flex-row align-items-center justify-content-center w-75">
             <div class="d-none d-md-block col-md-6 col-sm-12">
-                <img class="w-100 h-75 object-fit-cover" src="~/images/user-management.png" alt="">
+                <img class="ps-5 w-75 h-75 object-fit-cover" src="~/images/cla.png" alt="">
             </div>
-            <div class="w-100 h-100 d-flex flex-column align-items-center justify-content-center">
-                <div class="d-flex align-items-center justify-content-start pb-5">
-                    <h4>Welcome</h4>
+            <div class="w-100 h-100 d-flex flex-column align-items-center justify-content-center p-3">
+                <div class="d-flex align-items-center justify-content-start pt-3">
+                    <h4>Welcome To CLA</h4>
                 </div>
                 <div class="d-flex align-items-center justify-content-center flex-column w-100">
                 <form class="form-container d-flex flex-column gap-3 w-75 "  id="registration-form" >
@@ -108,7 +109,10 @@
                         accept="image/*">
                     </div>
                     <span asp-validation-for="@Model.Image" class="text-danger"></span>
-                        <button type="submit" class="btn btn-primary">Register</button>
+                        <button type="submit" class="btn btn-primary ">Register</button>
+                        <div class="d-flex justify-content-center">
+                            <a asp-controller="Auth" asp-action="Index" class="py-3 text-decoration-none">Already have an account? Login here</a>
+                        </div>
                     </form>
                     
                 </div>

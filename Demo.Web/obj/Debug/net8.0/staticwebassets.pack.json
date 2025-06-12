@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\images\\bg-image.png"
     },
     {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\cla.png",
+      "PackagePath": "staticwebassets\\images\\cla.png"
+    },
+    {
       "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\hide-password.svg",
       "PackagePath": "staticwebassets\\images\\hide-password.svg"
     },
@@ -45,6 +49,10 @@
       "PackagePath": "staticwebassets\\images\\profile-images\\10fcc74f-9853-46bf-8ea2-444b19835cca.png"
     },
     {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\1f8de0e7-f535-4816-aef3-487a2a2022d2.png",
+      "PackagePath": "staticwebassets\\images\\profile-images\\1f8de0e7-f535-4816-aef3-487a2a2022d2.png"
+    },
+    {
       "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\2df20178-49d3-4440-9155-a0a3dcf77008.jpg",
       "PackagePath": "staticwebassets\\images\\profile-images\\2df20178-49d3-4440-9155-a0a3dcf77008.jpg"
     },
@@ -59,6 +67,10 @@
     {
       "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\876ed9e7-f937-4397-b33e-32e33ac041c1.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\876ed9e7-f937-4397-b33e-32e33ac041c1.png"
+    },
+    {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\c5a0b2c3-2d65-49af-a1f3-deae484751fa.jfif",
+      "PackagePath": "staticwebassets\\images\\profile-images\\c5a0b2c3-2d65-49af-a1f3-deae484751fa.jfif"
     },
     {
       "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\d28c850a-20fe-4e12-84cf-2dbb2ff7ea48.png",
@@ -85,6 +97,14 @@
       "PackagePath": "staticwebassets\\js\\auth.js"
     },
     {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\editProfile.js",
+      "PackagePath": "staticwebassets\\js\\editProfile.js"
+    },
+    {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\forgotPassword.js",
+      "PackagePath": "staticwebassets\\js\\forgotPassword.js"
+    },
+    {
       "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\login.js",
       "PackagePath": "staticwebassets\\js\\login.js"
     },
@@ -95,6 +115,10 @@
     {
       "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\verifyOtp.js",
+      "PackagePath": "staticwebassets\\js\\verifyOtp.js"
     },
     {
       "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\LICENSE",

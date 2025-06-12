@@ -39,3 +39,9 @@ C:\Users\pca158\Desktop\Frontend\Demo.Web\bin\Debug\net8.0\Microsoft.IdentityMod
 C:\Users\pca158\Desktop\Frontend\Demo.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\pca158\Desktop\Frontend\Demo.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\pca158\Desktop\Frontend\Demo.Web\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\pca158\Desktop\Frontend\Demo.Web\obj\Debug\net8.0\Demo.Web.sourcelink.json
+C:\Users\pca158\Desktop\Frontend\Demo.Web\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\pca158\Desktop\Frontend\Demo.Web\bin\Debug\net8.0\MailKit.dll
+C:\Users\pca158\Desktop\Frontend\Demo.Web\bin\Debug\net8.0\MimeKit.dll
+C:\Users\pca158\Desktop\Frontend\Demo.Web\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\pca158\Desktop\Frontend\Demo.Web\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
