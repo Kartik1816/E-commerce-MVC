@@ -1,4 +1,4 @@
-using System.Threading.Tasks;
+using System.Net.Http;
 using Demo.Web.Models;
 using Demo.Web.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -6,12 +6,12 @@ using Newtonsoft.Json;
 
 namespace Demo.Web.Controllers;
 
-public class ForgotPasswordController : Controller
+public class VerifyController : Controller
 {
     private readonly HttpClient _httpClient;
     private readonly EmailService _emailservice;
     private readonly string _apiBaseUrl = "http://localhost:5114/api/ForgotPassword/";
-    public ForgotPasswordController(IHttpClientFactory httpClientFactory, EmailService emailService)
+    public VerifyController(IHttpClientFactory httpClientFactory, EmailService emailService)
     {
         _httpClient = httpClientFactory.CreateClient();
         _emailservice = emailService;
@@ -20,15 +20,15 @@ public class ForgotPasswordController : Controller
     {
         return View();
     }
-
     [HttpPost]
-    public async Task<IActionResult> ForgotPasswordMail([FromForm] ForgotPasswordViewModel forgotPasswordViewModel)
+    public async Task<IActionResult> VerifyOtp([FromForm] OtpViewModel otpViewModel)
     {
         if (!ModelState.IsValid)
         {
-            return new JsonResult(new { success = false, message = "Invalid email address." });
+            return new JsonResult(new { success = false, message = "Invalid OTP." });
         }
-        HttpResponseMessage response = await _httpClient.PostAsJsonAsync(_apiBaseUrl + "forgotpassword", forgotPasswordViewModel.Email);
+
+        HttpResponseMessage response = await _httpClient.PostAsJsonAsync(_apiBaseUrl + "verify", otpViewModel);
         if (response.IsSuccessStatusCode)
         {
             string responseContent = await response.Content.ReadAsStringAsync();
@@ -37,13 +37,7 @@ public class ForgotPasswordController : Controller
             {
                 string message = responseData.message;
                 bool success = responseData.success;
-                int otp = responseData.otp;
-                if (success)
-                {
-                    await _emailservice.SendEmailAsync(forgotPasswordViewModel.Email, otp);
-                }
                 return new JsonResult(new { success = true, message = message });
-
             }
             else
             {
@@ -54,11 +48,5 @@ public class ForgotPasswordController : Controller
         {
             return StatusCode((int)response.StatusCode, "Error occurred while processing the request.");
         }
-    }
-
-    
-    public IActionResult ResetPassword()
-    {
-        return View();
     }
 }

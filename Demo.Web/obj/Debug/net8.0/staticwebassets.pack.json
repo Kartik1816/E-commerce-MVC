@@ -97,6 +97,14 @@
       "PackagePath": "staticwebassets\\js\\auth.js"
     },
     {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\changePassword.js",
+      "PackagePath": "staticwebassets\\js\\changePassword.js"
+    },
+    {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\contactUs.js",
+      "PackagePath": "staticwebassets\\js\\contactUs.js"
+    },
+    {
       "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\editProfile.js",
       "PackagePath": "staticwebassets\\js\\editProfile.js"
     },
@@ -111,6 +119,10 @@
     {
       "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\registration.js",
       "PackagePath": "staticwebassets\\js\\registration.js"
+    },
+    {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\resetPassword.js",
+      "PackagePath": "staticwebassets\\js\\resetPassword.js"
     },
     {
       "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\site.js",

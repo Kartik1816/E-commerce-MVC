@@ -1,3 +1,4 @@
+using Demo.Web.Models;
 using MailKit.Net.Smtp;
 using MimeKit;
 
@@ -21,6 +22,29 @@ public class EmailService
 
             var emailTemplate = System.IO.File.ReadAllText("Views/EmailTemplate/ForgotPasswordEmailTemplate.html");
             emailTemplate = emailTemplate.Replace("{{resetOTP}}", OTP.ToString());
+
+            emailMessage.Body = new TextPart(MimeKit.Text.TextFormat.Html)
+            {
+                Text = emailTemplate
+            };
+
+            using (var client = new MailKit.Net.Smtp.SmtpClient())
+            {
+                await client.ConnectAsync(_configuration["SmtpSettings:Server"], int.Parse(_configuration["SmtpSettings:Port"]), MailKit.Security.SecureSocketOptions.StartTls);
+                await client.AuthenticateAsync(_configuration["SmtpSettings:Username"], _configuration["SmtpSettings:Password"]);
+                await client.SendAsync(emailMessage);
+                await client.DisconnectAsync(true);
+            }
+        }
+        public async Task ContactUs(ContactUsViewModel contactUsViewModel)
+        {
+            var emailMessage = new MimeMessage();
+            emailMessage.From.Add(new MailboxAddress(contactUsViewModel.Name, contactUsViewModel.Email));         
+            emailMessage.To.Add(new MailboxAddress("", "raj@yopmail.com"));
+            emailMessage.Subject = contactUsViewModel.Subject;
+
+            var emailTemplate = System.IO.File.ReadAllText("Views/EmailTemplate/ContactUsEmailTemplate.html");
+            emailTemplate = emailTemplate.Replace("{{content}}", contactUsViewModel.Message);
 
             emailMessage.Body = new TextPart(MimeKit.Text.TextFormat.Html)
             {

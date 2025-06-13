@@ -28,14 +28,14 @@
             <div class="w-100 h-100 d-flex flex-column align-items-center justify-content-center">
                 <div class="d-flex align-items-center justify-content-center flex-column w-100">
                     <form class="form-container d-flex flex-column gap-3 w-75"  id="verify-otp-form">
-                        <input type="hidden" asp-for="@Model.Email" id="verify-otp-email"/>
+                        <input type="hidden" asp-for="@Model.Email" id="verify-otp-email" name="Email"/>
                         <div class="input-group" class="py-2">
-                            <input type="number"  class="form-control" placeholder="XXXXXX" id="otp" asp-for="@Model.OTP">
+                            <input type="number"  class="form-control" placeholder="XXXXXX" id="otp" name="OTP" asp-for="@Model.OTP">
                         </div>
                         <span asp-validation-for="@Model.OTP" class="text-danger"></span>
-                            <a>
+                            
                             <button type="submit"  class="btn btn-primary w-100">Verify</button>
-                            </a>
+                            
                             <div class="d-flex justify-content-center">
                                 <a asp-controller="ForgotPassword" asp-action="Index" class="text-decoration-none">Back</a>
                             </div>
@@ -55,7 +55,8 @@
 
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="~/js/forogotPassword.js" asp-append-version="true"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
 <script src="~/js/verifyOtp.js" asp-append-version="true"></script>
     </body>
 </html>

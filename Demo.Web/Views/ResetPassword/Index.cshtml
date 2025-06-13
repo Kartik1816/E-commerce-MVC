@@ -1,4 +1,4 @@
-@model Demo.Web.Models.ForgotPasswordViewModel
+@model Demo.Web.Models.ResetPasswordViewModel
 @{
     Layout=null;
 }
@@ -27,17 +27,38 @@
             </div>
             <div class="w-100 h-100 d-flex flex-column align-items-center justify-content-center">
                 <div class="d-flex align-items-center justify-content-start pb-5">
-                    <h4>Forgot Password</h4>
+                    <h4>Reset Password</h4>
                 </div>
                 <div class="d-flex align-items-center justify-content-center flex-column w-100">
-                    <form class="form-container d-flex flex-column gap-3 w-75"  id="forgot-password-form">
-                        <div class="input-group" class="py-2">
-                            <input type="email"  class="form-control" placeholder="Email*" id="forgot-email" asp-for="@Model.Email">
+                    <form class="form-container d-flex flex-column gap-3 w-75"  id="reset-password-form">
+                        <input type="hidden" asp-for="@Model.Email" id="reset-email" name="Email"/>
+                        <div>
+                        <div class="input-group">
+                            <input type="password" class="form-control input::-ms-reveal"  placeholder="Password*"
+                                id="password" asp-for="@Model.NewPassword" name="NewPassword">
+                            <img src="~/images/show-password.svg" onclick="showPassword()" class="tiny-svg "
+                                id="showpassword" />
+                            <img src="~/images/hide-password.svg" onclick="showPassword()" class="tiny-svg d-none"
+                                id="hidepassword" />
                         </div>
-                        <span asp-validation-for="@Model.Email" class="text-danger"></span>
-                            <a>
-                            <button type="submit"  class="btn btn-primary w-100">Send</button>
-                            </a>
+                            <span asp-validation-for="@Model.NewPassword" class="text-danger"></span>
+                            
+                        </div>
+                        <div>
+                        <div class="input-group">
+                            <input type="password" class="form-control input::-ms-reveal"  placeholder="Confirm Password*"
+                                id="confirm-password" asp-for="@Model.ConfirmPassword" name="ConfirmPassword">
+                            <img src="~/images/show-password.svg" onclick="showPasswordConfirm()" class="tiny-svg "
+                                id="confirm-showpassword" />
+                            <img src="~/images/hide-password.svg" onclick="showPasswordConfirm()" class="tiny-svg d-none"
+                                id="confirm-hidepassword" />
+                        </div>
+                            <span asp-validation-for="@Model.ConfirmPassword" class="text-danger"></span>
+                            <p  id="confirmation-password-error" class="text-danger"></p>
+                        </div>
+                            
+                            <button type="submit"  class="btn btn-primary w-100">Reset</button>
+                            
                             <div class="d-flex justify-content-center">
                                 <a asp-controller="Auth" asp-action="Index" class="text-decoration-none">Back to login</a>
                             </div>
@@ -60,7 +81,7 @@
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
 <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
-<script src="~/js/forgotPassword.js" asp-append-version="true"></script>
+<script src="~/js/resetPassword.js" asp-append-version="true"></script>
 
     </body>
 </html>

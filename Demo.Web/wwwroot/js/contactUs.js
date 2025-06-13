@@ -1,31 +1,23 @@
-
-$('#forgot-password-form').submit(function (e) {
+$('#contactUsForm').submit(function (e) {
     e.preventDefault(); 
-    if(!$(this).valid()) {
+    if(!$(this).valid()){
         return; 
     }
-    var form = $(this)[0];
+    var form=$(this)[0];
     var formData = new FormData(form);
-        email= $('#forgot-email').val();
-        console.log(email);
-    localStorage.setItem('forgotEmail', email);
-    debugger;
     $.ajax({
-        url: '/ForgotPassword/ForgotPasswordMail',
+        url: '/ContactUs/Contact',
         type: 'POST',
         data: formData,
         contentType: false,
         processData: false,
         success: function (response) {
-            if(response.success)
-            {
+            if(response.success) {
                 toastr.success(response.message);
-                setTimeout(()=>{
-                    window.location.href = '/Verify/Index'
-                },1000)
-            }
-            else
-            {
+                setTimeout(() => {
+                    window.location.href = '/Home/Index';
+                }, 1000);
+            } else {
                 toastr.error(response.message);
             }
         },
@@ -34,6 +26,3 @@ $('#forgot-password-form').submit(function (e) {
         }
     });
 });
-
-
-

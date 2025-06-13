@@ -2,9 +2,10 @@
 
 @if(Model != null)
 {
-    <h1 class="text-center text-white mb-5">Edit Profile </h1>
+    <div class="card shadow w-50 d-flex align-items-center justify-content-center"> 
+    <h1 class="text-center text-black mb-5">Edit Profile </h1>
     <div class="d-flex align-items-center justify-content-center flex-column w-75">
-        <form class="form-container d-flex flex-column gap-3 w-50 "  id="editProfileForm" >
+        <form class="form-container d-flex flex-column gap-3 w-75 mb-3"  id="editProfileForm" >
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="@Model.Id" name="Id" value="@Model.Id" />
             <div class="d-flex flex-column">
@@ -24,7 +25,7 @@
                 <div class="input-group" class="py-2 d-flex flex-column">
                     <input type="text" class="form-control" placeholder="LastName*" id="lastName" asp-for="@Model.LastName" name="LastName" value="@Model.LastName">
                 </div>
-                    <span asp-validation-for="@Model.FirstName" class="text-danger"></span>
+                    <span asp-validation-for="@Model.LastName" class="text-danger"></span>
                 
             </div>
             <div class="d-flex flex-column">
@@ -40,7 +41,7 @@
                 <div class="input-group" class="py-2 d-flex flex-column">
                     <input type="number" class="form-control" placeholder="PhoneNumber*" id="phoneNumber" asp-for="@Model.PhoneNumber" name="PhoneNumber" value="@Model.PhoneNumber">
                 </div>
-                    <span asp-validation-for="@Model.FirstName" class="text-danger"></span>
+                    <span asp-validation-for="@Model.PhoneNumber" class="text-danger"></span>
                 
             </div>
             <div class="d-flex flex-column">
@@ -67,6 +68,7 @@
         <span asp-validation-for="@Model.Image" class="text-danger"></span>
             <button type="submit" class="btn btn-primary">Save Profile</button>
         </form>
+    </div>
     </div>
 }
 
