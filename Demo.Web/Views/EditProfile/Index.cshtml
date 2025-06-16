@@ -9,12 +9,6 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="@Model.Id" name="Id" value="@Model.Id" />
             <div class="d-flex flex-column">
-                <select class="form-select mb-3" id="role" name="RoleId" asp-for="@Model.RoleId">
-                    <option value=2>User</option>
-                    <option value=1>Admin</option>
-                </select>
-            </div>
-            <div class="d-flex flex-column">
                 <div class="input-group" class="py-2 d-flex flex-column">
                     <input type="text" class="form-control" placeholder="FirstName*" id="firstName" asp-for="@Model.FirstName" name="FirstName" value="@Model.FirstName">
                 </div>
@@ -26,7 +20,6 @@
                     <input type="text" class="form-control" placeholder="LastName*" id="lastName" asp-for="@Model.LastName" name="LastName" value="@Model.LastName">
                 </div>
                     <span asp-validation-for="@Model.LastName" class="text-danger"></span>
-                
             </div>
             <div class="d-flex flex-column">
                 <div class="input-group" class="py-2 d-flex flex-column">

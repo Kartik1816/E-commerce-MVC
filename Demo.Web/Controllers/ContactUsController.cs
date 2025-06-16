@@ -6,14 +6,13 @@ using Demo.Web.Services;
 
 namespace Demo.Web.Controllers;
 
+
 public class ContactUsController : Controller
 {
-    private readonly string _apiBaseUrl = "http://localhost:5114/api/ContactUs/";
-    private readonly HttpClient _httpClient;
+
     private readonly EmailService _emailService;
-    public ContactUsController(IHttpClientFactory httpClientFactory, EmailService emailService)
+    public ContactUsController(EmailService emailService)
     {
-        _httpClient = httpClientFactory.CreateClient();
         _emailService = emailService;
     }
     public IActionResult Index()
@@ -27,23 +26,14 @@ public class ContactUsController : Controller
         {
             return new JsonResult(new { success = false, message = "Invalid data" });
         }
-        HttpResponseMessage httpResponseMessage = await _httpClient.PostAsJsonAsync(_apiBaseUrl + "contact", contactUsViewModel.Email);
-        bool isUserWithEmailExists = await httpResponseMessage.Content.ReadFromJsonAsync<bool>();
-        if (isUserWithEmailExists)
+        try
         {
-            try
-            {
-                await _emailService.ContactUs(contactUsViewModel);
-            }
-            catch (Exception ex)
-            {
-                return new JsonResult(new { success = false, message = "Failed to send email: " + ex.Message });
-            }
-            return new JsonResult(new { success = true, message = "Your message has been sent successfully." });
+            await _emailService.ContactUs(contactUsViewModel);
         }
-        else
+        catch (Exception ex)
         {
-            return new JsonResult(new { success = false, message = "User with this email does not exist." });
+            return new JsonResult(new { success = false, message = "Failed to send email: " + ex.Message });
         }
+        return new JsonResult(new { success = true, message = "Your message has been sent successfully." });
     }
 }

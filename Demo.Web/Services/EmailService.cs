@@ -40,7 +40,7 @@ public class EmailService
         {
             var emailMessage = new MimeMessage();
             emailMessage.From.Add(new MailboxAddress(contactUsViewModel.Name, contactUsViewModel.Email));         
-            emailMessage.To.Add(new MailboxAddress("", "raj@yopmail.com"));
+            emailMessage.To.Add(new MailboxAddress("Developer", "devd.patel@tatvasoft.com"));
             emailMessage.Subject = contactUsViewModel.Subject;
 
             var emailTemplate = System.IO.File.ReadAllText("Views/EmailTemplate/ContactUsEmailTemplate.html");

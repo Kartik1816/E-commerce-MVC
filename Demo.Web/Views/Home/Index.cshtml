@@ -1,6 +1,23 @@
-﻿@{
+﻿@model Demo.Web.Models.HomeViewModel
+@{
     ViewData["Title"] = "Home Page";
 }
-
+<div class="d-flex align-items-center justify-content-center h-100 w-100">
+    <div class="row align-items-center justify-content-center gap-4">
+        <h1 class="text-white  text-center">Buy <span id="typewriter"></span></h1>
+        @if(Model!= null && Model.Categories!=null)
+        {
+            foreach (var category in Model.Categories)
+            {
+                <div class="card d-flex flex-column align-items-center justify-content-center p-5 col-3 h-100 cursor-pointer" onclick="getProductsByCategory('@category.Id')">
+                    <img src="~/images/@($"{category.Name}.svg")" alt="Category Image" class="img-fluid mb-4 w-25">
+                    <h3 class="text-center mb-4">@category.Name</h3>
+                    <p class="text-center mb-4 description-text">@category.Description</p>
+                </div>
+            }
+        }
+    </div>
+</div>
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/home.js"></script>

@@ -9,71 +9,79 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Demo.Web
 build_property.RootNamespace = Demo.Web
-build_property.ProjectDir = C:\Users\pca158\Desktop\Frontend\Demo.Web\
+build_property.ProjectDir = c:\Users\pca158\Desktop\Frontend\Demo.Web\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\pca158\Desktop\Frontend\Demo.Web
+build_property.MSBuildProjectDirectory = c:\Users\pca158\Desktop\Frontend\Demo.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Auth/Index.cshtml]
+[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Auth/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Auth/Registration.cshtml]
+[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Auth/Registration.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3RyYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pca158/Desktop/Frontend/Demo.Web/Views/ChangePassword/Index.cshtml]
+[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/ChangePassword/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbmdlUGFzc3dvcmRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pca158/Desktop/Frontend/Demo.Web/Views/ContactUs/Index.cshtml]
+[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/CLA/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ0xBXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/CLA/_AddEditProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ0xBXF9BZGRFZGl0UHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/ContactUs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pca158/Desktop/Frontend/Demo.Web/Views/EditProfile/Index.cshtml]
+[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/EditProfile/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdFByb2ZpbGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pca158/Desktop/Frontend/Demo.Web/Views/ForgotPassword/Index.cshtml]
+[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/ForgotPassword/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9yZ290UGFzc3dvcmRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Home/Index.cshtml]
+[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Home/Privacy.cshtml]
+[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pca158/Desktop/Frontend/Demo.Web/Views/ResetPassword/Index.cshtml]
+[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/ResetPassword/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXRQYXNzd29yZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Shared/Error.cshtml]
+[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Verify/Index.cshtml]
+[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Verify/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVyaWZ5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pca158/Desktop/Frontend/Demo.Web/Views/_ViewImports.cshtml]
+[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pca158/Desktop/Frontend/Demo.Web/Views/_ViewStart.cshtml]
+[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Shared/_Layout.cshtml]
+[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-t5a52x1g1q

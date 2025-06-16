@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "V+WWR+VY5anB4qPR2uj97L94j2+5XVfCF6krYzzvHWg=",
+  "Hash": "GvNUDQb3askcUJdUPAq2SVuKy/0WhmNk/W0mhEIIPJI=",
   "Source": "Demo.Web",
   "BasePath": "_content/Demo.Web",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Demo.Web\\wwwroot",
       "Source": "Demo.Web",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Demo.Web.styles.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Demo.Web.styles.css",
       "SourceId": "Demo.Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "Demo.Web.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Demo.Web.styles.css"
+      "OriginalItemSpec": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Demo.Web.styles.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Demo.Web.bundle.scp.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Demo.Web.bundle.scp.css",
       "SourceId": "Demo.Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "Demo.Web.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Demo.Web.bundle.scp.css"
+      "OriginalItemSpec": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Demo.Web.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\css\\site.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\css\\site.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\css\\style.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\css\\style.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\favicon.ico",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\favicon.ico",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -112,10 +112,29 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\bg-image.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\accessories.svg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "images/accessories.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\accessories.svg"
+    },
+    {
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\bg-image.png",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/bg-image.png",
       "AssetKind": "All",
@@ -131,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bg-image.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\cla.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\cla.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/cla.png",
       "AssetKind": "All",
@@ -150,10 +169,29 @@
       "OriginalItemSpec": "wwwroot\\images\\cla.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\Default_pfp.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\computers.svg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "images/computers.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\computers.svg"
+    },
+    {
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\Default_pfp.png",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/Default_pfp.png",
       "AssetKind": "All",
@@ -169,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Default_pfp.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\hide-password.svg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\hide-password.svg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/hide-password.svg",
       "AssetKind": "All",
@@ -188,10 +226,29 @@
       "OriginalItemSpec": "wwwroot\\images\\hide-password.svg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\logout.svg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\laptops.svg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "images/laptops.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\laptops.svg"
+    },
+    {
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\logout.svg",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/logout.svg",
       "AssetKind": "All",
@@ -207,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logout.svg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\person.svg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\person.svg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/person.svg",
       "AssetKind": "All",
@@ -226,10 +283,105 @@
       "OriginalItemSpec": "wwwroot\\images\\person.svg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\079b3115-5669-4b06-9633-366e24521ef6.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ab7ab79d-bda1-4d69-a94c-82b49eea02e0.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "images/product-images/ab7ab79d-bda1-4d69-a94c-82b49eea02e0.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product-images\\ab7ab79d-bda1-4d69-a94c-82b49eea02e0.png"
+    },
+    {
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b53893bb-326c-4d52-87ab-647958b85e59.png",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "images/product-images/b53893bb-326c-4d52-87ab-647958b85e59.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product-images\\b53893bb-326c-4d52-87ab-647958b85e59.png"
+    },
+    {
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ba5f14e4-e791-4e3f-84c2-16f6d9f682ee.png",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "images/product-images/ba5f14e4-e791-4e3f-84c2-16f6d9f682ee.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product-images\\ba5f14e4-e791-4e3f-84c2-16f6d9f682ee.png"
+    },
+    {
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\hp-27.jpg",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "images/product-images/hp-27.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product-images\\hp-27.jpg"
+    },
+    {
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\iMac-24.jfif",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "images/product-images/iMac-24.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product-images\\iMac-24.jfif"
+    },
+    {
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\079b3115-5669-4b06-9633-366e24521ef6.png",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/079b3115-5669-4b06-9633-366e24521ef6.png",
       "AssetKind": "All",
@@ -245,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\079b3115-5669-4b06-9633-366e24521ef6.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\10fcc74f-9853-46bf-8ea2-444b19835cca.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\10fcc74f-9853-46bf-8ea2-444b19835cca.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/10fcc74f-9853-46bf-8ea2-444b19835cca.png",
       "AssetKind": "All",
@@ -264,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\10fcc74f-9853-46bf-8ea2-444b19835cca.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\1f8de0e7-f535-4816-aef3-487a2a2022d2.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\1f8de0e7-f535-4816-aef3-487a2a2022d2.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/1f8de0e7-f535-4816-aef3-487a2a2022d2.png",
       "AssetKind": "All",
@@ -283,10 +435,29 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\1f8de0e7-f535-4816-aef3-487a2a2022d2.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\2df20178-49d3-4440-9155-a0a3dcf77008.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\2c4d6f16-5e3e-4c82-9142-52e8e35a5deb.jfif",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "images/profile-images/2c4d6f16-5e3e-4c82-9142-52e8e35a5deb.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\profile-images\\2c4d6f16-5e3e-4c82-9142-52e8e35a5deb.jfif"
+    },
+    {
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\2df20178-49d3-4440-9155-a0a3dcf77008.jpg",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/2df20178-49d3-4440-9155-a0a3dcf77008.jpg",
       "AssetKind": "All",
@@ -302,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\2df20178-49d3-4440-9155-a0a3dcf77008.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\3538be29-a480-4f8f-834e-e590eca8b39e.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\3538be29-a480-4f8f-834e-e590eca8b39e.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/3538be29-a480-4f8f-834e-e590eca8b39e.png",
       "AssetKind": "All",
@@ -321,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\3538be29-a480-4f8f-834e-e590eca8b39e.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\68b73d98-6353-4b7a-b939-2566fb2dac47.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\68b73d98-6353-4b7a-b939-2566fb2dac47.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/68b73d98-6353-4b7a-b939-2566fb2dac47.png",
       "AssetKind": "All",
@@ -340,10 +511,29 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\68b73d98-6353-4b7a-b939-2566fb2dac47.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\876ed9e7-f937-4397-b33e-32e33ac041c1.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\786fb4ea-1ba1-4857-abcf-8eb5ae207c51.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "images/profile-images/786fb4ea-1ba1-4857-abcf-8eb5ae207c51.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\profile-images\\786fb4ea-1ba1-4857-abcf-8eb5ae207c51.png"
+    },
+    {
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\876ed9e7-f937-4397-b33e-32e33ac041c1.png",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/876ed9e7-f937-4397-b33e-32e33ac041c1.png",
       "AssetKind": "All",
@@ -359,10 +549,48 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\876ed9e7-f937-4397-b33e-32e33ac041c1.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\c5a0b2c3-2d65-49af-a1f3-deae484751fa.jfif",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\a50c853a-90d1-4f8a-ad89-f339b1c4e618.jfif",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "images/profile-images/a50c853a-90d1-4f8a-ad89-f339b1c4e618.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\profile-images\\a50c853a-90d1-4f8a-ad89-f339b1c4e618.jfif"
+    },
+    {
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\b85eb20c-39ba-4c71-82e8-bfd4672441e4.jpg",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "images/profile-images/b85eb20c-39ba-4c71-82e8-bfd4672441e4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\profile-images\\b85eb20c-39ba-4c71-82e8-bfd4672441e4.jpg"
+    },
+    {
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\c5a0b2c3-2d65-49af-a1f3-deae484751fa.jfif",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/c5a0b2c3-2d65-49af-a1f3-deae484751fa.jfif",
       "AssetKind": "All",
@@ -378,10 +606,29 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\c5a0b2c3-2d65-49af-a1f3-deae484751fa.jfif"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\d28c850a-20fe-4e12-84cf-2dbb2ff7ea48.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\ca241f14-3317-42b7-9a2d-778bd9585307.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "images/profile-images/ca241f14-3317-42b7-9a2d-778bd9585307.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\profile-images\\ca241f14-3317-42b7-9a2d-778bd9585307.png"
+    },
+    {
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\d28c850a-20fe-4e12-84cf-2dbb2ff7ea48.png",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/d28c850a-20fe-4e12-84cf-2dbb2ff7ea48.png",
       "AssetKind": "All",
@@ -397,10 +644,48 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\d28c850a-20fe-4e12-84cf-2dbb2ff7ea48.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\e7930ae2-8f28-4b87-a176-8b190aa4ded4.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\d9cd543a-7cec-4b6b-b074-a7210990701c.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "images/profile-images/d9cd543a-7cec-4b6b-b074-a7210990701c.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\profile-images\\d9cd543a-7cec-4b6b-b074-a7210990701c.png"
+    },
+    {
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\dac29b39-05ee-4e31-bf5c-f926f11a4466.png",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "images/profile-images/dac29b39-05ee-4e31-bf5c-f926f11a4466.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\profile-images\\dac29b39-05ee-4e31-bf5c-f926f11a4466.png"
+    },
+    {
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\e7930ae2-8f28-4b87-a176-8b190aa4ded4.jpg",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/e7930ae2-8f28-4b87-a176-8b190aa4ded4.jpg",
       "AssetKind": "All",
@@ -416,10 +701,29 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\e7930ae2-8f28-4b87-a176-8b190aa4ded4.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\show-password.svg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\f031c642-a4fa-4ddc-97bc-35431ef4bcfb.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "images/profile-images/f031c642-a4fa-4ddc-97bc-35431ef4bcfb.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\profile-images\\f031c642-a4fa-4ddc-97bc-35431ef4bcfb.png"
+    },
+    {
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\show-password.svg",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/show-password.svg",
       "AssetKind": "All",
@@ -435,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\images\\show-password.svg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\user-management.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\user-management.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/user-management.png",
       "AssetKind": "All",
@@ -454,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\images\\user-management.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\warning.svg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\warning.svg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/warning.svg",
       "AssetKind": "All",
@@ -473,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\images\\warning.svg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\auth.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\auth.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "js/auth.js",
       "AssetKind": "All",
@@ -492,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\js\\auth.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\changePassword.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\changePassword.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "js/changePassword.js",
       "AssetKind": "All",
@@ -511,10 +815,29 @@
       "OriginalItemSpec": "wwwroot\\js\\changePassword.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\contactUs.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\cla.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "js/cla.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\cla.js"
+    },
+    {
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\contactUs.js",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "js/contactUs.js",
       "AssetKind": "All",
@@ -530,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\js\\contactUs.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\editProfile.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\editProfile.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "js/editProfile.js",
       "AssetKind": "All",
@@ -549,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\js\\editProfile.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\forgotPassword.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\forgotPassword.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "js/forgotPassword.js",
       "AssetKind": "All",
@@ -568,10 +891,29 @@
       "OriginalItemSpec": "wwwroot\\js\\forgotPassword.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\login.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\home.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "js/home.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\home.js"
+    },
+    {
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\login.js",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "js/login.js",
       "AssetKind": "All",
@@ -587,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\js\\login.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\registration.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\registration.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "js/registration.js",
       "AssetKind": "All",
@@ -606,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\js\\registration.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\resetPassword.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\resetPassword.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "js/resetPassword.js",
       "AssetKind": "All",
@@ -625,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\js\\resetPassword.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\site.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\site.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -644,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\verifyOtp.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\verifyOtp.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "js/verifyOtp.js",
       "AssetKind": "All",
@@ -663,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\js\\verifyOtp.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -682,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -701,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -720,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -739,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -758,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -777,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -796,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -815,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -834,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -853,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -872,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -891,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -910,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -929,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -948,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -967,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -986,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1005,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1024,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1043,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1062,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1081,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1100,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1119,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1138,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1157,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1176,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1195,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1214,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1233,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1252,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1271,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1290,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1309,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1328,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1347,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1366,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1385,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1404,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1423,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1442,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1461,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1480,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1499,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1518,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1537,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1556,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1575,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1594,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1613,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1632,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1651,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1670,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1689,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1708,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1727,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

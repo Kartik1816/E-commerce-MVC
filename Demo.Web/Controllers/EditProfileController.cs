@@ -1,5 +1,6 @@
 using System.Text.Json;
 using System.Threading.Tasks;
+using Demo.Web.Middleware;
 using Demo.Web.Models;
 using Demo.Web.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -7,6 +8,8 @@ using Newtonsoft.Json;
 
 namespace Demo.Web.Controllers;
 
+[JwtMiddleware]
+[ResponseCache(NoStore = true, Location = ResponseCacheLocation.None)]
 public class EditProfileController : Controller
 {
     private readonly HttpClient _httpClient;
@@ -28,10 +31,10 @@ public class EditProfileController : Controller
             return RedirectToAction("Index", "Auth");
         }
         HttpResponseMessage response = await _httpClient.GetAsync(_apiBaseUrl + userId);
-        var jsonString = await response.Content.ReadAsStringAsync();
-        var jsonObject = JsonDocument.Parse(jsonString);
-        var dataObject = jsonObject.RootElement.GetProperty("data");
-        var profileDetails = System.Text.Json.JsonSerializer.Deserialize<EditProfileViewModel>(
+        string jsonString = await response.Content.ReadAsStringAsync();
+        JsonDocument jsonObject = JsonDocument.Parse(jsonString);
+        JsonElement dataObject = jsonObject.RootElement.GetProperty("data");
+        EditProfileViewModel? profileDetails = System.Text.Json.JsonSerializer.Deserialize<EditProfileViewModel>(
             dataObject.ToString(),
             new JsonSerializerOptions
             {
@@ -48,7 +51,7 @@ public class EditProfileController : Controller
         }
     }
     [HttpPost]
-    [Route("/EditProfile/SaveProfile")] 
+    [Route("/EditProfile/SaveProfile")]
     public async Task<IActionResult> Registration([FromForm] EditProfileViewModel editProfileViewModel)
     {
         if (!ModelState.IsValid)

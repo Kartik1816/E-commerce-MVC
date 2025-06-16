@@ -40,16 +40,42 @@
                         </ul>
                         <div class="d-flex align-items-center justify-content-center">
                             <a class="btn btn-primary me-2" asp-controller="EditProfile" asp-action="Index">Edit Profile</a>
-                            <a class="btn btn-danger" href="#">Logout</a>
+                            <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="logout()">Logout</button>
                         </div>
                     </div>
                 </div>
             </nav>
-            <div class="flex-grow-1 w-100 d-flex flex-column align-items-center justify-content-center">
+            <div class="flex-grow-1 w-100 h-100">
                 @RenderBody()
             </div>
         </div>
     </div>
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">
+                    
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="d-flex flex-column align-items-center justify-content-center">
+                    <p>Are you sure you want to Logout?</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    No
+                </button>
+                <button type="button" id="logoutButton" class="btn btn-primary">Yes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

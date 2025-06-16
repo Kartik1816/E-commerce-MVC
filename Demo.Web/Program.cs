@@ -14,8 +14,8 @@ builder.Services.AddHttpClient<EditProfileController>();
 builder.Services.AddHttpClient<ForgotPasswordController>();
 builder.Services.AddHttpClient<VerifyController>();
 builder.Services.AddHttpClient<ResetPasswordController>();
-builder.Services.AddHttpClient<ContactUsController>();
 builder.Services.AddHttpClient<ChangePassword>();
+builder.Services.AddHttpClient<HomeController>();
 builder.Services.AddSingleton<EmailService>();
 builder.Services.AddCors(options =>
 {

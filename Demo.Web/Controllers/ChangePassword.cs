@@ -1,10 +1,13 @@
 using System.Threading.Tasks;
+using Demo.Web.Middleware;
 using Demo.Web.Models;
 using Demo.Web.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Demo.Web.Controllers;
 
+[JwtMiddleware]
+[ResponseCache(NoStore = true, Location = ResponseCacheLocation.None)]
 public class ChangePassword : Controller
 {
     private readonly HttpClient _httpClient;
