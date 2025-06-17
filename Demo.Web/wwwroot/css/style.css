@@ -12,6 +12,14 @@
     width: 100%;
     height: 100vh;
 }
+.backgroundImage{
+    background-image: url("../Images/bg-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+
+}
 .tiny-svg{
     width:20px;
     position:absolute;
@@ -37,4 +45,7 @@
 .description-text{
     font-size: large;
     color: grey;
+}
+.bg-color{
+    background-color:#e9e9e9;
 }

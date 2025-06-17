@@ -49,8 +49,12 @@ public class JwtMiddleware : Attribute, IAuthorizationFilter
             };
 
             // Validate the token
+
             tokenHandler.ValidateToken(token, validationParameters, out SecurityToken validatedToken);
+            JwtSecurityToken jwtTokenForRole = (JwtSecurityToken)validatedToken;
+            string? userRole = jwtTokenForRole.Claims.ElementAt(4).Value;
             //Role Id 1 can add products
+            context.Session.SetString("UserRole", userRole);
             if (context.Request.Path.Value?.Contains("AddProduct") == true)
             {
                 JwtSecurityToken jwtToken = (JwtSecurityToken)validatedToken;

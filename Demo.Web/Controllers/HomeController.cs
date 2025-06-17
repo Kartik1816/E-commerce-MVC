@@ -3,6 +3,7 @@ using Demo.Web.Middleware;
 using System.Threading.Tasks;
 using System.Text.Json;
 using Demo.Web.Models;
+using Demo.Web.Services;
 
 
 namespace Demo.Web.Controllers;
@@ -24,7 +25,7 @@ public class HomeController : Controller
 
     public async Task<IActionResult> Index()
     {
-        HttpResponseMessage response =await _httpClient.GetAsync(_apiBaseUrl + "categories");
+        HttpResponseMessage response = await _httpClient.GetAsync(_apiBaseUrl + "categories");
         string jsonString = await response.Content.ReadAsStringAsync();
         JsonDocument jsonObject = JsonDocument.Parse(jsonString);
         JsonElement dataObject = jsonObject.RootElement.GetProperty("data");
@@ -39,7 +40,15 @@ public class HomeController : Controller
         {
             Categories = categories ?? new List<CategoryViewModel>(),
         };
+        string? token = Request.Cookies["token"];
+        if (token == null)
+        {
+            return RedirectToAction("Index", "Auth");
+        }
+        string role = JwtService.GetRoleFromJwtToken(token);
+        HttpContext.Session.SetString("UserRole", role);
         return View(homeViewModel);
+        
     }
 
     public IActionResult Privacy()

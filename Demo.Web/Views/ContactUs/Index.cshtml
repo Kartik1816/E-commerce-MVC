@@ -1,49 +1,50 @@
 @model Demo.Web.Models.ContactUsViewModel
 
 
-<div class="card shadow w-50 d-flex align-items-center justify-content-center">  
-<div class="d-flex align-items-center justify-content-center flex-column w-75 p-3">
-    <h1 class="text-center text-black mb-5">Contact Us</h1>
-    <form class="form-container d-flex flex-column gap-3 w-75 "  id="contactUsForm" >
-        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-        <div class="d-flex flex-column">
-            <div class="input-group" class="py-2 d-flex flex-column">
-                <input type="text" class="form-control" placeholder="Name*" id="name" asp-for="@Model.Name" name="Name">
+<div class="d-flex align-items-center justify-content-center h-100 w-100">
+    <div class="card shadow w-50 d-flex align-items-center justify-content-center">  
+    <div class="d-flex align-items-center justify-content-center flex-column w-75 p-3">
+        <h1 class="text-center text-black mb-5">Contact Us</h1>
+        <form class="form-container d-flex flex-column gap-3 w-75 "  id="contactUsForm" >
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="d-flex flex-column">
+                <div class="input-group" class="py-2 d-flex flex-column">
+                    <input type="text" class="form-control" placeholder="Name*" id="name" asp-for="@Model.Name" name="Name">
+                </div>
+                    <span asp-validation-for="@Model.Name" class="text-danger"></span>
             </div>
-                <span asp-validation-for="@Model.Name" class="text-danger"></span>
-        </div>
-        <div class="d-flex flex-column">
-            <div class="input-group" class="py-2 d-flex flex-column">
-            
-                <input type="email" class="form-control" placeholder="Email*" id="email" asp-for="@Model.Email" name="Email">
-                <img src="~/images/person.svg" alt="" class="tiny-svg">
+            <div class="d-flex flex-column">
+                <div class="input-group" class="py-2 d-flex flex-column">
+                
+                    <input type="email" class="form-control" placeholder="Email*" id="email" asp-for="@Model.Email" name="Email">
+                    <img src="~/images/person.svg" alt="" class="tiny-svg">
+                </div>
+                    <span asp-validation-for="@Model.Email" class="text-danger"></span>
+                
             </div>
-                <span asp-validation-for="@Model.Email" class="text-danger"></span>
-            
-        </div>
-        <div class="d-flex flex-column">
-            <div class="input-group" class="py-2 d-flex flex-column">
-                <input type="number" class="form-control" placeholder="PhoneNumber*" id="phoneNumber" asp-for="@Model.PhoneNumber" name="PhoneNumber">
+            <div class="d-flex flex-column">
+                <div class="input-group" class="py-2 d-flex flex-column">
+                    <input type="number" class="form-control" placeholder="PhoneNumber*" id="phoneNumber" asp-for="@Model.PhoneNumber" name="PhoneNumber">
+                </div>
+                    <span asp-validation-for="@Model.PhoneNumber" class="text-danger"></span>
             </div>
-                <span asp-validation-for="@Model.PhoneNumber" class="text-danger"></span>
-        </div>
-        <div class="d-flex flex-column">
-            <div class="input-group" class="py-2 d-flex flex-column">
-                <input type="text" class="form-control" placeholder="Subject*" id="name" asp-for="@Model.Subject" name="Subject">
+            <div class="d-flex flex-column">
+                <div class="input-group" class="py-2 d-flex flex-column">
+                    <input type="text" class="form-control" placeholder="Subject*" id="name" asp-for="@Model.Subject" name="Subject">
+                </div>
+                    <span asp-validation-for="@Model.Subject" class="text-danger"></span>
             </div>
-                <span asp-validation-for="@Model.Subject" class="text-danger"></span>
-        </div>
-        <div class="d-flex flex-column">
-            <div class="input-group" class="py-2 d-flex flex-column">
-                <textarea type="text" class="form-control" placeholder="Message*" id="message" asp-for="@Model.Message" name="Message"></textarea>
+            <div class="d-flex flex-column">
+                <div class="input-group" class="py-2 d-flex flex-column">
+                    <textarea type="text" class="form-control" placeholder="Message*" id="message" asp-for="@Model.Message" name="Message"></textarea>
+                </div>
+                <span asp-validation-for="@Model.Message" class="text-danger"></span>
             </div>
-            <span asp-validation-for="@Model.Message" class="text-danger"></span>
-        </div>
-        <button type="submit" class="btn btn-primary">Send</button>
-    </form>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </div>
+    </div>
 </div>
-</div>
-
 @section Scripts {
   @{
     await Html.RenderPartialAsync("_ValidationScriptsPartial");

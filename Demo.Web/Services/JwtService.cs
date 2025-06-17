@@ -29,4 +29,22 @@ public class JwtService
         return userId;
 
     }
+    public static string GetRoleFromJwtToken(string token)
+    {
+        JwtSecurityTokenHandler tokenHandler = new JwtSecurityTokenHandler();
+        JwtSecurityToken? jwtToken = tokenHandler.ReadToken(token) as JwtSecurityToken;
+
+        if (jwtToken == null)
+        {
+            throw new ArgumentException("Invalid JWT token");
+        }
+
+        Claim? roleClaim = jwtToken.Claims.FirstOrDefault(claim => claim.Type == ClaimTypes.Role);
+        if (roleClaim == null)
+        {
+            throw new ArgumentException("JWT token does not contain a role");
+        }
+
+        return roleClaim.Value;
+    }
 }

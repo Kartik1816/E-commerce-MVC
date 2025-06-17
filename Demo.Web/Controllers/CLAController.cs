@@ -76,7 +76,7 @@ public class CLAController : Controller
             dynamic? responseData = JsonConvert.DeserializeObject<dynamic>(responseContent);
             if (responseData != null)
             {
-                if (!responseData.success)
+                if (!(bool)responseData.success)
                 {
                     //remove the image if registration fails
                     if (productViewModel.ImageUrl != null)
@@ -109,5 +109,75 @@ public class CLAController : Controller
         {
             return StatusCode((int)response.StatusCode, "Error occurred while processing the request.");
         }
+    }
+    [HttpGet]
+    [Route("/CLA/GetProductDetails")]
+    public async Task<IActionResult> GetProductDetails(int productId)
+    {
+        HttpResponseMessage response = await _httpClient.GetAsync(_apiBaseUrl + productId);
+        string jsonString = await response.Content.ReadAsStringAsync();
+        JsonDocument jsonObject = JsonDocument.Parse(jsonString);
+        JsonElement dataObject = jsonObject.RootElement.GetProperty("data");
+        ProductViewModel? productDetails = System.Text.Json.JsonSerializer.Deserialize<ProductViewModel>(
+            dataObject.ToString(),
+            new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            }
+        );
+
+        CLAViewModel cLAViewModel = new()
+        {
+            productViewModel = productDetails
+        };
+        return PartialView("_AddEditProduct", cLAViewModel);
+    }
+    [HttpDelete]
+    [Route("/CLA/DeleteProduct")]
+    public async Task<IActionResult> DeleteProduct(int productId)
+    {
+        if (productId <= 0)
+        {
+            return new JsonResult(new { success = false, message = "Product not found" });
+        }
+        HttpResponseMessage response = await _httpClient.DeleteAsync(_apiBaseUrl + productId);
+        if (response.IsSuccessStatusCode)
+        {
+            string responseContent = await response.Content.ReadAsStringAsync();
+            dynamic? responseData = JsonConvert.DeserializeObject<dynamic>(responseContent);
+            if (responseData != null)
+            {
+                string message = responseData.message;
+                bool success = responseData.success;
+                return new JsonResult(new { success = true, message = message });
+
+            }
+            else
+            {
+                return new JsonResult(new { success = false, message = "Invalid response from server." });
+            }
+        }
+        else
+        {
+            return StatusCode((int)response.StatusCode, "Error occurred while processing the request.");
+        }
+    }
+
+    [HttpGet]
+    [Route("/CLA/ViewProduct/{productId}")]
+    public async Task<IActionResult> ProductDetails(int productId)
+    {
+        HttpResponseMessage response = await _httpClient.GetAsync(_apiBaseUrl + productId);
+        string jsonString = await response.Content.ReadAsStringAsync();
+        JsonDocument jsonObject = JsonDocument.Parse(jsonString);
+        JsonElement dataObject = jsonObject.RootElement.GetProperty("data");
+        ProductViewModel? productDetails = System.Text.Json.JsonSerializer.Deserialize<ProductViewModel>(
+            dataObject.ToString(),
+            new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            }
+        );
+        return View(productDetails);
     }
 }

@@ -42,6 +42,7 @@ public class AuthController : Controller
                 string token = responseData.token;
                 string refreshToken = responseData.refreshToken;
                 return new JsonResult(new { success = success, message = message, token = token, refreshToken = refreshToken });
+                
             }
             else
             {

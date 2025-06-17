@@ -1,59 +1,61 @@
 @model Demo.Web.Models.ChangePasswordViewModel
 
-<div class="card dashboard-card-size shadow login-card-size d-flex  align-items-center justify-content-center w-50">
-    <div class="w-100 h-100 d-flex flex-column align-items-center justify-content-center">
-        <div class="d-flex align-items-center justify-content-start mt-2 pb-3">
-            <h4>Change Password</h4>
-        </div>
-        <div class="d-flex align-items-center justify-content-center flex-column w-100">
-            <form class="form-container d-flex flex-column gap-3 w-75"  id="changePasswordForm">
-                <input type="hidden" asp-for="@Model.Id" name="Id" value="-1" />
-                <div>
-                <div class="input-group">
-                    <input type="password" class="form-control input::-ms-reveal"  placeholder="Old Password*"
-                        id="oldpassword" asp-for="@Model.OldPassword" name="OldPassword">
-                    <img src="~/images/show-password.svg" onclick="showOldPassword()" class="tiny-svg "
-                        id="showoldpassword" />
-                    <img src="~/images/hide-password.svg" onclick="showOldPassword()" class="tiny-svg d-none"
-                        id="hideoldpassword" />
-                </div>
-                    <span asp-validation-for="@Model.OldPassword" class="text-danger"></span>
-                    
-                </div>
-                <div>
-                <div class="input-group">
-                    <input type="password" class="form-control input::-ms-reveal"  placeholder="New Password*"
-                        id="password" asp-for="@Model.NewPassword" name="NewPassword">
-                    <img src="~/images/show-password.svg" onclick="showPassword()" class="tiny-svg "
-                        id="showpassword" />
-                    <img src="~/images/hide-password.svg" onclick="showPassword()" class="tiny-svg d-none"
-                        id="hidepassword" />
-                </div>
-                    <span asp-validation-for="@Model.NewPassword" class="text-danger"></span>
-                    
-                </div>
-                <div>
-                <div class="input-group">
-                    <input type="password" class="form-control input::-ms-reveal"  placeholder="Confirm Password*"
-                        id="confirm-password" asp-for="@Model.ConfirmPassword" name="ConfirmPassword">
-                    <img src="~/images/show-password.svg" onclick="showPasswordConfirm()" class="tiny-svg "
-                        id="confirm-showpassword" />
-                    <img src="~/images/hide-password.svg" onclick="showPasswordConfirm()" class="tiny-svg d-none"
-                        id="confirm-hidepassword" />
-                </div>
-                    <span asp-validation-for="@Model.ConfirmPassword" class="text-danger"></span>
-                    <p  id="confirmation-password-error" class="text-danger"></p>
-                </div>
-                    
-                    <button type="submit"  class="btn btn-primary w-100">Change Password</button>
-                    
-                    <div class="d-flex justify-content-center">
-                        <a asp-controller="Home" asp-action="Index" class="text-decoration-none mb-3">Cancel</a>
+<div class="d-flex h-100 w-100 align-items-center justify-content-center">
+    <div class="card shadow login-card-size d-flex  align-items-center justify-content-center w-50 m-5">
+        <div class="w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+            <div class="d-flex align-items-center justify-content-start mt-2 pb-3">
+                <h4>Change Password</h4>
+            </div>
+            <div class="d-flex align-items-center justify-content-center flex-column w-100">
+                <form class="form-container d-flex flex-column gap-3 w-75"  id="changePasswordForm">
+                    <input type="hidden" asp-for="@Model.Id" name="Id" value="-1" />
+                    <div>
+                    <div class="input-group">
+                        <input type="password" class="form-control input::-ms-reveal"  placeholder="Old Password*"
+                            id="oldpassword" asp-for="@Model.OldPassword" name="OldPassword">
+                        <img src="~/images/show-password.svg" onclick="showOldPassword()" class="tiny-svg "
+                            id="showoldpassword" />
+                        <img src="~/images/hide-password.svg" onclick="showOldPassword()" class="tiny-svg d-none"
+                            id="hideoldpassword" />
                     </div>
-            </form>
-            
-        </div>
-    </div>  
+                        <span asp-validation-for="@Model.OldPassword" class="text-danger"></span>
+                        
+                    </div>
+                    <div>
+                    <div class="input-group">
+                        <input type="password" class="form-control input::-ms-reveal"  placeholder="New Password*"
+                            id="password" asp-for="@Model.NewPassword" name="NewPassword">
+                        <img src="~/images/show-password.svg" onclick="showPassword()" class="tiny-svg "
+                            id="showpassword" />
+                        <img src="~/images/hide-password.svg" onclick="showPassword()" class="tiny-svg d-none"
+                            id="hidepassword" />
+                    </div>
+                        <span asp-validation-for="@Model.NewPassword" class="text-danger"></span>
+                        
+                    </div>
+                    <div>
+                    <div class="input-group">
+                        <input type="password" class="form-control input::-ms-reveal"  placeholder="Confirm Password*"
+                            id="confirm-password" asp-for="@Model.ConfirmPassword" name="ConfirmPassword">
+                        <img src="~/images/show-password.svg" onclick="showPasswordConfirm()" class="tiny-svg "
+                            id="confirm-showpassword" />
+                        <img src="~/images/hide-password.svg" onclick="showPasswordConfirm()" class="tiny-svg d-none"
+                            id="confirm-hidepassword" />
+                    </div>
+                        <span asp-validation-for="@Model.ConfirmPassword" class="text-danger"></span>
+                        <p  id="confirmation-password-error" class="text-danger"></p>
+                    </div>
+                        
+                        <button type="submit"  class="btn btn-primary w-100">Change Password</button>
+                        
+                        <div class="d-flex justify-content-center">
+                            <a asp-controller="Home" asp-action="Index" class="text-decoration-none mb-3">Cancel</a>
+                        </div>
+                </form>
+                
+            </div>
+        </div>  
+    </div>
 </div>
 @section Scripts {
   @{

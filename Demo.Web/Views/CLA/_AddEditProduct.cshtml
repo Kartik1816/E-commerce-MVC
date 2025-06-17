@@ -6,13 +6,13 @@
         <div class="modal-content h-100">
             <div class="modal-header">
                 <h5 class="modal-title" id="staticBackdropLabel">
-                    @if (Model.productViewModel?.Id == 0)
+                    @if (Model.productViewModel?.Id > 0)
                     {
-                        <span>Add Product</span>
+                        <span>Edit Product</span>
                     }
                     else
                     {
-                        <span>Edit Product</span>
+                        <span>Add Product</span>
                     }
                 </h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -29,7 +29,7 @@
                     }
                     @if(Model.productViewModel != null && Model.productViewModel.Name != null)
                     {
-                        <div class="d-flex flex-column">
+                        <div class="d-flex flex-column p-2">
                             <div class="input-group" class="py-2 d-flex flex-column">
                                 <input type="text" class="form-control" placeholder="Name*" id="name" asp-for="@Model.productViewModel.Name" name="productViewModel.Name" value="@Model.productViewModel.Name">
                             </div>
@@ -38,7 +38,7 @@
                     }
                     else
                     {
-                        <div class="d-flex flex-column">
+                        <div class="d-flex flex-column p-2">
                             <div class="input-group" class="py-2 d-flex flex-column">
                                 <input type="text" class="form-control" placeholder="Name*" id="name" asp-for="@Model.productViewModel.Name" name="productViewModel.Name">
                             </div>
@@ -47,7 +47,7 @@
                     }
                     @if(Model.productViewModel != null && Model.productViewModel.Description != null)
                     {
-                        <div class="d-flex flex-column">
+                        <div class="d-flex flex-column p-2">
                             <div class="input-group" class="py-2 d-flex flex-column">
                                 <textarea type="text" class="form-control" placeholder="Description*" id="description" asp-for="@Model.productViewModel.Description" name="productViewModel.Description">@Model.productViewModel.Description</textarea>
                             </div>
@@ -56,7 +56,7 @@
                     }
                     else
                     {
-                        <div class="d-flex flex-column">
+                        <div class="d-flex flex-column p-2">
                             <div class="input-group" class="py-2 d-flex flex-column">
                                 <textarea type="text" class="form-control" placeholder="Description*" id="description" asp-for="@Model.productViewModel.Description" name="productViewModel.Description"></textarea>
                             </div>
@@ -66,30 +66,41 @@
                     <input type="hidden"  id="categoryId" asp-for="@Model.productViewModel.CategoryId" value="0">
                     @if(Model.productViewModel != null && Model.productViewModel.Price > 0)
                     {
-                        <div class="d-flex flex-column">
-                            <div class="input-group" class="py-2 d-flex flex-column">
-                                <input type="number" class="form-control" placeholder="Price*" id="price" asp-for="@Model.productViewModel.Price" name="productViewModel.Price" value="@Model.productViewModel.Price">
+                            <div class="d-flex flex-column p-2">
+                                <div class="input-group" class="py-2 d-flex flex-column">
+                                    <input type="number" class="form-control" placeholder="Price*" id="price" asp-for="@Model.productViewModel.Price" name="productViewModel.Price" value="@Model.productViewModel.Price">
+                                </div>
+                                    <span asp-validation-for="@Model.productViewModel.Price" class="text-danger"></span>
                             </div>
-                                <span asp-validation-for="@Model.productViewModel.Price" class="text-danger"></span>
-                        </div>
                     }
                     else
                     {
-                        <div class="d-flex flex-column">
+                        <div class="d-flex flex-column p-2">
                             <div class="input-group" class="py-2 d-flex flex-column">
                                 <input type="number" class="form-control" placeholder="Price*" id="price" asp-for="@Model.productViewModel.Price" name="productViewModel.Price">
                             </div>
                                 <span asp-validation-for="@Model.productViewModel.Price" class="text-danger"></span>
                         </div>
                     }
-                    <div class="d-flex flex-column">
+                    @if(Model.productViewModel != null)
+                    {
+                        <div class="d-flex flex-column p-2">
+                            <div class="input-group" class="py-2 d-flex flex-column">
+                                <input type="number" class="form-control" placeholder="Discount*" id="price" asp-for="@Model.productViewModel.Discount" name="productViewModel.Discount" value="@Model.productViewModel.Discount">
+                            </div>
+                                <span asp-validation-for="@Model.productViewModel.Discount" class="text-danger"></span>
+                        </div>
+                    }
+                    <div class="d-flex flex-column p-2">
                         <input type="file" id="upload-btn" asp-for="@Model.productViewModel.ProductImage"
                         name="productViewModel.ProductImage" class="position-absolute file-input-btn" 
                         accept="image/*">
                     </div>
                     <span asp-validation-for="@Model.productViewModel.ProductImage" class="text-danger"></span>
-                    <button type="submit" class="btn btn-primary mt-3">Save Product</button>
-                    <button type="button" class="btn btn-secondary mt-3" data-bs-dismiss="modal">Cancel</button>
+                    <div class="d-flex justify-content-end gap-2 px-2">
+                        <button type="submit" class="btn btn-primary mt-3">Save Product</button>
+                        <button type="button" class="btn btn-secondary mt-3" data-bs-dismiss="modal">Cancel</button>
+                    </div>
                 </form>
             </div>
         </div>

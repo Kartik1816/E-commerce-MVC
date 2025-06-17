@@ -1,435 +1,475 @@
 {
   "Files": [
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Demo.Web.bundle.scp.css",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Demo.Web.bundle.scp.css",
       "PackagePath": "staticwebassets\\Demo.Web.bundle.scp.css"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\css\\style.css",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\Default_pfp.png",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\Default_pfp.png",
       "PackagePath": "staticwebassets\\images\\Default_pfp.png"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\accessories.svg",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\accessories.svg",
       "PackagePath": "staticwebassets\\images\\accessories.svg"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\bg-image.png",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\bg-image.png",
       "PackagePath": "staticwebassets\\images\\bg-image.png"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\cla.png",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\cla.png",
       "PackagePath": "staticwebassets\\images\\cla.png"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\computers.svg",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\computers.svg",
       "PackagePath": "staticwebassets\\images\\computers.svg"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\hide-password.svg",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\hide-password.svg",
       "PackagePath": "staticwebassets\\images\\hide-password.svg"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\laptops.svg",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\laptops.svg",
       "PackagePath": "staticwebassets\\images\\laptops.svg"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\logout.svg",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\logout.svg",
       "PackagePath": "staticwebassets\\images\\logout.svg"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\person.svg",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\person.svg",
       "PackagePath": "staticwebassets\\images\\person.svg"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ab7ab79d-bda1-4d69-a94c-82b49eea02e0.png",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\0c29b246-f844-43c7-b2f1-e1614010024c.jpg",
+      "PackagePath": "staticwebassets\\images\\product-images\\0c29b246-f844-43c7-b2f1-e1614010024c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\9cd31e1a-12e0-457d-815b-9d3e31cbe6d2.webp",
+      "PackagePath": "staticwebassets\\images\\product-images\\9cd31e1a-12e0-457d-815b-9d3e31cbe6d2.webp"
+    },
+    {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\9f8364fe-71ea-4c5d-8581-871dfde5d24c.jpg",
+      "PackagePath": "staticwebassets\\images\\product-images\\9f8364fe-71ea-4c5d-8581-871dfde5d24c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\a0c85643-0968-4a31-bae0-7c25bc4da811.png",
+      "PackagePath": "staticwebassets\\images\\product-images\\a0c85643-0968-4a31-bae0-7c25bc4da811.png"
+    },
+    {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ab7ab79d-bda1-4d69-a94c-82b49eea02e0.png",
       "PackagePath": "staticwebassets\\images\\product-images\\ab7ab79d-bda1-4d69-a94c-82b49eea02e0.png"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b53893bb-326c-4d52-87ab-647958b85e59.png",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b53893bb-326c-4d52-87ab-647958b85e59.png",
       "PackagePath": "staticwebassets\\images\\product-images\\b53893bb-326c-4d52-87ab-647958b85e59.png"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ba5f14e4-e791-4e3f-84c2-16f6d9f682ee.png",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ba292780-76e6-45ca-bfb3-87cdc821d925.png",
+      "PackagePath": "staticwebassets\\images\\product-images\\ba292780-76e6-45ca-bfb3-87cdc821d925.png"
+    },
+    {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ba5f14e4-e791-4e3f-84c2-16f6d9f682ee.png",
       "PackagePath": "staticwebassets\\images\\product-images\\ba5f14e4-e791-4e3f-84c2-16f6d9f682ee.png"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\hp-27.jpg",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\c6dec16e-8077-4510-833d-b1a5e8159bf5.png",
+      "PackagePath": "staticwebassets\\images\\product-images\\c6dec16e-8077-4510-833d-b1a5e8159bf5.png"
+    },
+    {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\d76ff44d-c925-4e1e-ba09-10ef88610137.png",
+      "PackagePath": "staticwebassets\\images\\product-images\\d76ff44d-c925-4e1e-ba09-10ef88610137.png"
+    },
+    {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\d84b7702-59eb-4422-bcba-b14b493af149.webp",
+      "PackagePath": "staticwebassets\\images\\product-images\\d84b7702-59eb-4422-bcba-b14b493af149.webp"
+    },
+    {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\e8f8d9b6-713f-47ec-8ba6-2cbeaccb5671.png",
+      "PackagePath": "staticwebassets\\images\\product-images\\e8f8d9b6-713f-47ec-8ba6-2cbeaccb5671.png"
+    },
+    {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\hp-27.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\hp-27.jpg"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\iMac-24.jfif",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\iMac-24.jfif",
       "PackagePath": "staticwebassets\\images\\product-images\\iMac-24.jfif"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\079b3115-5669-4b06-9633-366e24521ef6.png",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\079b3115-5669-4b06-9633-366e24521ef6.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\079b3115-5669-4b06-9633-366e24521ef6.png"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\10fcc74f-9853-46bf-8ea2-444b19835cca.png",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\10fcc74f-9853-46bf-8ea2-444b19835cca.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\10fcc74f-9853-46bf-8ea2-444b19835cca.png"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\1f8de0e7-f535-4816-aef3-487a2a2022d2.png",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\1f8de0e7-f535-4816-aef3-487a2a2022d2.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\1f8de0e7-f535-4816-aef3-487a2a2022d2.png"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\2c4d6f16-5e3e-4c82-9142-52e8e35a5deb.jfif",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\2c4d6f16-5e3e-4c82-9142-52e8e35a5deb.jfif",
       "PackagePath": "staticwebassets\\images\\profile-images\\2c4d6f16-5e3e-4c82-9142-52e8e35a5deb.jfif"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\2df20178-49d3-4440-9155-a0a3dcf77008.jpg",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\2df20178-49d3-4440-9155-a0a3dcf77008.jpg",
       "PackagePath": "staticwebassets\\images\\profile-images\\2df20178-49d3-4440-9155-a0a3dcf77008.jpg"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\3538be29-a480-4f8f-834e-e590eca8b39e.png",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\3538be29-a480-4f8f-834e-e590eca8b39e.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\3538be29-a480-4f8f-834e-e590eca8b39e.png"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\68b73d98-6353-4b7a-b939-2566fb2dac47.png",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\68b73d98-6353-4b7a-b939-2566fb2dac47.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\68b73d98-6353-4b7a-b939-2566fb2dac47.png"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\786fb4ea-1ba1-4857-abcf-8eb5ae207c51.png",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\786fb4ea-1ba1-4857-abcf-8eb5ae207c51.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\786fb4ea-1ba1-4857-abcf-8eb5ae207c51.png"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\876ed9e7-f937-4397-b33e-32e33ac041c1.png",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\876ed9e7-f937-4397-b33e-32e33ac041c1.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\876ed9e7-f937-4397-b33e-32e33ac041c1.png"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\a50c853a-90d1-4f8a-ad89-f339b1c4e618.jfif",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\a50c853a-90d1-4f8a-ad89-f339b1c4e618.jfif",
       "PackagePath": "staticwebassets\\images\\profile-images\\a50c853a-90d1-4f8a-ad89-f339b1c4e618.jfif"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\b85eb20c-39ba-4c71-82e8-bfd4672441e4.jpg",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\b85eb20c-39ba-4c71-82e8-bfd4672441e4.jpg",
       "PackagePath": "staticwebassets\\images\\profile-images\\b85eb20c-39ba-4c71-82e8-bfd4672441e4.jpg"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\c5a0b2c3-2d65-49af-a1f3-deae484751fa.jfif",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\c5a0b2c3-2d65-49af-a1f3-deae484751fa.jfif",
       "PackagePath": "staticwebassets\\images\\profile-images\\c5a0b2c3-2d65-49af-a1f3-deae484751fa.jfif"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\ca241f14-3317-42b7-9a2d-778bd9585307.png",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\ca241f14-3317-42b7-9a2d-778bd9585307.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\ca241f14-3317-42b7-9a2d-778bd9585307.png"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\d28c850a-20fe-4e12-84cf-2dbb2ff7ea48.png",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\d28c850a-20fe-4e12-84cf-2dbb2ff7ea48.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\d28c850a-20fe-4e12-84cf-2dbb2ff7ea48.png"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\d9cd543a-7cec-4b6b-b074-a7210990701c.png",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\d9cd543a-7cec-4b6b-b074-a7210990701c.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\d9cd543a-7cec-4b6b-b074-a7210990701c.png"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\dac29b39-05ee-4e31-bf5c-f926f11a4466.png",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\dac29b39-05ee-4e31-bf5c-f926f11a4466.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\dac29b39-05ee-4e31-bf5c-f926f11a4466.png"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\e7930ae2-8f28-4b87-a176-8b190aa4ded4.jpg",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\e7930ae2-8f28-4b87-a176-8b190aa4ded4.jpg",
       "PackagePath": "staticwebassets\\images\\profile-images\\e7930ae2-8f28-4b87-a176-8b190aa4ded4.jpg"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\f031c642-a4fa-4ddc-97bc-35431ef4bcfb.png",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\f031c642-a4fa-4ddc-97bc-35431ef4bcfb.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\f031c642-a4fa-4ddc-97bc-35431ef4bcfb.png"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\show-password.svg",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\f72192aa-761e-4c76-8c12-97edfd46b1a1.png",
+      "PackagePath": "staticwebassets\\images\\profile-images\\f72192aa-761e-4c76-8c12-97edfd46b1a1.png"
+    },
+    {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\show-password.svg",
       "PackagePath": "staticwebassets\\images\\show-password.svg"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\user-management.png",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\user-management.png",
       "PackagePath": "staticwebassets\\images\\user-management.png"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\warning.svg",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\warning.svg",
       "PackagePath": "staticwebassets\\images\\warning.svg"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\auth.js",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\auth.js",
       "PackagePath": "staticwebassets\\js\\auth.js"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\changePassword.js",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\changePassword.js",
       "PackagePath": "staticwebassets\\js\\changePassword.js"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\cla.js",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\cla.js",
       "PackagePath": "staticwebassets\\js\\cla.js"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\contactUs.js",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\contactUs.js",
       "PackagePath": "staticwebassets\\js\\contactUs.js"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\editProfile.js",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\editProfile.js",
       "PackagePath": "staticwebassets\\js\\editProfile.js"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\forgotPassword.js",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\forgotPassword.js",
       "PackagePath": "staticwebassets\\js\\forgotPassword.js"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\home.js",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\home.js",
       "PackagePath": "staticwebassets\\js\\home.js"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\login.js",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\login.js",
       "PackagePath": "staticwebassets\\js\\login.js"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\registration.js",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\registration.js",
       "PackagePath": "staticwebassets\\js\\registration.js"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\resetPassword.js",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\resetPassword.js",
       "PackagePath": "staticwebassets\\js\\resetPassword.js"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\verifyOtp.js",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\verifyOtp.js",
       "PackagePath": "staticwebassets\\js\\verifyOtp.js"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
