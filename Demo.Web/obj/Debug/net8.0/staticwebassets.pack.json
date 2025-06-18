@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\images\\product-images\\0c29b246-f844-43c7-b2f1-e1614010024c.jpg"
     },
     {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\2e697227-d722-4946-ab0d-60eb27f035b4.png",
+      "PackagePath": "staticwebassets\\images\\product-images\\2e697227-d722-4946-ab0d-60eb27f035b4.png"
+    },
+    {
       "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\9cd31e1a-12e0-457d-815b-9d3e31cbe6d2.webp",
       "PackagePath": "staticwebassets\\images\\product-images\\9cd31e1a-12e0-457d-815b-9d3e31cbe6d2.webp"
     },
@@ -99,6 +103,10 @@
     {
       "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\e8f8d9b6-713f-47ec-8ba6-2cbeaccb5671.png",
       "PackagePath": "staticwebassets\\images\\product-images\\e8f8d9b6-713f-47ec-8ba6-2cbeaccb5671.png"
+    },
+    {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ed5486f0-c601-47d5-aa62-9a5d087514d0.png",
+      "PackagePath": "staticwebassets\\images\\product-images\\ed5486f0-c601-47d5-aa62-9a5d087514d0.png"
     },
     {
       "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\hp-27.jpg",
@@ -227,6 +235,10 @@
     {
       "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\login.js",
       "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
     },
     {
       "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\registration.js",

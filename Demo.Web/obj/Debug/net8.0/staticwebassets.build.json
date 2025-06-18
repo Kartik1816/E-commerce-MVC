@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "M0fwC2+zmsJI4wZhJaHXwOCxChYlm1YWTjD24K+xLoA=",
+  "Hash": "XAUcMB1Qi+wlI6fw6rPbqDU/nijzlBLPU7eWVNZM1AU=",
   "Source": "Demo.Web",
   "BasePath": "_content/Demo.Web",
   "Mode": "Default",
@@ -302,6 +302,25 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\0c29b246-f844-43c7-b2f1-e1614010024c.jpg"
     },
     {
+      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\2e697227-d722-4946-ab0d-60eb27f035b4.png",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "images/product-images/2e697227-d722-4946-ab0d-60eb27f035b4.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product-images\\2e697227-d722-4946-ab0d-60eb27f035b4.png"
+    },
+    {
       "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\9cd31e1a-12e0-457d-815b-9d3e31cbe6d2.webp",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
@@ -509,6 +528,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\product-images\\e8f8d9b6-713f-47ec-8ba6-2cbeaccb5671.png"
+    },
+    {
+      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ed5486f0-c601-47d5-aa62-9a5d087514d0.png",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "images/product-images/ed5486f0-c601-47d5-aa62-9a5d087514d0.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product-images\\ed5486f0-c601-47d5-aa62-9a5d087514d0.png"
     },
     {
       "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\hp-27.jpg",
@@ -1117,6 +1155,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\login.js"
+    },
+    {
+      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\product.js",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "js/product.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\product.js"
     },
     {
       "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\registration.js",

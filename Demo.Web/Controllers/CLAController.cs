@@ -167,7 +167,14 @@ public class CLAController : Controller
     [Route("/CLA/ViewProduct/{productId}")]
     public async Task<IActionResult> ProductDetails(int productId)
     {
-        HttpResponseMessage response = await _httpClient.GetAsync(_apiBaseUrl + productId);
+        string? token = Request.Cookies["token"];
+        if (string.IsNullOrEmpty(token))
+        {
+            return RedirectToAction("Index", "Auth");
+        }
+        int userId = JwtService.GetUserIdFromJwtToken(token);
+        string queryString = $"?ProductId={productId}&UserId={userId}";
+        HttpResponseMessage response = await _httpClient.GetAsync(_apiBaseUrl +"GetProductDetails/"+queryString);
         string jsonString = await response.Content.ReadAsStringAsync();
         JsonDocument jsonObject = JsonDocument.Parse(jsonString);
         JsonElement dataObject = jsonObject.RootElement.GetProperty("data");

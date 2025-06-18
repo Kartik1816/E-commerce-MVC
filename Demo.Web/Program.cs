@@ -22,6 +22,8 @@ builder.Services.AddHttpClient<VerifyController>();
 builder.Services.AddHttpClient<ResetPasswordController>();
 builder.Services.AddHttpClient<ChangePassword>();
 builder.Services.AddHttpClient<HomeController>();
+builder.Services.AddHttpClient<WishListController>();
+builder.Services.AddHttpClient<CartController>();
 builder.Services.AddSingleton<EmailService>();
 builder.Services.AddCors(options =>
 {

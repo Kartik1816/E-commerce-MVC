@@ -37,7 +37,7 @@
                                 <a class="nav-link active text-decoration-none text-white  nav-font-size" aria-current="page" asp-controller="Home" asp-action="Index">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active text-decoration-none text-white nav-font-size" href="#">About</a>
+                                <a class="nav-link active text-decoration-none text-white nav-font-size" asp-controller="WishList" asp-action="Index" >WishList</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active text-decoration-none text-white nav-font-size" asp-controller="ContactUs" asp-action="Index">Contact Us</a>
@@ -46,7 +46,8 @@
                                 <a class="nav-link active text-decoration-none text-white nav-font-size" asp-controller="ChangePassword" asp-action="Index">Change Password</a>
                             </li>
                         </ul>
-                        <div class="d-flex align-items-center justify-content-center">
+                        <div class="d-flex align-items-center justify-content-center gap-2">
+                            <a class="nav-link active text-decoration-none text-white nav-font-size" asp-controller="Cart" asp-action="Index">Cart</a>
                             <a class="btn btn-primary me-2" asp-controller="EditProfile" asp-action="Index">Edit Profile</a>
                             <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="logout()">Logout</button>
                         </div>
