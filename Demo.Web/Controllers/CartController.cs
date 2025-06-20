@@ -38,7 +38,7 @@ public class CartController : Controller
                 PropertyNameCaseInsensitive = true
             }
         );
-        CartViewModel productListViewModel = new ()
+        CartViewModel productListViewModel = new()
         {
             CartProductViewModels = products,
         };
@@ -109,7 +109,7 @@ public class CartController : Controller
             {
                 string message = responseData.message;
                 bool success = responseData.success;
-                return new JsonResult(new { success = true, message = message });
+                return new JsonResult(new { success = success, message = message });
 
             }
             else
@@ -120,4 +120,112 @@ public class CartController : Controller
         return StatusCode((int)response.StatusCode, "Error occurred while removing product from cart.");
     }
 
+    [HttpPost]
+    public async Task<IActionResult> IncreaseQuantity(int productId)
+    {
+        if (productId <= 0)
+        {
+            return new JsonResult(new { success = false, message = "Product not found" });
+        }
+        string? token = Request.Cookies["token"];
+        if (string.IsNullOrEmpty(token))
+        {
+            return RedirectToAction("Index", "Auth");
+        }
+        int userId = JwtService.GetUserIdFromJwtToken(token);
+        CartModel cartModel = new()
+        {
+            UserId = userId,
+            ProductId = productId
+        };
+        HttpResponseMessage response = await _httpClient.PostAsJsonAsync(_apiBaseUrl + "increase-quantity", cartModel);
+        if (response.IsSuccessStatusCode)
+        {
+            string responseContent = await response.Content.ReadAsStringAsync();
+            dynamic? responseData = JsonConvert.DeserializeObject<dynamic>(responseContent);
+            if (responseData != null)
+            {
+                string message = responseData.message;
+                bool success = responseData.success;
+                return new JsonResult(new { success = success, message = message });
+            }
+            else
+            {
+                return new JsonResult(new { success = false, message = "Invalid response from server." });
+            }
+        }
+        else
+        {
+            return StatusCode((int)response.StatusCode, "Error occurred while processing the request.");
+        }
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> DecreaseQuantity(int productId)
+    {
+        if (productId <= 0)
+        {
+            return new JsonResult(new { success = false, message = "Product not found" });
+        }
+        string? token = Request.Cookies["token"];
+        if (string.IsNullOrEmpty(token))
+        {
+            return RedirectToAction("Index", "Auth");
+        }
+        int userId = JwtService.GetUserIdFromJwtToken(token);
+        CartModel cartModel = new()
+        {
+            UserId = userId,
+            ProductId = productId
+        };
+        HttpResponseMessage response = await _httpClient.PostAsJsonAsync(_apiBaseUrl + "decrease-quantity", cartModel);
+        if (response.IsSuccessStatusCode)
+        {
+            string responseContent = await response.Content.ReadAsStringAsync();
+            dynamic? responseData = JsonConvert.DeserializeObject<dynamic>(responseContent);
+            if (responseData != null)
+            {
+                string message = responseData.message;
+                bool success = responseData.success;
+                return new JsonResult(new { success = success, message = message });
+            }
+            else
+            {
+                return new JsonResult(new { success = false, message = "Invalid response from server." });
+            }
+        }
+        else
+        {
+            return StatusCode((int)response.StatusCode, "Error occurred while processing the request.");
+        }
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> GetUpdatedCart()
+    {
+        string? token = Request.Cookies["token"];
+        if (string.IsNullOrEmpty(token))
+        {
+            return RedirectToAction("Index", "Auth");
+        }
+
+        int userId = JwtService.GetUserIdFromJwtToken(token);
+
+        HttpResponseMessage response = await _httpClient.GetAsync(_apiBaseUrl + "cartProducts/" + userId);
+        string jsonString = await response.Content.ReadAsStringAsync();
+        JsonDocument jsonObject = JsonDocument.Parse(jsonString);
+        JsonElement dataObject = jsonObject.RootElement.GetProperty("data");
+        List<CartProductViewModel>? products = System.Text.Json.JsonSerializer.Deserialize<List<CartProductViewModel>>(
+            dataObject.ToString(),
+            new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            }
+        );
+        CartViewModel productListViewModel = new()
+        {
+            CartProductViewModels = products,
+        };
+        return PartialView("_CartProductList",productListViewModel);
+    }
 }

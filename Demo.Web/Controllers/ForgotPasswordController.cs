@@ -42,7 +42,7 @@ public class ForgotPasswordController : Controller
                 {
                     await _emailservice.SendEmailAsync(forgotPasswordViewModel.Email, otp);
                 }
-                return new JsonResult(new { success = true, message = message });
+                return new JsonResult(new { success = success, message = message });
 
             }
             else

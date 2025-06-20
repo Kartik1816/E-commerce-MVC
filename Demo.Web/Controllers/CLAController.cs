@@ -10,9 +10,11 @@ public class CLAController : Controller
 {
     private readonly HttpClient _httpClient;
     private readonly string _apiBaseUrl = "http://localhost:5114/api/CLA/";
-    public CLAController(IHttpClientFactory httpClientFactory)
+    private readonly EmailService _emailService;
+    public CLAController(IHttpClientFactory httpClientFactory, EmailService emailService)
     {
         _httpClient = httpClientFactory.CreateClient();
+        _emailService = emailService;
     }
 
     [HttpGet]
@@ -90,6 +92,49 @@ public class CLAController : Controller
                 }
                 string message = responseData.message;
                 bool success = responseData.success;
+                bool offer = responseData.offer;
+                if (offer)
+                {
+                    HttpResponseMessage userData = await _httpClient.GetAsync(_apiBaseUrl + "GetAllSubscribedUsers");
+                    string jsonString = await userData.Content.ReadAsStringAsync();
+                    JsonDocument jsonObject = JsonDocument.Parse(jsonString);
+                    JsonElement dataObject = jsonObject.RootElement.GetProperty("data");
+                    SubscribedUsersModel? subscribedUsersModel = System.Text.Json.JsonSerializer.Deserialize<SubscribedUsersModel>(
+                        dataObject.ToString(),
+                        new JsonSerializerOptions
+                        {
+                            PropertyNameCaseInsensitive = true
+                        }
+                    );
+
+                    HttpResponseMessage discountData = await _httpClient.GetAsync(_apiBaseUrl + "GetMinMaxDiscount");
+                    string discount = await discountData.Content.ReadAsStringAsync();
+                    JsonDocument discountDocument = JsonDocument.Parse(discount);
+                    JsonElement objectOfDiscount = discountDocument.RootElement.GetProperty("data");
+                    NewSubscriberModel? newSubscriberModel = System.Text.Json.JsonSerializer.Deserialize<NewSubscriberModel>(
+                        objectOfDiscount.ToString(),
+                        new JsonSerializerOptions
+                        {
+                            PropertyNameCaseInsensitive = true
+                        }
+                    );
+
+                    if (subscribedUsersModel != null && newSubscriberModel != null && subscribedUsersModel.SubscribedUsers != null)
+                    {
+                        try
+                        {
+                            await _emailService.OfferMailToAll(subscribedUsersModel.SubscribedUsers, newSubscriberModel);
+                        }
+                        catch (Exception e)
+                        {
+                            throw new Exception("An Exception occured while sending mail to all subscribed users" + e);
+                        }
+                    }
+                    else
+                    {
+                         return new JsonResult(new { success = false, message = "Invalid response from server" });
+                    }
+                }
                 return new JsonResult(new { success = success, message = message });
             }
             else
@@ -132,6 +177,15 @@ public class CLAController : Controller
         };
         return PartialView("_AddEditProduct", cLAViewModel);
     }
+
+    [HttpGet]
+    [Route("/CLA/ResetProductModal")]
+    public IActionResult ResetProductModal()
+    {
+        CLAViewModel cLAViewModel = new(){};
+        return PartialView("_AddEditProduct", cLAViewModel);
+    }
+
     [HttpDelete]
     [Route("/CLA/DeleteProduct")]
     public async Task<IActionResult> DeleteProduct(int productId)
@@ -149,7 +203,7 @@ public class CLAController : Controller
             {
                 string message = responseData.message;
                 bool success = responseData.success;
-                return new JsonResult(new { success = true, message = message });
+                return new JsonResult(new { success = success, message = message });
 
             }
             else

@@ -19,6 +19,7 @@
             </div>
             <div class="modal-body">
                 <form  id="addEditProductForm" method="post" class="d-flex flex-column gap-2">
+                   
                     @if(Model.productViewModel!= null && Model.productViewModel?.Id > 0)
                     {
                         <input type="hidden" asp-for="productViewModel.Id" value="@Model.productViewModel.Id"/>
@@ -30,6 +31,7 @@
                     @if(Model.productViewModel != null && Model.productViewModel.Name != null)
                     {
                         <div class="d-flex flex-column p-2">
+                                <label for="name" class="form-label">Name</label>
                             <div class="input-group" class="py-2 d-flex flex-column">
                                 <input type="text" class="form-control" placeholder="Name*" id="name" asp-for="@Model.productViewModel.Name" name="productViewModel.Name" value="@Model.productViewModel.Name">
                             </div>
@@ -39,6 +41,7 @@
                     else
                     {
                         <div class="d-flex flex-column p-2">
+                                <label for="name" class="form-label">Name</label>
                             <div class="input-group" class="py-2 d-flex flex-column">
                                 <input type="text" class="form-control" placeholder="Name*" id="name" asp-for="@Model.productViewModel.Name" name="productViewModel.Name">
                             </div>
@@ -48,6 +51,7 @@
                     @if(Model.productViewModel != null && Model.productViewModel.Description != null)
                     {
                         <div class="d-flex flex-column p-2">
+                                <label for="description" class="form-label">Description</label>
                             <div class="input-group" class="py-2 d-flex flex-column">
                                 <textarea type="text" class="form-control" placeholder="Description*" id="description" asp-for="@Model.productViewModel.Description" name="productViewModel.Description">@Model.productViewModel.Description</textarea>
                             </div>
@@ -57,6 +61,7 @@
                     else
                     {
                         <div class="d-flex flex-column p-2">
+                                <label for="description" class="form-label">Description</label>
                             <div class="input-group" class="py-2 d-flex flex-column">
                                 <textarea type="text" class="form-control" placeholder="Description*" id="description" asp-for="@Model.productViewModel.Description" name="productViewModel.Description"></textarea>
                             </div>
@@ -67,6 +72,7 @@
                     @if(Model.productViewModel != null && Model.productViewModel.Price > 0)
                     {
                             <div class="d-flex flex-column p-2">
+                                    <label for="price" class="form-label">Price</label>
                                 <div class="input-group" class="py-2 d-flex flex-column">
                                     <input type="number" class="form-control" placeholder="Price*" id="price" asp-for="@Model.productViewModel.Price" name="productViewModel.Price" value="@Model.productViewModel.Price">
                                 </div>
@@ -76,21 +82,48 @@
                     else
                     {
                         <div class="d-flex flex-column p-2">
+                                <label for="price" class="form-label">Price</label>
                             <div class="input-group" class="py-2 d-flex flex-column">
                                 <input type="number" class="form-control" placeholder="Price*" id="price" asp-for="@Model.productViewModel.Price" name="productViewModel.Price">
                             </div>
                                 <span asp-validation-for="@Model.productViewModel.Price" class="text-danger"></span>
                         </div>
                     }
-                    @if(Model.productViewModel != null)
+                    @if(Model.productViewModel != null && Model.productViewModel.Discount > 0)
                     {
                         <div class="d-flex flex-column p-2">
+                                <label for="discount" class="form-label">Discount</label>
                             <div class="input-group" class="py-2 d-flex flex-column">
-                                <input type="number" class="form-control" placeholder="Discount*" id="price" asp-for="@Model.productViewModel.Discount" name="productViewModel.Discount" value="@Model.productViewModel.Discount">
+                                <input type="number" class="form-control" placeholder="Discount*" id="discount" asp-for="@Model.productViewModel.Discount" name="productViewModel.Discount" value="@Model.productViewModel.Discount" oninput="updateDiscountAmount()">
                             </div>
                                 <span asp-validation-for="@Model.productViewModel.Discount" class="text-danger"></span>
                         </div>
+
+                        <div class="d-flex flex-column p-2">
+                            <label for="discountAmount" class="form-label">Discount Amount</label>
+                            <div class="input-group py-2 d-flex flex-column">
+                                <input type="number" asp-for="@Model.productViewModel.DiscountAmount" name="productViewModel.DiscountAmount" value="@Model.productViewModel.DiscountAmount" class="form-control w-100" placeholder="Discount Amount*" id="discountAmount" readonly>
+                            </div>
+                        </div>
                     }
+                    else
+                    {
+                        <div class="d-flex flex-column p-2">
+                                <label for="discount" class="form-label">Discount</label>
+                            <div class="input-group" class="py-2 d-flex flex-column">
+                                <input type="number" class="form-control" placeholder="Discount*" id="discount" asp-for="@Model.productViewModel.Discount" name="productViewModel.Discount" oninput="updateDiscountAmount()">
+                            </div>
+                                <span asp-validation-for="@Model.productViewModel.Discount" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-flex flex-column p-2">
+                            <label for="discountAmount" class="form-label">Discount Amount</label>
+                            <div class="input-group py-2 d-flex flex-column">
+                                <input type="number" asp-for="@Model.productViewModel.DiscountAmount" name="productViewModel.DiscountAmount" class="form-control w-100" placeholder="Discount Amount*" id="discountAmount" readonly>
+                            </div>
+                        </div>
+                    }
+                         <label for="upload-btn" class="upload-btn">Product Image</label>
                     <div class="d-flex flex-column p-2">
                         <input type="file" id="upload-btn" asp-for="@Model.productViewModel.ProductImage"
                         name="productViewModel.ProductImage" class="position-absolute file-input-btn" 
@@ -112,3 +145,17 @@
   }
 }
 <script src="~/js/cla.js"></script>
+
+<script>
+        function updateDiscountAmount() {
+        const priceInput = document.getElementById('price');
+        const originalPrice = parseFloat(priceInput.value) || 0;
+        if (isNaN(originalPrice) || originalPrice <= 0) {
+            document.getElementById('discountAmount').value = 'Invalid Price';
+            return;
+        }
+        const discountPercentage = parseFloat(document.getElementById('discount').value) || 0;
+        const discountAmount = (originalPrice * discountPercentage) / 100;
+        document.getElementById('discountAmount').value = discountAmount.toFixed(2);
+    }
+</script>

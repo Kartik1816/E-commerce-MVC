@@ -53,3 +53,57 @@
     border: 1px solid black;
     border-radius: 5px;
 }
+.increase-quantity-size
+{
+    font-size:x-large;
+}
+.decrease-quantity-size
+{
+    font-size: xx-large;
+}
+
+.zoom-image {
+    width: 100%;
+    height: 100%;
+}
+
+.zoom-lens {
+    position: absolute;
+    width: 100px; /* Width of the zoom lens */
+    height: 100px; /* Height of the zoom lens */
+    pointer-events: none; /* Prevent interference with mouse events */
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent lens */
+}
+
+.zoom-result {
+    position: absolute;
+    top: 0;
+    left: 110%; /* Position the zoomed image to the right of the original image */
+    width: 300px; /* Width of the zoomed image */
+    height: 300px; /* Height of the zoomed image */
+    overflow: hidden;
+    border: 1px solid #000;
+}
+
+.zoom-result img {
+    position: absolute;
+    width: 200%; /* Scale the image for zoom effect */
+    height: auto;
+}
+.dropdown-menu{
+    right: -37px;
+}
+
+.product-card {
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+.object-fit-contain {
+    object-fit: contain;
+}

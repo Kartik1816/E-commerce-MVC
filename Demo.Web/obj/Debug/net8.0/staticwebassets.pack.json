@@ -29,12 +29,20 @@
       "PackagePath": "staticwebassets\\images\\bg-image.png"
     },
     {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\cart.svg",
+      "PackagePath": "staticwebassets\\images\\cart.svg"
+    },
+    {
       "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\cla.png",
       "PackagePath": "staticwebassets\\images\\cla.png"
     },
     {
       "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\computers.svg",
       "PackagePath": "staticwebassets\\images\\computers.svg"
+    },
+    {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\heart.svg",
+      "PackagePath": "staticwebassets\\images\\heart.svg"
     },
     {
       "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\hide-password.svg",
@@ -57,8 +65,32 @@
       "PackagePath": "staticwebassets\\images\\product-images\\0c29b246-f844-43c7-b2f1-e1614010024c.jpg"
     },
     {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\1353da52-eac1-4a24-bb4b-8dd6d7f32951.jpg",
+      "PackagePath": "staticwebassets\\images\\product-images\\1353da52-eac1-4a24-bb4b-8dd6d7f32951.jpg"
+    },
+    {
       "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\2e697227-d722-4946-ab0d-60eb27f035b4.png",
       "PackagePath": "staticwebassets\\images\\product-images\\2e697227-d722-4946-ab0d-60eb27f035b4.png"
+    },
+    {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\3e08bfab-9dd8-4117-97f2-126ced32275b.png",
+      "PackagePath": "staticwebassets\\images\\product-images\\3e08bfab-9dd8-4117-97f2-126ced32275b.png"
+    },
+    {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\50a048b1-8b27-400b-94a9-00489ea395e3.png",
+      "PackagePath": "staticwebassets\\images\\product-images\\50a048b1-8b27-400b-94a9-00489ea395e3.png"
+    },
+    {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\67dc59b9-8425-4633-836d-5bda227525e1.png",
+      "PackagePath": "staticwebassets\\images\\product-images\\67dc59b9-8425-4633-836d-5bda227525e1.png"
+    },
+    {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\6b59cc2f-c76f-4384-8a67-df05f072c1d5.jpg",
+      "PackagePath": "staticwebassets\\images\\product-images\\6b59cc2f-c76f-4384-8a67-df05f072c1d5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\7a2536d5-ee2e-4c26-89dd-a44402fec586.jpg",
+      "PackagePath": "staticwebassets\\images\\product-images\\7a2536d5-ee2e-4c26-89dd-a44402fec586.jpg"
     },
     {
       "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\9cd31e1a-12e0-457d-815b-9d3e31cbe6d2.webp",
@@ -87,6 +119,10 @@
     {
       "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ba5f14e4-e791-4e3f-84c2-16f6d9f682ee.png",
       "PackagePath": "staticwebassets\\images\\product-images\\ba5f14e4-e791-4e3f-84c2-16f6d9f682ee.png"
+    },
+    {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\beebc689-0bef-4bae-90b7-4dbc78d8e700.jpg",
+      "PackagePath": "staticwebassets\\images\\product-images\\beebc689-0bef-4bae-90b7-4dbc78d8e700.jpg"
     },
     {
       "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\c6dec16e-8077-4510-833d-b1a5e8159bf5.png",
@@ -155,6 +191,10 @@
     {
       "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\a50c853a-90d1-4f8a-ad89-f339b1c4e618.jfif",
       "PackagePath": "staticwebassets\\images\\profile-images\\a50c853a-90d1-4f8a-ad89-f339b1c4e618.jfif"
+    },
+    {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\a70cecf1-8f88-496b-bef4-cb25613792f5.jpg",
+      "PackagePath": "staticwebassets\\images\\profile-images\\a70cecf1-8f88-496b-bef4-cb25613792f5.jpg"
     },
     {
       "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\b85eb20c-39ba-4c71-82e8-bfd4672441e4.jpg",
@@ -241,6 +281,10 @@
       "PackagePath": "staticwebassets\\js\\product.js"
     },
     {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\productImage.js",
+      "PackagePath": "staticwebassets\\js\\productImage.js"
+    },
+    {
       "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\registration.js",
       "PackagePath": "staticwebassets\\js\\registration.js"
     },
@@ -251,6 +295,10 @@
     {
       "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\subscribe.js",
+      "PackagePath": "staticwebassets\\js\\subscribe.js"
     },
     {
       "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\verifyOtp.js",

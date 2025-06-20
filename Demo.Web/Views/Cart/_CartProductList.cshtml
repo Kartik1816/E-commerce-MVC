@@ -1,0 +1,35 @@
+@model Demo.Web.Models.CartViewModel
+<div class="d-flex flex-column gap-2" style="overflow-y: scroll; height: 400px;" >
+ @if(Model!= null && Model.CartProductViewModels!=null && Model.CartProductViewModels.Count > 0)
+    {
+        decimal totalAmount=0;
+        foreach(CartProductViewModel product in Model.CartProductViewModels)
+        {
+            
+            totalAmount = totalAmount+(product.Quantity * product.Price);
+            
+            <div class="d-flex gap-2 p-2 align-items-center product-card-border w-100">
+                <div class="w-25">
+                    <h5 class="card-title">@product.ProductName</h5>
+                </div>
+                <div class="w-75 d-flex justify-content-between">
+                    <div class="d-flex align-items-center gap-2">
+                        <span class="decrease-quantity-size cursor-pointer" onclick="decreaseQuantity(@product.ProductId)">-</span>
+                            <p class="fw-bold m-0 mt-2">@product.Quantity</p>
+                        <span class="increase-quantity-size cursor-pointer" onclick="increaseQuantity(@product.ProductId)">+</span>
+                    </div>
+                    <p class="fw-bold">₹@(product.Price * product.Quantity)</p>
+                    <button class="btn btn-danger btn-sm" onclick="removeProductFromCart(@product.ProductId)">Remove from cart</button>
+                </div>
+            </div>
+        }
+        <input type="hidden" id="amount" value="@totalAmount">
+    }
+</div>
+<h6 class="m-0">Amount to pay: ₹<span class="m-0" id="totalAmount"></span> </h6>
+
+<script>
+var totalAmount = $('#amount').val()
+var totalAmountElement= document.getElementById('totalAmount');
+totalAmountElement.innerHTML = parseFloat(totalAmount).toFixed(2);
+</script>

@@ -1,29 +1,26 @@
 @model Demo.Web.Models.CartViewModel
 <div class="h-100 w-100 d-flex align-items-center justify-content-center">
         <div class="card w-50 h-75">
-            <div class="d-flex flex-column mb-3 w-100 p-5">
-                <div class="d-flex gap-2 p-2 justify-content-between w-100">
-                    <h5 class="fw-bold">Name</h5>
-                    <p class="fw-bold">Quantity</p>
-                    <p class="fw-bold">Price</p>
-                   <p class="fw-bold"></p>
+            <div class="d-flex flex-column w-100 p-5">
+                <div class="d-flex gap-2 p-2  w-100">
+                    <div class="w-25">
+                        <h5 class="fw-bold">Name</h5>
+                    </div>
+                    <div class="w-75 d-flex justify-content-between align-items-start">
+                        <p class="fw-bold">Quantity</p>
+                        <p class="fw-bold">Price</p>
+                        <p class="fw-bold"></p>
+                   </div>
                 </div>
-                @if(Model!= null && Model.CartProductViewModels!=null && Model.CartProductViewModels.Count > 0)
-                {
-                    foreach(CartProductViewModel product in Model.CartProductViewModels)
-                    {
-                        <div class="d-flex gap-2 p-2 justify-content-between product-card-border">
-                            <h5 class="card-title">@product.ProductName</h5>
-                            <p class="fw-bold">@product.Quantity</p>
-                            <p class="fw-bold">₹@product.Price</p>
-                            <button class="btn btn-danger btn-sm">Delete</button>
-                        </div>
-                    }
-                }
+                <div  id="cartProductView">
+                   <partial name="_CartProductList" model="@Model">
+                </div>
             </div>
             <!-- Repeat Product Cards as needed -->
-        <div class="text-center mt-4">
-            <button class="btn btn-primary">Proceed to Pay</button>
+        <div class="d-flex justify-content-start align-items-center gap-5">
+            <button class="btn btn-primary mx-5">Proceed to Pay</button>
         </div>
+
         </div>
 </div>
+<script src="~/js/product.js"></script>

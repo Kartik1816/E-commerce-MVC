@@ -2,7 +2,7 @@
 @{
     ViewData["Title"] = "Home Page";
 }
-<div class="d-flex align-items-center justify-content-center h-100 w-100">
+<div class="d-flex flex-column align-items-center justify-content-center  h-100 w-100 gap-2">
     <div class="row align-items-center justify-content-center gap-4">
         <h1 class="text-black  text-center">Buy <span id="typewriter"></span></h1>
         @if(Model!= null && Model.Categories!=null)
@@ -17,7 +17,21 @@
             }
         }
     </div>
+    <div class="d-flex flex-column gap-2 align-items-center justify-content-end mt-5 position-relative" style="top: 50px;">
+        <p class="fw-bold">Subscribe to see new offer</p>
+        <form class="d-flex gap-2" id="subscribeForm" method="post">
+            <div class="d-flex flex-column">
+                <input type="email" class="form-control" id="subscriber-email" placeholder="Enter your email" required>
+                <p id="email-error" class="text-danger"></p>
+            </div>
+            <button type="submit" id="subscribe-button" class="btn btn-primary">Subscribe</button>
+
+        </form>
+    </div>
 </div>
+
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="~/js/home.js"></script>
+<script src="~/js/subscribe.js"></script>
+

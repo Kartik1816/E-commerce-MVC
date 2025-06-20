@@ -67,6 +67,24 @@ function getProductDetails(productId)
         }
     });
 }
+function resetProductModal()
+{
+    $.ajax({
+        type: 'GET',
+        url: '/CLA/ResetProductModal',
+        success: function(data)
+        {
+            $('#addEditProductView').html(data);
+            $('#addEditProduct').modal('show');
+            $.validator.unobtrusive.parse('#addEditProduct');
+            SaveProduct();
+        },
+        error: function(data)
+        {
+            toastr.error("And Error occured while getting product details");
+        }
+    });
+}
 function deleteProduct(productId)
 {
     $('#deleteButton').click(function(){
@@ -95,3 +113,4 @@ function viewProductDetails(productId)
 {
     window.location.href=`/CLA/ViewProduct/${productId}`;
 }
+

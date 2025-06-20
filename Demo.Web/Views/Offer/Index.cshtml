@@ -1,0 +1,48 @@
+@model Demo.Web.Models.CLAViewModel
+<div class="d-flex align-items-start justify-content-start h-100 w-100 gap-3 row m-3">
+    @if(Model!=null && Model.Products!=null && Model.Products.Count > 0)
+    {
+        foreach(ProductViewModel productViewModel in Model.Products)
+        {
+            
+    string productImage = string.IsNullOrEmpty(productViewModel.ImageUrl)
+                ? "/images/Default_pfp.png"
+                : $"/images/product-images/{productViewModel.ImageUrl}";
+
+    <div class="card product-card d-flex  border-0 shadow-sm overflow-hidden" style=" width: 200px;">
+    <!-- Product Image -->
+    <div class="position-relative overflow-hidden" style="height: 200px; background-color: #f8f9fa;">
+        <img src="@productImage" alt="Product Image" 
+             class="img-fluid w-100 h-100 object-fit-contain p-3">
+        @if (productViewModel.DiscountAmount > 0)
+        {
+            <div class="position-absolute top-0 end-0 bg-danger text-white px-2 py-1 small">
+                @productViewModel.Discount% OFF
+            </div>
+        }
+    </div>
+
+    <!-- Product Details -->
+    <div class="card-body p-3">
+        <!-- Product Name -->
+        <h6 class="card-title text-dark mb-2" style="font-weight: 500;">
+            @productViewModel.Name
+        </h6>
+
+        <!-- Price -->
+        <div class="d-flex align-items-baseline">
+            @if (productViewModel.DiscountAmount > 0)
+            {
+                <span class="text-dark fw-bold me-2">₹@(productViewModel.Price - productViewModel.DiscountAmount)</span>
+                <span class="text-muted text-decoration-line-through small">₹@productViewModel.Price.ToString("F2")</span>
+            }
+            else
+            {
+                <span class="text-dark fw-bold">₹@productViewModel.Price.ToString("F2")</span>
+            }
+        </div>
+    </div>
+</div>
+        }
+    }
+</div>

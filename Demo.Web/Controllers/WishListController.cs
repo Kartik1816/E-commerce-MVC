@@ -67,7 +67,7 @@ public class WishListController : Controller
             {
                 string message = responseData.message;
                 bool success = responseData.success;
-                return new JsonResult(new { success = true, message = message });
+                return new JsonResult(new { success = success, message = message });
 
             }
             else

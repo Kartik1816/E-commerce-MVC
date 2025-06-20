@@ -42,3 +42,4 @@ function getProductsByCategory(categoryId)
 {
     window.location.href = `/CLA/${categoryId}`;
 }
+
