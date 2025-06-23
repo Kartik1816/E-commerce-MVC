@@ -55,11 +55,25 @@ public class JwtMiddleware : Attribute, IAuthorizationFilter
             string? userRole = jwtTokenForRole.Claims.ElementAt(4).Value;
             //Role Id 1 can add products
             context.Session.SetString("UserRole", userRole);
-            if (context.Request.Path.Value?.Contains("AddProduct") == true)
+            if (context.Request.Path.Value?.Contains("SaveProduct") == true || context.Request.Path.Value?.Contains("DeleteProduct") == true || context.Request.Path.Value?.Contains("ResetProductModal") == true)
             {
                 JwtSecurityToken jwtToken = (JwtSecurityToken)validatedToken;
                 string? role = jwtToken.Claims.ElementAt(4).Value;
                 if (role == "Admin")
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+
+            if (context.Request.Path.Value?.Contains("Cart") == true || context.Request.Path.Value?.Contains("DeleteProduct") == true || context.Request.Path.Value?.Contains("WishList") == true)
+            {
+                JwtSecurityToken jwtToken = (JwtSecurityToken)validatedToken;
+                string? role = jwtToken.Claims.ElementAt(4).Value;
+                if (role == "User")
                 {
                     return true;
                 }

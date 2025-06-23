@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offer!</title>
+</head>
+<body style="font-family: 'Roboto', sans-serif; margin: 0; padding: 0; background-color: #F2F2F2;">
+    <div style="background: #F2F2F2; display: flex; flex-direction: column; align-items: start; gap: 20px; overflow-x: hidden;">
+        <div style="background: #0066A7; width: 100%; color: white; display: flex; justify-content: center; align-items: center; padding: 20px;">
+            <h1 style="margin-left: 10px;">Offer!</h1>
+        </div>
+        <div style="
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background-color: #fff;
+    word-wrap: break-word;
+    background-clip: border-box;
+    position: relative;
+    "
+    onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 10px 20px rgba(0,0,0,0.1)'" 
+    onmouseout="this.style.transform='';this.style.boxShadow='0 0.125rem 0.25rem rgba(0, 0, 0, 0.075)'">
+    
+    <!-- Product Image -->
+    <div style="position: relative; overflow: hidden; height: 200px; background-color: #f8f9fa; width: 100%;">
+        <img src="{{ProductImage}}" alt="Product Image" 
+             style="width: 100%; height: 100%; object-fit: contain; padding: 0.75rem;">
+            <div style="position: absolute; top: 0; right: 0; background-color: #dc3545; color: white; padding: 0.25rem 0.5rem; font-size: 0.875rem;">
+                {{ProductDiscount}}% OFF
+            </div>
+    </div>
+
+    <!-- Product Details -->
+    <div style="padding: 0.75rem; width: 100%; flex: 1 1 auto;">
+        <!-- Product Name -->
+        <h6 style="color: #212529; margin-bottom: 0.5rem; font-weight: 500; font-size: 1rem;">
+            {{ProductName}}
+        </h6>
+
+        <!-- Price -->
+        <div style="display: flex; align-items: baseline;">
+            <span style="color: #212529; font-weight: bold; margin-right: 0.5rem;">₹{{AmountAfterDiscount}}</span>
+            <span style="color: #6c757d; text-decoration: line-through; font-size: 0.875rem;">₹{{ProductAmount}}</span>
+        </div>
+    </div>
+</div>
+        <div style="padding:0 20px;">
+            <p style="margin: 20px 0;">
+                Dear Customer,
+            </p>
+            <p style="margin: 20px 0;">
+                We are excited to announce an exclusive offer just for you! Enjoy amazing discounts on our premium products for a limited time only. Don't miss this opportunity to save big and experience the best we have to offer.
+            </p>
+            <p style="margin: 20px 0;">
+                you will get {{ProductDiscount}}% off on {{ProductName}},please <a href="{{Link}}" style="color: #0066A7; text-decoration: none;">click here</a> to see more details
+            </p>
+        </div>
+</body>
+</html>

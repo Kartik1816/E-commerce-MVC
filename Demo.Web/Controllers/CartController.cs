@@ -1,5 +1,5 @@
 using System.Text.Json;
-using System.Threading.Tasks;
+using Demo.Web.Middleware;
 using Demo.Web.Models;
 using Demo.Web.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -7,6 +7,7 @@ using Newtonsoft.Json;
 
 namespace Demo.Web.Controllers;
 
+[JwtMiddleware]
 public class CartController : Controller
 {
     private readonly HttpClient _httpClient;
@@ -226,6 +227,6 @@ public class CartController : Controller
         {
             CartProductViewModels = products,
         };
-        return PartialView("_CartProductList",productListViewModel);
+        return PartialView("_CartProductList", productListViewModel);
     }
 }

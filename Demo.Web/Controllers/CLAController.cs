@@ -1,4 +1,5 @@
 using System.Text.Json;
+using Demo.Web.Middleware;
 using Demo.Web.Models;
 using Demo.Web.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -6,6 +7,7 @@ using Newtonsoft.Json;
 
 namespace Demo.Web.Controllers;
 
+[JwtMiddleware]
 public class CLAController : Controller
 {
     private readonly HttpClient _httpClient;
@@ -107,23 +109,21 @@ public class CLAController : Controller
                         }
                     );
 
-                    HttpResponseMessage discountData = await _httpClient.GetAsync(_apiBaseUrl + "GetMinMaxDiscount");
-                    string discount = await discountData.Content.ReadAsStringAsync();
-                    JsonDocument discountDocument = JsonDocument.Parse(discount);
-                    JsonElement objectOfDiscount = discountDocument.RootElement.GetProperty("data");
-                    NewSubscriberModel? newSubscriberModel = System.Text.Json.JsonSerializer.Deserialize<NewSubscriberModel>(
-                        objectOfDiscount.ToString(),
+                    JsonDocument jsonObjectOfDiscountedProduct = JsonDocument.Parse(responseContent);
+                    JsonElement productObject = jsonObjectOfDiscountedProduct.RootElement.GetProperty("data");
+                    ProductViewModel? discountedProduct = System.Text.Json.JsonSerializer.Deserialize<ProductViewModel>(
+                        productObject.ToString(),
                         new JsonSerializerOptions
                         {
                             PropertyNameCaseInsensitive = true
                         }
                     );
 
-                    if (subscribedUsersModel != null && newSubscriberModel != null && subscribedUsersModel.SubscribedUsers != null)
+                    if (subscribedUsersModel != null && discountedProduct != null && subscribedUsersModel.SubscribedUsers != null)
                     {
                         try
                         {
-                            await _emailService.OfferMailToAll(subscribedUsersModel.SubscribedUsers, newSubscriberModel);
+                            await _emailService.OfferMailToAll(subscribedUsersModel.SubscribedUsers, discountedProduct);
                         }
                         catch (Exception e)
                         {
@@ -132,7 +132,7 @@ public class CLAController : Controller
                     }
                     else
                     {
-                         return new JsonResult(new { success = false, message = "Invalid response from server" });
+                        return new JsonResult(new { success = false, message = "Invalid response from server" });
                     }
                 }
                 return new JsonResult(new { success = success, message = message });
@@ -182,7 +182,7 @@ public class CLAController : Controller
     [Route("/CLA/ResetProductModal")]
     public IActionResult ResetProductModal()
     {
-        CLAViewModel cLAViewModel = new(){};
+        CLAViewModel cLAViewModel = new() { };
         return PartialView("_AddEditProduct", cLAViewModel);
     }
 
@@ -228,7 +228,7 @@ public class CLAController : Controller
         }
         int userId = JwtService.GetUserIdFromJwtToken(token);
         string queryString = $"?ProductId={productId}&UserId={userId}";
-        HttpResponseMessage response = await _httpClient.GetAsync(_apiBaseUrl +"GetProductDetails/"+queryString);
+        HttpResponseMessage response = await _httpClient.GetAsync(_apiBaseUrl + "GetProductDetails/" + queryString);
         string jsonString = await response.Content.ReadAsStringAsync();
         JsonDocument jsonObject = JsonDocument.Parse(jsonString);
         JsonElement dataObject = jsonObject.RootElement.GetProperty("data");
