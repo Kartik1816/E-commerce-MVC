@@ -2,6 +2,7 @@
 
 @{
   string? userRole = Context.Session.GetString("UserRole");
+  int userId = Context.Session.GetInt32("UserId") ?? 0;
 }
 
 <div class=" h-100 w-100">
@@ -30,10 +31,13 @@
                         </div>
                         @if(userRole != null && userRole=="Admin")
                         {
-                          <div class="d-flex justify-content-end align-items-center h-50 gap-2">
-                              <button class="btn btn-sm btn-primary" onclick="event.stopPropagation();getProductDetails(@product.Id)">Edit</button>
-                              <button class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#deleteProductModal" onclick="event.stopPropagation();deleteProduct(@product.Id)">Delete</button>
-                          </div>
+                          if(userId > 0 && product.UserId == userId)
+                          {
+                            <div class="d-flex justify-content-end align-items-center h-50 gap-2">
+                                <button class="btn btn-sm btn-primary" onclick="event.stopPropagation();getProductDetails(@product.Id)">Edit</button>
+                                <button class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#deleteProductModal" onclick="event.stopPropagation();deleteProduct(@product.Id)">Delete</button>
+                            </div>
+                          }
                         }
                     </div>
                 </div>

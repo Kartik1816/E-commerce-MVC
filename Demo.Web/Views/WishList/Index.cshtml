@@ -1,5 +1,8 @@
 @model Demo.Web.Models.WishListViewModel
 <div class="h-100 w-100 p-4">
+    <div class="d-flex justify-content-end">
+        <a asp-controller="Home" asp-action="Index" class="btn btn-primary mb-3">Cancel</a>
+    </div>
     <div class="row d-flex align-items-center justify-content-start gap-4 h-25 px-4">
     @if(Model != null && Model.Products != null && Model.Products.Count > 0)
     {

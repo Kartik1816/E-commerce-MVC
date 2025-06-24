@@ -27,9 +27,13 @@
     }
 </div>
 <h6 class="m-0">Amount to pay: ₹<span class="m-0" id="totalAmount"></span> </h6>
-
+ <div class="d-flex justify-content-start align-items-center  mt-3">
+    <button class="btn btn-primary" id="rzp-button">Proceed to Pay</button>
+</div>
 <script>
-var totalAmount = $('#amount').val()
-var totalAmountElement= document.getElementById('totalAmount');
-totalAmountElement.innerHTML = parseFloat(totalAmount).toFixed(2);
+    var totalAmount = $('#amount').val();
+    var totalAmountElement = document.getElementById('totalAmount');
+    var amount = parseFloat(totalAmount) || 0;  // Default to 0 if null, empty, or undefined
+    totalAmountElement.innerHTML = amount.toFixed(2);
 </script>
+<script src="~/js/payment.js"></script>

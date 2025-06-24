@@ -20,7 +20,6 @@ public class ProductViewModel
     public decimal Price { get; set; }
     public string? ImageUrl { get; set; }
     public int CategoryId { get; set; }
-    [Required(ErrorMessage ="Product Image is required")]
     public IFormFile? ProductImage { get; set; }
 
     [Range(0, 100, ErrorMessage = "Discount percentage must be between 0 and 100.")]

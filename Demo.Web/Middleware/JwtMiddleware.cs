@@ -69,7 +69,7 @@ public class JwtMiddleware : Attribute, IAuthorizationFilter
                 }
             }
 
-            if (context.Request.Path.Value?.Contains("Cart") == true || context.Request.Path.Value?.Contains("DeleteProduct") == true || context.Request.Path.Value?.Contains("WishList") == true)
+            if (context.Request.Path.Value?.Contains("Cart") == true || context.Request.Path.Value?.Contains("WishList") == true)
             {
                 JwtSecurityToken jwtToken = (JwtSecurityToken)validatedToken;
                 string? role = jwtToken.Claims.ElementAt(4).Value;

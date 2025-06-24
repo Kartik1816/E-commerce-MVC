@@ -2,8 +2,12 @@ namespace Demo.Web.Models;
 
 public class PaymentVerificationRequest
 {
-    public string PaymentId { get; set; } = null!;
-    public string OrderId { get; set; } = null!;
-    public string Signature { get; set; } = null!;
+    public string? PaymentId { get; set; }
+
+    public string? OrderId { get; set; }
+
+    public string? Signature { get; set; }
+
+    public int OrderModelId{ get; set; }
 
 }

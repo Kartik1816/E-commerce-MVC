@@ -53,11 +53,13 @@ public class HomeController : Controller
         HttpContext.Session.SetString("UserRole", role);
 
         int userId = JwtService.GetUserIdFromJwtToken(token);
+
         if (userId <= 0)
         {
             return RedirectToAction("Index", "Auth");
         }
-
+        HttpContext.Session.SetInt32("UserId", userId);
+        
         string _apiBaseUrlForProfile = "http://localhost:5114/api/EditProfile/";
         HttpResponseMessage profileData = await _httpClient.GetAsync(_apiBaseUrlForProfile + userId);
         string jsonStringOfProfile = await profileData.Content.ReadAsStringAsync();

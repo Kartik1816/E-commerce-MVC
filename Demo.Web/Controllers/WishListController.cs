@@ -1,4 +1,5 @@
 using System.Text.Json;
+using Demo.Web.Middleware;
 using Demo.Web.Models;
 using Demo.Web.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -6,6 +7,7 @@ using Newtonsoft.Json;
 
 namespace Demo.Web.Controllers;
 
+[JwtMiddleware]
 public class WishListController : Controller
 {
     private readonly HttpClient _httpClient;
@@ -36,7 +38,7 @@ public class WishListController : Controller
                 PropertyNameCaseInsensitive = true
             }
         );
-        WishListViewModel productListViewModel = new ()
+        WishListViewModel productListViewModel = new()
         {
             Products = products ?? new List<ProductViewModel>(),
         };

@@ -23,7 +23,14 @@ public class CLAController : Controller
     [Route("CLA/{categoryId}")]
     public async Task<IActionResult> Index(int categoryId)
     {
-        HttpResponseMessage response = await _httpClient.GetAsync(_apiBaseUrl + "products/" + categoryId);
+         string? token = Request.Cookies["token"];
+        if (string.IsNullOrEmpty(token))
+        {
+            return RedirectToAction("Index", "Auth");
+        }
+        int userId = JwtService.GetUserIdFromJwtToken(token);
+        string queryString = $"?CategoryId={categoryId}&UserId={userId}";
+        HttpResponseMessage response = await _httpClient.GetAsync(_apiBaseUrl + "products/" + queryString);
         string jsonString = await response.Content.ReadAsStringAsync();
         JsonDocument jsonObject = JsonDocument.Parse(jsonString);
         JsonElement dataObject = jsonObject.RootElement.GetProperty("data");
@@ -47,6 +54,10 @@ public class CLAController : Controller
         if (!ModelState.IsValid)
         {
             return new JsonResult(new { success = false, message = "Please Enter Valid data" });
+        }
+        if (productViewModel.Id <= 0 && productViewModel.ProductImage == null)
+        {
+             return new JsonResult(new { success = false, message = "Image can not be null for new Product" });
         }
         string? token = Request.Cookies["token"];
         if (string.IsNullOrEmpty(token))

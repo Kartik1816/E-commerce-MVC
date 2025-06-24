@@ -1,5 +1,6 @@
 ﻿@{
   string? ImageUrl = Context.Session.GetString("ImageUrl");
+  string? userRole = Context.Session.GetString("UserRole");
 }
 
 
@@ -57,8 +58,11 @@
                         }
 
                         <div class="d-flex align-items-center justify-content-center gap-2">
-                            <a class="nav-link active text-decoration-none text-white nav-font-size" asp-controller="Cart" asp-action="Index"><img src="~/images/cart.svg" style="width: 50px;"></a>
-                            <a class="nav-link active text-decoration-none text-white nav-font-size" asp-controller="WishList" asp-action="Index" ><img src="~/images/heart.svg" style="width: 50px;"></a>
+                            @if(userRole != null && userRole=="User")
+                            {
+                                <a class="nav-link active text-decoration-none text-white nav-font-size" asp-controller="Cart" asp-action="Index"><img src="~/images/cart.svg" style="width: 50px;"></a>
+                                <a class="nav-link active text-decoration-none text-white nav-font-size" asp-controller="WishList" asp-action="Index" ><img src="~/images/heart.svg" style="width: 50px;"></a>
+                            }
                             @* <a class="btn btn-primary me-2" asp-controller="EditProfile" asp-action="Index">Edit Profile</a>
                             <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="logout()">Logout</button> *@
                             <div class="dropdown">

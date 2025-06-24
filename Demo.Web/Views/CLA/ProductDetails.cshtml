@@ -7,7 +7,7 @@
   string? userRole = Context.Session.GetString("UserRole");
 }
 
-<div class="d-flex align-items-center justify-content-center h-100 w-100">
+<div class="d-flex flex-column align-items-center justify-content-center h-100 w-100">
     <div class="card  w-25 d-flex flex-column align-items-center justify-content-center cursor-pointer px-3">
         <div class="d-flex flex-column w-100 ">
             <div class="w-100 h-50 d-flex overflow-hidden position-relative">
@@ -64,12 +64,15 @@
                         }
                         else
                         {
-                            <button onclick="addRemoveProductToFromWishList(@Model.Id)" class="btn btn-secondary" style="margin-left: 10px;">Add to Wishlist</button>
+                            <button onclick="addRemoveProductToFromWishList(@Model.Id)" class="btn btn-success" style="margin-left: 10px;">Add to Wishlist</button>
                         }
                     </div>
                 }
             </div>
         </div>
+    </div>
+    <div onclick="window.history.back()"  class="btn cursor-pointer">
+        <p class="btn btn-primary">Back</p>
     </div>
 </div>
 

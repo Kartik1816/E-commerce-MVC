@@ -86,42 +86,6 @@ public class EmailService
             await client.DisconnectAsync(true);
         }
     }
-
-    // public async Task OfferMailToAll(List<string>emails, ProductViewModel discountedProduct)
-    // {
-    //     MimeMessage emailMessage = new MimeMessage();
-    //     emailMessage.From.Add(new MailboxAddress(_configuration["SmtpSettings:SenderName"], _configuration["SmtpSettings:SenderEmail"]));
-    //     foreach (var email in emails)
-    //     {
-    //         emailMessage.Bcc.Add(new MailboxAddress("", email));
-    //     }
-
-    //     decimal discountAmount = discountedProduct.Price * (discountedProduct.Discount / 100m);
-    //     decimal amountAfterDiscount = discountedProduct.Price - discountAmount;
-
-    //     emailMessage.Subject = "Offer!!";
-    //     string link = $"http://localhost:5214/CLA/ViewProduct/{discountedProduct.Id}";
-    //     string emailTemplate = System.IO.File.ReadAllText("Views/EmailTemplate/ProductOfferTemplate.html");
-    //     emailTemplate = emailTemplate.Replace("{{ProductDiscount}}", 
-    //     $"{Math.Round(discountedProduct.Discount)}");
-    //     emailTemplate = emailTemplate.Replace("{{ProductName}}", discountedProduct.Name);
-    //     emailTemplate = emailTemplate.Replace("{{ProductAmount}}", discountedProduct.Price.ToString());
-    //     emailTemplate = emailTemplate.Replace("{{AmountAfterDiscount}}", amountAfterDiscount.ToString("F2"));
-    //     emailTemplate = emailTemplate.Replace("{{Link}}",link);
-    //     emailTemplate = emailTemplate.Replace("{{ProductImage}}", $"http://localhost:5214/images/product-images/{discountedProduct.ImageUrl}");
-    //     emailMessage.Body = new TextPart(MimeKit.Text.TextFormat.Html)
-    //     {
-    //         Text = emailTemplate
-    //     };
-
-    //     using (SmtpClient client = new MailKit.Net.Smtp.SmtpClient())
-    //     {
-    //         await client.ConnectAsync(_configuration["SmtpSettings:Server"], int.Parse(_configuration["SmtpSettings:Port"]), MailKit.Security.SecureSocketOptions.StartTls);
-    //         await client.AuthenticateAsync(_configuration["SmtpSettings:Username"], _configuration["SmtpSettings:Password"]);
-    //         await client.SendAsync(emailMessage);
-    //         await client.DisconnectAsync(true);
-    //     }
-    // }
     
     public async Task OfferMailToAll(List<string> emails, ProductViewModel discountedProduct)
     {
