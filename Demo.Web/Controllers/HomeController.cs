@@ -10,8 +10,6 @@ using Newtonsoft.Json;
 
 namespace Demo.Web.Controllers;
 
-[JwtMiddleware]
-[ResponseCache(NoStore = true, Location = ResponseCacheLocation.None)]
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
@@ -45,39 +43,38 @@ public class HomeController : Controller
             Categories = categories ?? new List<CategoryViewModel>(),
         };
         string? token = Request.Cookies["token"];
-        if (token == null)
+        if (token != null)
         {
-            return RedirectToAction("Index", "Auth");
-        }
-        string role = JwtService.GetRoleFromJwtToken(token);
-        HttpContext.Session.SetString("UserRole", role);
+            string role = JwtService.GetRoleFromJwtToken(token);
+            HttpContext.Session.SetString("UserRole", role);
 
-        int userId = JwtService.GetUserIdFromJwtToken(token);
+            int userId = JwtService.GetUserIdFromJwtToken(token);
 
-        if (userId <= 0)
-        {
-            return RedirectToAction("Index", "Auth");
-        }
-        HttpContext.Session.SetInt32("UserId", userId);
-        
-        string _apiBaseUrlForProfile = "http://localhost:5114/api/EditProfile/";
-        HttpResponseMessage profileData = await _httpClient.GetAsync(_apiBaseUrlForProfile + userId);
-        string jsonStringOfProfile = await profileData.Content.ReadAsStringAsync();
-        JsonDocument jsonObjectOfProfile = JsonDocument.Parse(jsonStringOfProfile);
-        JsonElement dataObjectofProfile = jsonObjectOfProfile.RootElement.GetProperty("data");
-        EditProfileViewModel? profile = System.Text.Json.JsonSerializer.Deserialize<EditProfileViewModel>(
-            dataObjectofProfile.ToString(),
-            new JsonSerializerOptions
+            if (userId > 0)
             {
-                PropertyNameCaseInsensitive = true
+                HttpContext.Session.SetInt32("UserId", userId);
             }
-        );
 
-        if (profile?.ImageUrl != null)
-        {
-            if (!string.IsNullOrEmpty(profile?.ImageUrl))
+
+            string _apiBaseUrlForProfile = "http://localhost:5114/api/EditProfile/";
+            HttpResponseMessage profileData = await _httpClient.GetAsync(_apiBaseUrlForProfile + userId);
+            string jsonStringOfProfile = await profileData.Content.ReadAsStringAsync();
+            JsonDocument jsonObjectOfProfile = JsonDocument.Parse(jsonStringOfProfile);
+            JsonElement dataObjectofProfile = jsonObjectOfProfile.RootElement.GetProperty("data");
+            EditProfileViewModel? profile = System.Text.Json.JsonSerializer.Deserialize<EditProfileViewModel>(
+                dataObjectofProfile.ToString(),
+                new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                }
+            );
+
+            if (profile?.ImageUrl != null)
             {
-                HttpContext.Session.SetString("ImageUrl", profile.ImageUrl);
+                if (!string.IsNullOrEmpty(profile?.ImageUrl))
+                {
+                    HttpContext.Session.SetString("ImageUrl", profile.ImageUrl);
+                }
             }
         }
         return View(homeViewModel);
@@ -94,7 +91,7 @@ public class HomeController : Controller
             return new JsonResult(new { success = true, message = "Inavalid email format" });
         }
 
-        HttpResponseMessage response = await _httpClient.PostAsJsonAsync(_apiBaseUrl +"subscribe-user", email);
+        HttpResponseMessage response = await _httpClient.PostAsJsonAsync(_apiBaseUrl + "subscribe-user", email);
         if (response.IsSuccessStatusCode)
         {
             string responseContent = await response.Content.ReadAsStringAsync();
@@ -147,13 +144,13 @@ public class HomeController : Controller
         {
             return StatusCode((int)response.StatusCode, "Error occurred while processing the request.");
         }
-        
+
     }
 
     public IActionResult Privacy()
     {
         return View();
     }
-    
+
 }
 

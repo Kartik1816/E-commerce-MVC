@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 
 namespace Demo.Web.Controllers;
 
-[JwtMiddleware]
+
 public class CLAController : Controller
 {
     private readonly HttpClient _httpClient;
@@ -24,11 +24,11 @@ public class CLAController : Controller
     public async Task<IActionResult> Index(int categoryId)
     {
          string? token = Request.Cookies["token"];
-        if (string.IsNullOrEmpty(token))
+        int userId = 0;
+        if (token != null)
         {
-            return RedirectToAction("Index", "Auth");
+            userId = JwtService.GetUserIdFromJwtToken(token);
         }
-        int userId = JwtService.GetUserIdFromJwtToken(token);
         string queryString = $"?CategoryId={categoryId}&UserId={userId}";
         HttpResponseMessage response = await _httpClient.GetAsync(_apiBaseUrl + "products/" + queryString);
         string jsonString = await response.Content.ReadAsStringAsync();
@@ -49,6 +49,7 @@ public class CLAController : Controller
     }
 
     [HttpPost]
+    [JwtMiddleware]
     public async Task<IActionResult> SaveProduct([FromForm] ProductViewModel productViewModel)
     {
         if (!ModelState.IsValid)
@@ -57,7 +58,7 @@ public class CLAController : Controller
         }
         if (productViewModel.Id <= 0 && productViewModel.ProductImage == null)
         {
-             return new JsonResult(new { success = false, message = "Image can not be null for new Product" });
+            return new JsonResult(new { success = false, message = "Image can not be null for new Product" });
         }
         string? token = Request.Cookies["token"];
         if (string.IsNullOrEmpty(token))
@@ -105,7 +106,7 @@ public class CLAController : Controller
                 }
                 string message = responseData.message;
                 bool success = responseData.success;
-                bool offer = responseData.offer;
+                bool offer = responseData.offer ?? false;
                 if (offer)
                 {
                     HttpResponseMessage userData = await _httpClient.GetAsync(_apiBaseUrl + "GetAllSubscribedUsers");
@@ -130,7 +131,7 @@ public class CLAController : Controller
                         }
                     );
 
-                    if (subscribedUsersModel != null && discountedProduct != null && subscribedUsersModel.SubscribedUsers != null)
+                    if (subscribedUsersModel != null && discountedProduct != null && subscribedUsersModel.SubscribedUsers != null && subscribedUsersModel.SubscribedUsers.Count > 0)
                     {
                         try
                         {
@@ -140,10 +141,6 @@ public class CLAController : Controller
                         {
                             throw new Exception("An Exception occured while sending mail to all subscribed users" + e);
                         }
-                    }
-                    else
-                    {
-                        return new JsonResult(new { success = false, message = "Invalid response from server" });
                     }
                 }
                 return new JsonResult(new { success = success, message = message });
@@ -168,6 +165,7 @@ public class CLAController : Controller
     }
     [HttpGet]
     [Route("/CLA/GetProductDetails")]
+    [JwtMiddleware]
     public async Task<IActionResult> GetProductDetails(int productId)
     {
         HttpResponseMessage response = await _httpClient.GetAsync(_apiBaseUrl + productId);
@@ -191,6 +189,7 @@ public class CLAController : Controller
 
     [HttpGet]
     [Route("/CLA/ResetProductModal")]
+    [JwtMiddleware]
     public IActionResult ResetProductModal()
     {
         CLAViewModel cLAViewModel = new() { };
@@ -199,6 +198,7 @@ public class CLAController : Controller
 
     [HttpDelete]
     [Route("/CLA/DeleteProduct")]
+    [JwtMiddleware]
     public async Task<IActionResult> DeleteProduct(int productId)
     {
         if (productId <= 0)
@@ -230,6 +230,7 @@ public class CLAController : Controller
 
     [HttpGet]
     [Route("/CLA/ViewProduct/{productId}")]
+    [JwtMiddleware]
     public async Task<IActionResult> ProductDetails(int productId)
     {
         string? token = Request.Cookies["token"];

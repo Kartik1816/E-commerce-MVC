@@ -1,7 +1,9 @@
 @model Demo.Web.Models.WishListViewModel
 <div class="h-100 w-100 p-4">
-    <div class="d-flex justify-content-end">
-        <a asp-controller="Home" asp-action="Index" class="btn btn-primary mb-3">Cancel</a>
+    <div class="w-100 d-flex justify-content-end">
+        <div onclick="window.history.back()"  class="btn cursor-pointer ">
+             <a asp-controller="Home" asp-action="Index" class="btn btn-primary w-100 mb-3"> < Back</a>
+        </div>
     </div>
     <div class="row d-flex align-items-center justify-content-start gap-4 h-25 px-4">
     @if(Model != null && Model.Products != null && Model.Products.Count > 0)
@@ -27,6 +29,10 @@
                 </div>
             </div>
         }
+    }
+    else
+    {
+        <h5>No Product in WishList</h5>
     }
     </div>
 </div>

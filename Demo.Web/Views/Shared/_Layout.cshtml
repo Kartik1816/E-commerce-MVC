@@ -38,17 +38,20 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active text-decoration-none text-white  nav-font-size" aria-current="page" asp-controller="Home" asp-action="Index">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active text-decoration-none text-white nav-font-size" asp-controller="ContactUs" asp-action="Index">Contact Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active text-decoration-none text-white nav-font-size" asp-controller="ChangePassword" asp-action="Index">Change Password</a>
-                            </li>
-                        </ul>
+                        @if(userRole != null)
+                        {
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-decoration-none text-white  nav-font-size" aria-current="page" asp-controller="Home" asp-action="Index">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-decoration-none text-white nav-font-size" asp-controller="ContactUs" asp-action="Index">Contact Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-decoration-none text-white nav-font-size" asp-controller="ChangePassword" asp-action="Index">Change Password</a>
+                                </li>
+                            </ul>
+                        }
 
                         @{
                             string profileImagePath = string.IsNullOrEmpty(ImageUrl)
@@ -56,15 +59,21 @@
                             : $"/images/profile-images/{ImageUrl}";
                         
                         }
-
-                        <div class="d-flex align-items-center justify-content-center gap-2">
+                    @if(userRole == null)
+                    {
+                        <div class="w-100 d-flex justify-content-end">
+                            <a asp-controller="Auth" asp-action="Index" class="btn btn-secondary">Login</a>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="d-flex align-items-center justify-content-center gap-3">
                             @if(userRole != null && userRole=="User")
                             {
+                             <a class="text-decoration-none text-white" asp-controller="Orders" asp-action="Index">Order History</a>
                                 <a class="nav-link active text-decoration-none text-white nav-font-size" asp-controller="Cart" asp-action="Index"><img src="~/images/cart.svg" style="width: 50px;"></a>
                                 <a class="nav-link active text-decoration-none text-white nav-font-size" asp-controller="WishList" asp-action="Index" ><img src="~/images/heart.svg" style="width: 50px;"></a>
                             }
-                            @* <a class="btn btn-primary me-2" asp-controller="EditProfile" asp-action="Index">Edit Profile</a>
-                            <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="logout()">Logout</button> *@
                             <div class="dropdown">
                                 <img src="@profileImagePath" class="dropdown-toggle" style="width: 50px; cursor: pointer;" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false" />
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
@@ -83,6 +92,7 @@
                             </script>
                             
                         </div>
+                    }
                     </div>
                 </div>
             </nav>

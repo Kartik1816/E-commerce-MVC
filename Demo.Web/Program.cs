@@ -26,6 +26,7 @@ builder.Services.AddHttpClient<WishListController>();
 builder.Services.AddHttpClient<CartController>();
 builder.Services.AddHttpClient<OfferController>();
 builder.Services.AddHttpClient<PaymentController>();
+builder.Services.AddHttpClient<OrdersController>();
 builder.Services.AddSingleton<EmailService>();
 builder.Services.AddCors(options =>
 {
@@ -53,6 +54,6 @@ app.UseAuthorization();
 app.UseCors("AllowMVC");
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Auth}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

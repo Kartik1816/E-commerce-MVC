@@ -1,0 +1,67 @@
+<div class="modal fade" id="CustomerRatingModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered customer-review-modal-width">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="customerreviewModal">Give Product Feedback
+                </h5>
+                <button onclick="" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="d-flex flex-column">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p class="font-weight-bold-slight">Rating</p>
+                        <div class="d-flex gap-1">
+                            @for (int i = 1; i <= 5; i++)
+                            {
+                                var emptyId = "emptyStar-food-" + i;
+                                var filledId = "filledStar-food-" + i;
+                                <img id="@emptyId" src="~/images/rating.svg" class="small-image star-empty star food">
+                                <img id="@filledId" src="~/images/rating-fill.svg"
+                                    class="small-image d-none star-filled star food">
+                            }
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 row mt-3">
+                    <div class="form-floating my-auto col-12">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="orderReviewByCustomer"
+                            style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Comments</label>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer d-flex justify-content-end ">
+                <button id="addReviewButton"  type="button"
+                    class="btn btn-primary px-3">Save</button>
+                <a onclick="" data-bs-dismiss="modal"><button type="button"
+                        class="btn btn-contrast px-3">No</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+        $(document).ready(function () {
+
+        $(".star").click(function () {
+            var starId = $(this).attr("id");
+            var starType = starId.split("-")[1];
+            var starNumber = starId.split("-")[2];
+            var filledStarId = "filledStar-" + starType + "-" + starNumber;
+            var emptyStarId = "emptyStar-" + starType + "-" + starNumber;
+            $("#" + emptyStarId).addClass("d-none");
+            $("#" + filledStarId).removeClass("d-none");
+            for (var i = 1; i <= 5; i++) {
+                $("#filledStar-" + starType + "-" + i).addClass("d-none");
+                $("#emptyStar-" + starType + "-" + i).removeClass("d-none");
+            }
+            for (var i = 1; i <= starNumber; i++) {
+                $("#emptyStar-" + starType + "-" + i).addClass("d-none");
+                $("#filledStar-" + starType + "-" + i).removeClass("d-none");
+            }
+        });
+    });
+
+</script>
