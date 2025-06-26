@@ -159,3 +159,6 @@
     border: 1px solid rgb(3, 25, 133);
     border-radius: 50%;
 }
+.font-color{
+    color: rgb(47, 112, 242) !important;
+}
