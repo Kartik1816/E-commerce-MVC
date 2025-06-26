@@ -8,6 +8,16 @@ const image = document.getElementById('productImage');
     zoomedImage.src = image.src;
     zoomResult.appendChild(zoomedImage);
 
+    image.addEventListener('mouseenter', () => {
+        lens.style.display = 'block';
+    });
+    
+    // Hide both when mouse leaves image
+    image.addEventListener('mouseleave', () => {
+        lens.style.display = 'none';
+        zoomResult.style.display = 'none';
+    });
+
     lens.addEventListener('mousemove', moveLens);
     image.addEventListener('mousemove', moveLens);
     lens.addEventListener('mouseleave', () => {

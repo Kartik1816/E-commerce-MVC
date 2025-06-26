@@ -20,11 +20,13 @@
     <div class="d-flex flex-column gap-2 align-items-center justify-content-end mt-5 position-relative" style="top: 50px;">
         <p class="fw-bold">Subscribe to see new offer</p>
         <form class="d-flex gap-2" id="subscribeForm" method="post">
-            <div class="d-flex flex-column">
+            <div class="d-flex flex-column mt-2">
                 <input type="email" class="form-control" id="subscriber-email" placeholder="Enter your email" required>
                 <p id="email-error" class="text-danger"></p>
             </div>
-            <button type="submit" id="subscribe-button" class="btn btn-primary ">Subscribe</button>
+            <div  class="btn cursor-pointer">
+                <button type="submit" id="subscribe-button" class="btn btn-primary ">Subscribe</button>
+            </div>
 
         </form>
     </div>

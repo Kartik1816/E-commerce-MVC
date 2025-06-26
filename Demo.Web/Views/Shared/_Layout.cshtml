@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="~/Demo.Web.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <div class="row bg-color  position-absolute h-100  w-100 justify-content-center">
+    <div class="row bg-color  bg-height position-absolute  h-100 w-100 justify-content-center">
         <div class="col-sm-12 col-md-10 d-flex flex-column align-items-center justify-content-center w-100">
             <nav class="navbar navbar-expand-lg  backgroundImage navbar-custom w-100 px-5">
                 <div class="container-fluid">
@@ -46,9 +46,6 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link active text-decoration-none text-white nav-font-size" asp-controller="ContactUs" asp-action="Index">Contact Us</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active text-decoration-none text-white nav-font-size" asp-controller="ChangePassword" asp-action="Index">Change Password</a>
                                 </li>
                             </ul>
                         }
@@ -70,15 +67,17 @@
                         <div class="d-flex align-items-center justify-content-center gap-3">
                             @if(userRole != null && userRole=="User")
                             {
-                             <a class="text-decoration-none text-white" asp-controller="Orders" asp-action="Index">Order History</a>
+                             
                                 <a class="nav-link active text-decoration-none text-white nav-font-size" asp-controller="Cart" asp-action="Index"><img src="~/images/cart.svg" style="width: 50px;"></a>
                                 <a class="nav-link active text-decoration-none text-white nav-font-size" asp-controller="WishList" asp-action="Index" ><img src="~/images/heart.svg" style="width: 50px;"></a>
                             }
                             <div class="dropdown">
-                                <img src="@profileImagePath" class="dropdown-toggle" style="width: 50px; cursor: pointer;" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false" />
+                                <img src="@profileImagePath" class="dropdown-toggle profile-image" style="width: 50px; cursor: pointer;" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false" />
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
-                                    <li><a class="dropdown-item px-3 cursor-pointer" asp-controller="EditProfile" asp-action="Index">Edit Profile</a></li>
-                                    <li><span class="px-3 cursor-pointer" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="logout()">Logout</span></li>
+                                    <li class="d-flex gap-1 px-2 my-2 cursor-pointer"><img src="~/images/edit-profile.svg" class="small-img"> <a class="dropdown-item px-3 cursor-pointer" asp-controller="EditProfile" asp-action="Index">Edit Profile</a></li>
+                                    <li class="d-flex gap-1 px-2 my-2 cursor-pointer"> <img src="~/images/change-password.svg" class="small-img"> <a class="dropdown-item px-3 text-decoration-none cursor-pointer" asp-controller="ChangePassword" asp-action="Index">Change Password</a></li>
+                                    <li class="d-flex gap-1 px-2 my-2 cursor-pointer"><img src="~/images/orders.svg" class="small-img"> <a class="dropdown-item px-3 cursor-pointer"  asp-controller="Orders" asp-action="Index">Order History</a></li>
+                                    <li class="d-flex gap-1 px-2 my-2 cursor-pointer"><img src="~/images/logout.svg" class="small-img"><span class="px-3 cursor-pointer" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="logout()">Logout</span></li>
                                 </ul>
                             </div>
                             <script>
@@ -96,7 +95,7 @@
                     </div>
                 </div>
             </nav>
-            <div class="flex-grow-1 w-100 h-100">
+            <div class="flex-grow-1 w-100 h-100 ">
                 @RenderBody()
             </div>
         </div>

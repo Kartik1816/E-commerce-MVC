@@ -10,7 +10,7 @@
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 100vh;
+    height: max(100%, 100vh) !important;
 }
 .backgroundImage{
     background-image: url("../Images/bg-image.png");
@@ -73,6 +73,7 @@
     height: 100px; /* Height of the zoom lens */
     pointer-events: none; /* Prevent interference with mouse events */
     background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent lens */
+    display: none; /* Hide by default */
 }
 
 .zoom-result {
@@ -83,6 +84,8 @@
     height: 300px; /* Height of the zoomed image */
     overflow: hidden;
     border: 1px solid #000;
+    display: none; /* Hide by default */
+    z-index: 1000; /* Ensure it appears above other elements */
 }
 
 .zoom-result img {
@@ -136,4 +139,23 @@
 .small-image {
     width: 20px;
     cursor: pointer;
+}
+.h-40{
+    height: 40%;
+}
+.w-60{
+    width: 60%;
+}
+.w-183{
+    width: 183px !important;
+}
+.small-img{
+    width: 30px;
+    cursor: pointer;
+}
+.profile-image{
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgb(3, 25, 133);
+    border-radius: 50%;
 }

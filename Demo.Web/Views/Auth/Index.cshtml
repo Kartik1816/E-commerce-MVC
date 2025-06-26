@@ -2,6 +2,10 @@
 @{
     Layout=null;
 }
+@{
+  string? ImageUrl = Context.Session.GetString("ImageUrl");
+  string? userRole = Context.Session.GetString("UserRole");
+}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,11 +21,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js"></script>
 </head>
 <body>
-<div class="row body-background position-absolute h-100 backgroundImage w-100 justify-content-center">
+     <nav class="navbar navbar-expand-lg  navbar-custom w-100 px-5" style="background-color: white;">
+        <div class="container-fluid w-100 d-flex flex-row justify-content-end align-items-center">
+            <div class=" d-flex justify-content-end w-100" id="navbarSupportedContent">
+                    <ul class="navbar-nav  mb-2 mb-lg-0 d-flex justify-content-end gap-2">
+                        <li class="nav-item">
+                            <a class="nav-link active text-decoration-none text-white btn btn-secondary nav-font-size w-183" aria-current="page" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-decoration-none text-white btn btn-secondary nav-font-size w-183" asp-controller="ContactUs" asp-action="Index">Contact Us</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    </nav>
+<div class="row body-background position-absolute backgroundImage w-100 justify-content-center">
     <div class="col-sm-12 col-md-10 d-flex flex-column align-items-center justify-content-center">
-        
             <h1 class="text-center text-white mb-5">Computers, Laptops And Accessories</h1>
-           
         <div class="card dashboard-card-size shadow login-card-size h-50 d-flex flex-row align-items-center justify-content-center w-75">
             <div class="d-none d-md-block col-md-6 col-sm-12 align-items-center justify-content-center">
                 <img class="ps-5 w-75 h-75 object-fit-cover" src="~/images/cla.png" alt="">

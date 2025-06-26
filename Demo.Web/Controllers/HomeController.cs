@@ -147,9 +147,11 @@ public class HomeController : Controller
 
     }
 
-    public IActionResult Privacy()
+    [HttpPost]
+    public IActionResult Logout()
     {
-        return View();
+        HttpContext.Session.Clear();
+        return Ok(new{success=true,message="session cleared"});
     }
 
 }

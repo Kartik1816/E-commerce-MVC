@@ -74,7 +74,7 @@
                             <div class="d-flex flex-column p-2">
                                     <label for="price" class="form-label">Price</label>
                                 <div class="input-group" class="py-2 d-flex flex-column">
-                                    <input type="number" class="form-control" placeholder="Price*" id="price" asp-for="@Model.productViewModel.Price" name="productViewModel.Price" value="@Model.productViewModel.Price">
+                                    <input type="number" class="form-control" placeholder="Price*" id="price" asp-for="@Model.productViewModel.Price" name="productViewModel.Price" value="@Model.productViewModel.Price" oninput="updateDiscountAmount()">
                                 </div>
                                     <span asp-validation-for="@Model.productViewModel.Price" class="text-danger"></span>
                             </div>
@@ -84,7 +84,7 @@
                         <div class="d-flex flex-column p-2">
                                 <label for="price" class="form-label">Price</label>
                             <div class="input-group" class="py-2 d-flex flex-column">
-                                <input type="number" class="form-control" placeholder="Price*" id="price" asp-for="@Model.productViewModel.Price" name="productViewModel.Price">
+                                <input type="number" class="form-control" placeholder="Price*" id="price" asp-for="@Model.productViewModel.Price" name="productViewModel.Price" oninput="updateDiscountAmount()">
                             </div>
                                 <span asp-validation-for="@Model.productViewModel.Price" class="text-danger"></span>
                         </div>
@@ -147,7 +147,7 @@
 <script src="~/js/cla.js"></script>
 
 <script>
-        function updateDiscountAmount() {
+    function updateDiscountAmount() {
         const priceInput = document.getElementById('price');
         const originalPrice = parseFloat(priceInput.value) || 0;
         if (isNaN(originalPrice) || originalPrice <= 0) {

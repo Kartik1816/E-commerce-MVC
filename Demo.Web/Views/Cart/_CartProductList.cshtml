@@ -6,22 +6,49 @@
         foreach(CartProductViewModel product in Model.CartProductViewModels)
         {
             
-            totalAmount = totalAmount+(product.Quantity * product.Price);
-            
-            <div class="d-flex gap-2 p-2 align-items-center product-card-border w-100">
-                <div class="w-25">
-                    <h5 class="card-title">@product.ProductName</h5>
+           
+             string productImage = string.IsNullOrEmpty(product.ImageUrl)
+                                        ? "/images/Default_pfp.svg.png"
+                                        : $"/images/product-images/{product.ImageUrl}";
+
+            decimal discountedPrice =Math.Round(product.Price -((product.Price * product.Discount)/100),2);
+             totalAmount = totalAmount + (discountedPrice*product.Quantity);
+            <li class="list-group-item d-flex justify-content-between align-items-center w-100">
+                <div class="w-40">
+                    <div class="d-flex flex-row align-items-center">
+                        <div class="position-relative overflow-hidden" style="height: 100px; background-color: #f8f9fa;">
+                            <img src="@productImage" alt="Product Image" id="productImage"
+                            class="img-fluid  w-100 h-100 object-fit-contain p-3">
+                        </div>
+                        <strong>@product.ProductName</strong>
+                    </div>
                 </div>
-                <div class="w-75 d-flex justify-content-between">
+                <div class="d-flex justify-content-between w-60">
                     <div class="d-flex align-items-center gap-2">
                         <span class="decrease-quantity-size cursor-pointer" onclick="decreaseQuantity(@product.ProductId)">-</span>
                             <p class="fw-bold m-0 mt-2">@product.Quantity</p>
                         <span class="increase-quantity-size cursor-pointer" onclick="increaseQuantity(@product.ProductId)">+</span>
                     </div>
-                    <p class="fw-bold">₹@(product.Price * product.Quantity)</p>
-                    <button class="btn btn-danger btn-sm" onclick="removeProductFromCart(@product.ProductId)">Remove from cart</button>
+                @if (product.Discount > 0)
+                {
+                    <div class="d-flex flex-column gap-2 ps-5 ms-5">
+                        <span style="text-decoration: line-through; color: gray;" class="ms-5">
+                            ₹@product.Price
+                        </span>
+                        <span style="color: green; font-weight: bold;" class="ms-5">
+                            ₹@discountedPrice
+                        </span>
+                    </div>
+                }
+                else
+                {
+                    <div class="d-flex flex-column gap-2 ps-5 ms-5">
+                        <span class="ms-5">₹@product.Price</span>
+                    </div>
+                }
+                <button class="btn btn-danger btn-sm" onclick="removeProductFromCart(@product.ProductId)">Remove from cart</button>
                 </div>
-            </div>
+            </li>
         }
         <input type="hidden" id="amount" value="@totalAmount">
     }

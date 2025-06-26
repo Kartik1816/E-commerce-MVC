@@ -3,7 +3,12 @@
 
 
 <div class="w-100 d-flex flex-column align-items-center justify-content-center">
-    <h2 class="mb-4">Your Orders</h2>
+    <div class="w-75 d-flex flex-row justify-content-between align-items-center m-3  mx-5">
+        <h2>Your Orders</h2>
+        <div  class="btn cursor-pointer">
+            <a asp-controller="Home" asp-action="Index" class="btn btn-primary" style="width: 183px;"> Back</a>
+        </div>
+    </div>
 
     @if (Model != null)
     {
@@ -11,6 +16,9 @@
         {
             <div class="card mb-4 shadow-sm order-card w-75">
                 <div class="card-header bg-primary text-white">
+                    <div>
+                        <strong>Order No:</strong>@($"{order.CreatedAt:yyMMddHHmm}{order.OrderId.ToString()}")
+                    </div>
                     <div class="d-flex justify-content-between">
                         <div><strong>Order Date:</strong> @order.CreatedAt.ToString("dd MMM yyyy")</div>
                         <div><strong>Status:</strong> @order.Status</div>
