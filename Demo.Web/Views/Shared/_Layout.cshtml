@@ -42,7 +42,7 @@
                         {
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active text-decoration-none text-white  fw-bold fs-5 nav-font-size" aria-current="page" asp-controller="Home" asp-action="Index">Home</a>
+                                    <a class="nav-link active text-decoration-none text-white fw-bold fs-5 nav-font-size" aria-current="page" asp-controller="Home" asp-action="Index">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link active text-decoration-none text-white fw-bold fs-5 nav-font-size" asp-controller="ContactUs" asp-action="Index">Contact Us</a>
@@ -58,8 +58,10 @@
                         }
                     @if(userRole == null)
                     {
-                        <div class="w-100 d-flex justify-content-end">
-                            <a asp-controller="Auth" asp-action="Index" class="btn btn-secondary">Login</a>
+                        <div class="w-100 d-flex justify-content-start align-items-center mt-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-decoration-none text-white fw-bold fs-5 nav-font-size" asp-controller="Auth" asp-action="Index"> Login </a>
+                            </li>
                         </div>
                     }
                     else
@@ -76,18 +78,31 @@
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
                                     <li class="d-flex gap-1 px-2 my-2 cursor-pointer"><img src="~/images/edit-profile.svg" class="small-img"> <a class="dropdown-item px-3 cursor-pointer" asp-controller="EditProfile" asp-action="Index">Edit Profile</a></li>
                                     <li class="d-flex gap-1 px-2 my-2 cursor-pointer"> <img src="~/images/change-password.svg" class="small-img"> <a class="dropdown-item px-3 text-decoration-none cursor-pointer" asp-controller="ChangePassword" asp-action="Index">Change Password</a></li>
-                                    <li class="d-flex gap-1 px-2 my-2 cursor-pointer"><img src="~/images/orders.svg" class="small-img"> <a class="dropdown-item px-3 cursor-pointer"  asp-controller="Orders" asp-action="Index">Order History</a></li>
+                                    @if(userRole != null && userRole=="User")
+                                    {
+                                        <li class="d-flex gap-1 px-2 my-2 cursor-pointer"><img src="~/images/orders.svg" class="small-img"> <a class="dropdown-item px-3 cursor-pointer"  asp-controller="Orders" asp-action="Index">Order History</a></li>
+                                    }
                                     <li class="d-flex gap-1 px-2 my-2 cursor-pointer"><img src="~/images/logout.svg" class="small-img"><span class="px-3 cursor-pointer" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="logout()">Logout</span></li>
                                 </ul>
                             </div>
                             <script>
-                                document.addEventListener('DOMContentLoaded', function () {
-                                    var dropdownElement = document.getElementById('userDropdown');
-                                    dropdownElement.addEventListener('click', function () {
-                                        var dropdownMenu = dropdownElement.nextElementSibling;
-                                        dropdownMenu.classList.toggle('show');
-                                    });
+                               document.addEventListener('DOMContentLoaded', function () {
+                                var dropdownElement = document.getElementById('userDropdown');
+                                var dropdownMenu = dropdownElement.nextElementSibling;
+                                
+                                // Toggle menu when clicking the icon
+                                dropdownElement.addEventListener('click', function (e) {
+                                    e.stopPropagation();
+                                    dropdownMenu.classList.toggle('show');
                                 });
+                                
+                                // Close when clicking anywhere else
+                                document.addEventListener('click', function (e) {
+                                    if (!dropdownElement.contains(e.target) && !dropdownMenu.contains(e.target)) {
+                                        dropdownMenu.classList.remove('show');
+                                    }
+                                });
+                            });
                             </script>
                             
                         </div>

@@ -2,23 +2,23 @@
 <div class="h-100 w-100 d-flex flex-column align-items-center justify-content-between p-5">
            @if(Model.CartProductViewModels != null && Model.CartProductViewModels.Count >0)
            {
-        <div class="card w-75 ">
-            <div class="d-flex flex-column w-100 p-5">
-                <div class="d-flex justify-content-between gap-2 p-2  w-100">
-                    <div class="w-40">
-                        <h5 class="fw-bold">Name</h5>
+            <div class="card w-75 ">
+                <div class="d-flex flex-column w-100 p-5">
+                    <div class="d-flex justify-content-between gap-2 p-2  w-100">
+                        <div class="w-40">
+                            <h5 class="fw-bold">Name</h5>
+                        </div>
+                        <div class="w-60 d-flex justify-content-between align-items-start">
+                            <p class="fw-bold m-0">Quantity</p>
+                            <p class="fw-bold m-0">Price</p>
+                            <p class="fw-bold"></p>
                     </div>
-                    <div class="w-60 d-flex justify-content-between align-items-start">
-                        <p class="fw-bold m-0">Quantity</p>
-                        <p class="fw-bold m-0">Price</p>
-                        <p class="fw-bold"></p>
-                   </div>
-                </div>
-                <div  id="cartProductView">
-                   <partial name="_CartProductList" model="@Model">
+                    </div>
+                    <div  id="cartProductView">
+                    <partial name="_CartProductList" model="@Model">
+                    </div>
                 </div>
             </div>
-        </div>
            }
            else
            {
@@ -26,7 +26,7 @@
            }
         <div class="w-75 d-flex justify-content-center align-items-center mb-4">
             <div  class="btn cursor-pointer w-100 ">
-                <a asp-controller="Home" asp-action="Index" class="btn btn-primary" style="width: 183px;"> Back</a>
+                <a asp-controller="Home" asp-action="Index" class="btn btn-primary w-183"> Back</a>
             </div>
         </div>
 </div>

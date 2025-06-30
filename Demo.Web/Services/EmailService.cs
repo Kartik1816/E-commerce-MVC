@@ -119,7 +119,7 @@ public class EmailService
         
         // Replace placeholders - now using Content ID for the image
         emailTemplate = emailTemplate
-            .Replace("{{ProductDiscount}}", $"{Math.Round(discountedProduct.Discount)}")
+            .Replace("{{ProductDiscount}}", $"{Math.Round(discountedProduct.Discount,2)}")
             .Replace("{{ProductName}}", discountedProduct.Name)
             .Replace("{{ProductAmount}}", discountedProduct.Price.ToString())
             .Replace("{{AmountAfterDiscount}}", amountAfterDiscount.ToString("F2"))

@@ -14,6 +14,9 @@ $('#subscribeForm').off("submit").submit(function(e){
                 if (data.success)
                 {
                     toastr.success(data.message)
+                    setTimeout(()=>{
+                        window.location.reload();
+                    },1000);
                 }
                 else 
                 {
