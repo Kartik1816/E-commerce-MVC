@@ -18,6 +18,9 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+     <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
      <link
       rel="stylesheet"
@@ -53,7 +56,7 @@
                         @{
                             string profileImagePath = string.IsNullOrEmpty(ImageUrl)
                             ? "/images/Default_pfp.png"
-                            : $"/images/profile-images/{ImageUrl}";
+                            : $"http://localhost:5114/images/profile-images/{ImageUrl}";
                         
                         }
                     @if(userRole == null)
@@ -70,11 +73,11 @@
                             @if(userRole != null && userRole=="User")
                             {
                              
-                                <a class="nav-link active text-decoration-none text-white nav-font-size" asp-controller="Cart" asp-action="Index"><img src="~/images/cart.svg" style="width: 50px;"></a>
-                                <a class="nav-link active text-decoration-none text-white nav-font-size" asp-controller="WishList" asp-action="Index" ><img src="~/images/heart.svg" style="width: 50px;"></a>
+                                <a class="nav-link active text-decoration-none text-white nav-font-size" asp-controller="Cart" asp-action="Index"><img src="~/images/cart.svg" class="width-50"></a>
+                                <a class="nav-link active text-decoration-none text-white nav-font-size" asp-controller="WishList" asp-action="Index" ><img src="~/images/heart.svg" class="width-50"></a>
                             }
                             <div class="dropdown">
-                                <img src="@profileImagePath" class="dropdown-toggle profile-image" style="width: 50px; cursor: pointer;" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false" />
+                                <img src="@profileImagePath" class="dropdown-toggle profile-image width-50 cursor-pointer" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false" />
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
                                     <li class="d-flex gap-1 px-2 my-2 cursor-pointer"><img src="~/images/edit-profile.svg" class="small-img"> <a class="dropdown-item px-3 cursor-pointer" asp-controller="EditProfile" asp-action="Index">Edit Profile</a></li>
                                     <li class="d-flex gap-1 px-2 my-2 cursor-pointer"> <img src="~/images/change-password.svg" class="small-img"> <a class="dropdown-item px-3 text-decoration-none cursor-pointer" asp-controller="ChangePassword" asp-action="Index">Change Password</a></li>
@@ -143,10 +146,27 @@
 
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="~/js/auth.js" asp-append-version="true"></script>
     <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
     <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+<script>
+    const connection = new signalR.HubConnectionBuilder()
+        .withUrl("/notificationHub")
+        .build();
+
+    connection.on("ReceiveDiscountNotification", function (data) {
+        alert(`🔥 New Discount!\nProduct: ${data.ProductName}\nDiscount: ${data.Discount}%`);
+    });
+
+    connection.start().catch(function (err) {
+        return console.error(err.toString());
+    });
+</script>
+
 </body>
 </html>
+

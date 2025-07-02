@@ -38,9 +38,24 @@ public class HomeController : Controller
                 PropertyNameCaseInsensitive = true
             }
         );
+
+        //Get Top 5 Products List 
+        HttpResponseMessage productResponse = await _httpClient.GetAsync(_apiBaseUrl + "GetTopFiveOfferedProducts");
+        string productJsonString = await productResponse.Content.ReadAsStringAsync();
+        JsonDocument productJsonObject = JsonDocument.Parse(productJsonString);
+        JsonElement productDataObject = productJsonObject.RootElement.GetProperty("data");
+        List<ProductViewModel>? products = System.Text.Json.JsonSerializer.Deserialize<List<ProductViewModel>>(
+            productDataObject.ToString(),
+            new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            }
+        );
+
         HomeViewModel homeViewModel = new HomeViewModel
         {
             Categories = categories ?? new List<CategoryViewModel>(),
+            Products = products
         };
         string? token = Request.Cookies["token"];
         if (token != null)

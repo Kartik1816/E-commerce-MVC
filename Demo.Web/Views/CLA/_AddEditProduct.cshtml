@@ -125,8 +125,8 @@
                     }
                          <label for="upload-btn" class="upload-btn">Product Image</label>
                     <div class="d-flex flex-column p-2">
-                        <input type="file" id="upload-btn" asp-for="@Model.productViewModel.ProductImage"
-                        name="productViewModel.ProductImage" class="position-absolute file-input-btn" 
+                        <input type="file" id="upload-btn" asp-for="@Model.productViewModel.ProductImages"
+                        name="productViewModel.ProductImages" multiple class="position-absolute file-input-btn" 
                         accept="image/*">
                     </div>
                     <span asp-validation-for="@Model.productViewModel.ProductImage" class="text-danger"></span>

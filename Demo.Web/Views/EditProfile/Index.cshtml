@@ -47,8 +47,8 @@
 @{
 
     string profileImagePath = string.IsNullOrEmpty(@Model.ImageUrl)
-    ? "/images/Default_pfp.svg.png"
-    : $"/images/profile-images/{@Model.ImageUrl}";
+    ? "/images/Default_pfp.png"
+    : $"http://localhost:5114/images/profile-images/{@Model.ImageUrl}";
                         
 }
             <div class="d-flex flex-column">

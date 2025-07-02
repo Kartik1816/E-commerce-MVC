@@ -68,23 +68,30 @@ public class CLAController : Controller
         int userId = JwtService.GetUserIdFromJwtToken(token);
         productViewModel.UserId = userId;
 
-        if (productViewModel.ProductImage != null)
-        {
-            string fileName = Guid.NewGuid().ToString() + Path.GetExtension(productViewModel.ProductImage.FileName);
-            if (!productViewModel.ProductImage.ContentType.Contains("image"))
-            {
-                return new JsonResult(new { success = false, message = "Please upload a valid image file." });
-            }
-            string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/product-images", fileName);
-            using (var fileStream = new FileStream(path, FileMode.Create))
-            {
-                productViewModel.ProductImage.CopyTo(fileStream);
-            }
-            productViewModel.ImageUrl = fileName;
-        }
-        //temporarily remove Image of type IFormFile from view model then send
-        productViewModel.ProductImage = null;
+        List<string> imageUrls = new List<string>();
 
+        if (productViewModel.ProductImages != null && productViewModel.ProductImages.Count > 0)
+        {
+            foreach (IFormFile image in productViewModel.ProductImages)
+            {
+                if (!image.ContentType.Contains("image"))
+                {
+                    return new JsonResult(new { success = false, message = "Please upload valid image files." });
+                }
+
+                string fileName = Guid.NewGuid().ToString() + Path.GetExtension(image.FileName);
+                string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/product-images", fileName);
+
+                using (FileStream fileStream = new FileStream(path, FileMode.Create))
+                {
+                    image.CopyTo(fileStream);
+                }
+
+                imageUrls.Add(fileName);
+            }
+        }
+        productViewModel.ProductImages = null;
+        productViewModel.ImageUrls = imageUrls;
         HttpResponseMessage response = await _httpClient.PostAsJsonAsync(_apiBaseUrl + "saveProduct", productViewModel);
         if (response.IsSuccessStatusCode)
         {
@@ -92,18 +99,6 @@ public class CLAController : Controller
             dynamic? responseData = JsonConvert.DeserializeObject<dynamic>(responseContent);
             if (responseData != null)
             {
-                if (!(bool)responseData.success)
-                {
-                    //remove the image if registration fails
-                    if (productViewModel.ImageUrl != null)
-                    {
-                        string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/product-images", productViewModel.ImageUrl);
-                        if (System.IO.File.Exists(path))
-                        {
-                            System.IO.File.Delete(path);
-                        }
-                    }
-                }
                 string message = responseData.message;
                 bool success = responseData.success;
                 bool offer = responseData.offer ?? false;
@@ -147,14 +142,6 @@ public class CLAController : Controller
             }
             else
             {
-                if (productViewModel.ImageUrl != null)
-                {
-                    string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/product-images", productViewModel.ImageUrl);
-                    if (System.IO.File.Exists(path))
-                    {
-                        System.IO.File.Delete(path);
-                    }
-                }
                 return new JsonResult(new { success = false, message = "Invalid response from server." });
             }
         }
@@ -163,6 +150,7 @@ public class CLAController : Controller
             return StatusCode((int)response.StatusCode, "Error occurred while processing the request.");
         }
     }
+
     [HttpGet]
     [Route("/CLA/GetProductDetails")]
     [JwtMiddleware]

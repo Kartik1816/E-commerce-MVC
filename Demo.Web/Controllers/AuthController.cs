@@ -42,7 +42,6 @@ public class AuthController : Controller
                 string token = responseData.token;
                 string refreshToken = responseData.refreshToken;
                 return new JsonResult(new { success = success, message = message, token = token, refreshToken = refreshToken });
-                
             }
             else
             {
@@ -92,66 +91,45 @@ public class AuthController : Controller
     [Route("/Auth/Registration")] 
     public async Task<IActionResult> Registration([FromForm] RegistrationViewModel registrationViewModel)
     {
-        if (!ModelState.IsValid)
+         if (!ModelState.IsValid)
         {
             return BadRequest(ModelState);
         }
-        if (registrationViewModel.Image != null)
-        {
-            string fileName = Guid.NewGuid().ToString() + Path.GetExtension(registrationViewModel.Image.FileName);
-            if (!registrationViewModel.Image.ContentType.Contains("image"))
-            {
-                return new JsonResult(new { success = false, message = "Please upload a valid image file." });
-            }
-            string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/profile-images", fileName);
-            using (var fileStream = new FileStream(path, FileMode.Create))
-            {
-                registrationViewModel.Image.CopyTo(fileStream);
-            }
-            registrationViewModel.ImageUrl = fileName;
-        }
-        //temporarily remove Image of type IFormFile from view model then send
-        registrationViewModel.Image = null;
-        HttpResponseMessage response = await _httpClient.PostAsJsonAsync(_apiBaseUrl + "register", registrationViewModel);
 
-        if (response.IsSuccessStatusCode)
+        using (var content = new MultipartFormDataContent())
         {
-            string responseContent = await response.Content.ReadAsStringAsync();
-            dynamic? responseData = JsonConvert.DeserializeObject<dynamic>(responseContent);
-            if (responseData != null)
+            // Add other form data
+            content.Add(new StringContent(registrationViewModel.FirstName ?? ""), "FirstName");
+            content.Add(new StringContent(registrationViewModel.LastName ?? ""), "LastName");
+            content.Add(new StringContent(registrationViewModel.PhoneNumber ?? ""), "PhoneNumber");
+            content.Add(new StringContent(registrationViewModel.Address ?? ""), "Address");
+            content.Add(new StringContent(registrationViewModel.RoleId.ToString()), "RoleId");
+            content.Add(new StringContent(registrationViewModel.ConfirmPassword ?? ""), "ConfirmPassword");
+            content.Add(new StringContent(registrationViewModel.Email ?? ""), "Email");
+            content.Add(new StringContent(registrationViewModel.Password ?? ""), "Password");
+
+            // Add the image file if it exists
+            if (registrationViewModel.Image != null)
             {
-                if (responseData.success == false)
-                {
-                    //remove the image if registration fails
-                    if (registrationViewModel.ImageUrl != null)
-                    {
-                        string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/profile-images", registrationViewModel.ImageUrl);
-                        if (System.IO.File.Exists(path))
-                        {
-                            System.IO.File.Delete(path);
-                        }
-                    }
-                }
-                string message = responseData.message;
-                bool success = responseData.success;
-                return new JsonResult(new { success = success, message = message });
+                var fileStream = registrationViewModel.Image.OpenReadStream();
+                var fileContent = new StreamContent(fileStream);
+                fileContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue(registrationViewModel.Image.ContentType);
+                content.Add(fileContent, "Image", registrationViewModel.Image.FileName);
+            }
+
+            // Send the request to the API
+            HttpResponseMessage response = await _httpClient.PostAsync(_apiBaseUrl + "register", content);
+
+            if (response.IsSuccessStatusCode)
+            {
+                string responseContent = await response.Content.ReadAsStringAsync();
+                dynamic? responseData = JsonConvert.DeserializeObject<dynamic>(responseContent);
+                return new JsonResult(new { success = responseData.success, message = responseData.message });
             }
             else
             {
-                if (registrationViewModel.ImageUrl != null)
-                {
-                    string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/profile-images", registrationViewModel.ImageUrl);
-                    if (System.IO.File.Exists(path))
-                    {
-                        System.IO.File.Delete(path);
-                    }
-                }
-                return new JsonResult(new { success = false, message = "Invalid response from server." });
+                return StatusCode((int)response.StatusCode, "Error occurred while processing the request.");
             }
-        }
-        else
-        {
-            return StatusCode((int)response.StatusCode, "Error occurred while processing the request.");
         }
     }
 }

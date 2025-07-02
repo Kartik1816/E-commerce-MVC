@@ -3,7 +3,27 @@
     ViewData["Title"] = "Home Page";
 }
 <div class="d-flex flex-column align-items-center justify-content-center  h-100 w-100 gap-2">
-    <div class="row align-items-center justify-content-center gap-4">
+    <div class="d-flex align-items-center gap-4 w-75 m-5">
+        <div class="owl-carousel">
+            @foreach (var product in Model.Products)
+            {
+                string productImage = string.IsNullOrEmpty(product.ImageUrl)
+                    ? "/images/Default_pfp.png"
+                    : $"/images/product-images/{product.ImageUrl}";
+                <div class="product-card-offer d-flex align-items-center justify-content-center gap-4">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="@productImage" alt="@product.Name" class="img-fluid product-image">
+                    </div>
+                    <div class="d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="product-name">@product.Name</div>
+                        <div class="product-price">₹@product.Price</div>
+                        <div class="product-discount">Discount: @product.Discount%</div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    <div class="row align-items-center justify-content-center gap-4 mx-3">
         <h1 class="text-black  text-center">Buy <span id="typewriter"></span></h1>
         @if(Model!= null && Model.Categories!=null)
         {
@@ -17,7 +37,7 @@
             }
         }
     </div>
-    <div class="d-flex flex-column gap-2 align-items-center justify-content-end mt-5 position-relative" style="top: 50px;">
+    <div class="d-flex flex-column gap-2 align-items-center justify-content-end mt-5 position-relative t-50" >
         <p class="fw-bold">Subscribe to see new offer</p>
         <form class="d-flex gap-2" id="subscribeForm" method="post">
             <div class="d-flex flex-column mt-2">

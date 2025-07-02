@@ -74,3 +74,17 @@ const image = document.getElementById('productImage');
         zoomedImage.style.left = `-${zoomX}px`;
         zoomedImage.style.top = `-${zoomY}px`;
     }
+
+$(document).ready(function () {
+    $('.owl-carousel').owlCarousel({
+        items: 1, // Show one item at a time
+        loop: true,
+        // nav: true, // Next/Prev arrows
+        dots: true, // Dots navigation
+        autoplay: true,
+        autoplayTimeout: 3000, // 3000ms = 3s delay
+        autoplayHoverPause: true, // Pause on hover
+        // navText: ["<", ">"], // You can customize the arrow text/icons
+    });
+});
+    
