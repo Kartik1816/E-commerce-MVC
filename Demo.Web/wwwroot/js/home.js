@@ -40,7 +40,18 @@ typeWriterEffect();
 
 function getProductsByCategory(categoryId)
 {
-    window.location.href = `/CLA/${categoryId}`;
+    $.ajax({
+        type: 'GET',
+        url: '/CLA/GetEncryptedId',
+        data : { Id: categoryId },
+        success: function (data) {
+            if (data.success) {
+                window.location.href = `/CLA/${data.encryptedId}`;
+            } else {
+                toastr.error(data.message);
+            }
+        },
+    });
 }
 
 

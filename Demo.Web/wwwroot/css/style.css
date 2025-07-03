@@ -256,3 +256,16 @@
     color: #dc3545;
     margin-top: 5px;
 }
+
+.notificationList-style {
+    max-height: 300px;
+    width: 250px;
+    overflow-y: auto;
+    white-space: normal; /* ✅ allows text wrap */
+    word-wrap: break-word; /* ✅ breaks long words */
+    padding-right: 10px;
+  }
+  
+  .notificationList-li {
+    white-space: normal; /* ✅ ensures wrapping for each item */
+  }

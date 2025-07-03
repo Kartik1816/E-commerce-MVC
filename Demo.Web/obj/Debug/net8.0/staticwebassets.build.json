@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lw5SbPK3cT4wPIzFwrWJEtgih4OQDctEKCT8UToiAX4=",
+  "Hash": "Vk8FKx0fAWYxXuX7wCW6JNibNCMj7dqR1PacoVl6QGk=",
   "Source": "Demo.Web",
   "BasePath": "_content/Demo.Web",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Demo.Web\\wwwroot",
       "Source": "Demo.Web",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Demo.Web.styles.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Demo.Web.styles.css",
       "SourceId": "Demo.Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "Demo.Web.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Demo.Web.styles.css"
+      "OriginalItemSpec": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Demo.Web.styles.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Demo.Web.bundle.scp.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Demo.Web.bundle.scp.css",
       "SourceId": "Demo.Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "Demo.Web.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Demo.Web.bundle.scp.css"
+      "OriginalItemSpec": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Demo.Web.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\css\\site.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\css\\site.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\css\\style.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\css\\style.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\favicon.ico",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\favicon.ico",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\accessories.svg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\accessories.svg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/accessories.svg",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\images\\accessories.svg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\bg-image.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\bg-image.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/bg-image.png",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bg-image.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\cart.svg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\cart.svg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/cart.svg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cart.svg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\change-password.svg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\change-password.svg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/change-password.svg",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\images\\change-password.svg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\cla.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\cla.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/cla.png",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cla.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\computers.svg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\computers.svg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/computers.svg",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\images\\computers.svg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\Default_pfp.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\Default_pfp.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/Default_pfp.png",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Default_pfp.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\edit-profile.svg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\edit-profile.svg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/edit-profile.svg",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\images\\edit-profile.svg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\empty-rated.svg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\empty-rated.svg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/empty-rated.svg",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\images\\empty-rated.svg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\heart.svg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\heart.svg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/heart.svg",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\images\\heart.svg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\hide-password.svg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\hide-password.svg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/hide-password.svg",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\images\\hide-password.svg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\laptops.svg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\laptops.svg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/laptops.svg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\laptops.svg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\logout.svg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\logout.svg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/logout.svg",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logout.svg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\orders.svg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\orders.svg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/orders.svg",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\images\\orders.svg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\person.svg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\person.svg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/person.svg",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\images\\person.svg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\02a5beb8-de18-4704-b1db-f3fe3728c74b.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\02a5beb8-de18-4704-b1db-f3fe3728c74b.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/02a5beb8-de18-4704-b1db-f3fe3728c74b.jpg",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\02a5beb8-de18-4704-b1db-f3fe3728c74b.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\051c86ce-104f-402d-aca2-d5b062f33fac.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\051c86ce-104f-402d-aca2-d5b062f33fac.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/051c86ce-104f-402d-aca2-d5b062f33fac.jpg",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\051c86ce-104f-402d-aca2-d5b062f33fac.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\05fc8f4c-5c44-4ebb-b50b-17cbbf377e75.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\05fc8f4c-5c44-4ebb-b50b-17cbbf377e75.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/05fc8f4c-5c44-4ebb-b50b-17cbbf377e75.jpg",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\05fc8f4c-5c44-4ebb-b50b-17cbbf377e75.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\0c29b246-f844-43c7-b2f1-e1614010024c.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\0c29b246-f844-43c7-b2f1-e1614010024c.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/0c29b246-f844-43c7-b2f1-e1614010024c.jpg",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\0c29b246-f844-43c7-b2f1-e1614010024c.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\0f700b46-17be-4f1d-b6d4-9d149b376c39.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\0f700b46-17be-4f1d-b6d4-9d149b376c39.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/0f700b46-17be-4f1d-b6d4-9d149b376c39.jpg",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\0f700b46-17be-4f1d-b6d4-9d149b376c39.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\0f751b92-265e-490d-9a90-b20594d42305.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\0f751b92-265e-490d-9a90-b20594d42305.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/0f751b92-265e-490d-9a90-b20594d42305.jpg",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\0f751b92-265e-490d-9a90-b20594d42305.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\10a7659f-f4ae-4c5e-91d0-203366d79711.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\10a7659f-f4ae-4c5e-91d0-203366d79711.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/10a7659f-f4ae-4c5e-91d0-203366d79711.png",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\10a7659f-f4ae-4c5e-91d0-203366d79711.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\1353da52-eac1-4a24-bb4b-8dd6d7f32951.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\1353da52-eac1-4a24-bb4b-8dd6d7f32951.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/1353da52-eac1-4a24-bb4b-8dd6d7f32951.jpg",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\1353da52-eac1-4a24-bb4b-8dd6d7f32951.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\16d0a597-60f3-4a80-8fc0-a4a4d0406f97.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\16d0a597-60f3-4a80-8fc0-a4a4d0406f97.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/16d0a597-60f3-4a80-8fc0-a4a4d0406f97.jpg",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\16d0a597-60f3-4a80-8fc0-a4a4d0406f97.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\185f71ff-3beb-4e4c-9540-42afa2717b44.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\185f71ff-3beb-4e4c-9540-42afa2717b44.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/185f71ff-3beb-4e4c-9540-42afa2717b44.jpg",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\185f71ff-3beb-4e4c-9540-42afa2717b44.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\1d37dcb8-4c08-42e1-8633-377b4619eed6.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\1d37dcb8-4c08-42e1-8633-377b4619eed6.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/1d37dcb8-4c08-42e1-8633-377b4619eed6.jpg",
       "AssetKind": "All",
@@ -606,10 +606,29 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\1d37dcb8-4c08-42e1-8633-377b4619eed6.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\1f7af706-cce3-4046-9065-7ef94a1af74c.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\1e7605a4-2ba6-4f91-acde-0b8713e4ba06.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "images/product-images/1e7605a4-2ba6-4f91-acde-0b8713e4ba06.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product-images\\1e7605a4-2ba6-4f91-acde-0b8713e4ba06.jpg"
+    },
+    {
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\1f7af706-cce3-4046-9065-7ef94a1af74c.jpg",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/1f7af706-cce3-4046-9065-7ef94a1af74c.jpg",
       "AssetKind": "All",
@@ -625,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\1f7af706-cce3-4046-9065-7ef94a1af74c.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\22ff0d4c-98be-4679-8410-9b62adfdfca7.webp",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\22ff0d4c-98be-4679-8410-9b62adfdfca7.webp",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/22ff0d4c-98be-4679-8410-9b62adfdfca7.webp",
       "AssetKind": "All",
@@ -644,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\22ff0d4c-98be-4679-8410-9b62adfdfca7.webp"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\2410bf0b-789b-4d94-968b-c574d21dbc32.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\2410bf0b-789b-4d94-968b-c574d21dbc32.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/2410bf0b-789b-4d94-968b-c574d21dbc32.png",
       "AssetKind": "All",
@@ -663,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\2410bf0b-789b-4d94-968b-c574d21dbc32.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\24c7ae28-869d-430f-8d0e-615c9b880439.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\24c7ae28-869d-430f-8d0e-615c9b880439.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/24c7ae28-869d-430f-8d0e-615c9b880439.jpg",
       "AssetKind": "All",
@@ -682,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\24c7ae28-869d-430f-8d0e-615c9b880439.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\26d686e5-62e9-495a-8d77-58cab7a3d4c6.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\26d686e5-62e9-495a-8d77-58cab7a3d4c6.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/26d686e5-62e9-495a-8d77-58cab7a3d4c6.jpg",
       "AssetKind": "All",
@@ -701,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\26d686e5-62e9-495a-8d77-58cab7a3d4c6.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\2e697227-d722-4946-ab0d-60eb27f035b4.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\2e697227-d722-4946-ab0d-60eb27f035b4.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/2e697227-d722-4946-ab0d-60eb27f035b4.png",
       "AssetKind": "All",
@@ -720,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\2e697227-d722-4946-ab0d-60eb27f035b4.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\370abc4f-8b9b-49b1-8b39-c688693a9a73.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\370abc4f-8b9b-49b1-8b39-c688693a9a73.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/370abc4f-8b9b-49b1-8b39-c688693a9a73.jpg",
       "AssetKind": "All",
@@ -739,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\370abc4f-8b9b-49b1-8b39-c688693a9a73.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\378496d7-73b4-4176-8a28-1176b49251c9.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\378496d7-73b4-4176-8a28-1176b49251c9.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/378496d7-73b4-4176-8a28-1176b49251c9.jpg",
       "AssetKind": "All",
@@ -758,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\378496d7-73b4-4176-8a28-1176b49251c9.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\3d2469ab-a162-4888-8fa0-30f89278fd78.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\3d2469ab-a162-4888-8fa0-30f89278fd78.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/3d2469ab-a162-4888-8fa0-30f89278fd78.jpg",
       "AssetKind": "All",
@@ -777,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\3d2469ab-a162-4888-8fa0-30f89278fd78.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\3d704e1d-84a2-4ee6-a7a6-f6f3799977f1.webp",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\3d704e1d-84a2-4ee6-a7a6-f6f3799977f1.webp",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/3d704e1d-84a2-4ee6-a7a6-f6f3799977f1.webp",
       "AssetKind": "All",
@@ -796,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\3d704e1d-84a2-4ee6-a7a6-f6f3799977f1.webp"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\3e08bfab-9dd8-4117-97f2-126ced32275b.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\3e08bfab-9dd8-4117-97f2-126ced32275b.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/3e08bfab-9dd8-4117-97f2-126ced32275b.png",
       "AssetKind": "All",
@@ -815,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\3e08bfab-9dd8-4117-97f2-126ced32275b.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\41e03f0c-df5f-42c0-bf60-760f2dc37e87.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\41e03f0c-df5f-42c0-bf60-760f2dc37e87.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/41e03f0c-df5f-42c0-bf60-760f2dc37e87.jpg",
       "AssetKind": "All",
@@ -834,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\41e03f0c-df5f-42c0-bf60-760f2dc37e87.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\42baab44-b24e-4953-b450-bf2413d9c1c8.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\42baab44-b24e-4953-b450-bf2413d9c1c8.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/42baab44-b24e-4953-b450-bf2413d9c1c8.jpg",
       "AssetKind": "All",
@@ -853,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\42baab44-b24e-4953-b450-bf2413d9c1c8.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\448ec662-153c-428b-82c0-7504b4519d7a.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\448ec662-153c-428b-82c0-7504b4519d7a.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/448ec662-153c-428b-82c0-7504b4519d7a.jpg",
       "AssetKind": "All",
@@ -872,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\448ec662-153c-428b-82c0-7504b4519d7a.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\46c45714-af67-4be5-9e29-98e86384536c.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\46c45714-af67-4be5-9e29-98e86384536c.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/46c45714-af67-4be5-9e29-98e86384536c.jpg",
       "AssetKind": "All",
@@ -891,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\46c45714-af67-4be5-9e29-98e86384536c.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\4927f4e1-3c33-4844-8336-6f512f8c3dc1.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\4927f4e1-3c33-4844-8336-6f512f8c3dc1.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/4927f4e1-3c33-4844-8336-6f512f8c3dc1.jpg",
       "AssetKind": "All",
@@ -910,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\4927f4e1-3c33-4844-8336-6f512f8c3dc1.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\4cf538c6-e6fc-434c-9bbf-0710e4666e62.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\4cf538c6-e6fc-434c-9bbf-0710e4666e62.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/4cf538c6-e6fc-434c-9bbf-0710e4666e62.jpg",
       "AssetKind": "All",
@@ -929,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\4cf538c6-e6fc-434c-9bbf-0710e4666e62.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\50a048b1-8b27-400b-94a9-00489ea395e3.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\50a048b1-8b27-400b-94a9-00489ea395e3.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/50a048b1-8b27-400b-94a9-00489ea395e3.png",
       "AssetKind": "All",
@@ -948,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\50a048b1-8b27-400b-94a9-00489ea395e3.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\50a4f298-94ec-4227-9112-e0dcca547807.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\50a4f298-94ec-4227-9112-e0dcca547807.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/50a4f298-94ec-4227-9112-e0dcca547807.jpg",
       "AssetKind": "All",
@@ -967,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\50a4f298-94ec-4227-9112-e0dcca547807.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\51f895ac-414c-4d13-a004-ea89034692fa.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\51f895ac-414c-4d13-a004-ea89034692fa.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/51f895ac-414c-4d13-a004-ea89034692fa.png",
       "AssetKind": "All",
@@ -986,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\51f895ac-414c-4d13-a004-ea89034692fa.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\5aaa7117-a498-419b-9591-f61076c66e68.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\5aaa7117-a498-419b-9591-f61076c66e68.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/5aaa7117-a498-419b-9591-f61076c66e68.jpg",
       "AssetKind": "All",
@@ -1005,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\5aaa7117-a498-419b-9591-f61076c66e68.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\5c7ccf36-1601-4f28-b3bb-7194cfecd521.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\5c7ccf36-1601-4f28-b3bb-7194cfecd521.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/5c7ccf36-1601-4f28-b3bb-7194cfecd521.jpg",
       "AssetKind": "All",
@@ -1024,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\5c7ccf36-1601-4f28-b3bb-7194cfecd521.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\5f22b1c3-70a3-42e5-b215-c1925447f5b1.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\5f22b1c3-70a3-42e5-b215-c1925447f5b1.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/5f22b1c3-70a3-42e5-b215-c1925447f5b1.jpg",
       "AssetKind": "All",
@@ -1043,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\5f22b1c3-70a3-42e5-b215-c1925447f5b1.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\603eb8c0-0ef5-4ea8-ba82-64fb980c71b6.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\603eb8c0-0ef5-4ea8-ba82-64fb980c71b6.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/603eb8c0-0ef5-4ea8-ba82-64fb980c71b6.png",
       "AssetKind": "All",
@@ -1062,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\603eb8c0-0ef5-4ea8-ba82-64fb980c71b6.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\611de89f-75e5-4c41-936c-cf991bbb695b.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\611de89f-75e5-4c41-936c-cf991bbb695b.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/611de89f-75e5-4c41-936c-cf991bbb695b.jpg",
       "AssetKind": "All",
@@ -1081,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\611de89f-75e5-4c41-936c-cf991bbb695b.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\63eabcaf-2bd9-41a9-9891-b77e52c0000d.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\63eabcaf-2bd9-41a9-9891-b77e52c0000d.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/63eabcaf-2bd9-41a9-9891-b77e52c0000d.png",
       "AssetKind": "All",
@@ -1100,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\63eabcaf-2bd9-41a9-9891-b77e52c0000d.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\67d3b2d0-b999-4878-aafc-ecab2dbc7f78.webp",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\67d3b2d0-b999-4878-aafc-ecab2dbc7f78.webp",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/67d3b2d0-b999-4878-aafc-ecab2dbc7f78.webp",
       "AssetKind": "All",
@@ -1119,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\67d3b2d0-b999-4878-aafc-ecab2dbc7f78.webp"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\67dc59b9-8425-4633-836d-5bda227525e1.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\67dc59b9-8425-4633-836d-5bda227525e1.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/67dc59b9-8425-4633-836d-5bda227525e1.png",
       "AssetKind": "All",
@@ -1138,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\67dc59b9-8425-4633-836d-5bda227525e1.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\695c7cd2-6b69-4e07-9982-42adb6657a45.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\695c7cd2-6b69-4e07-9982-42adb6657a45.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/695c7cd2-6b69-4e07-9982-42adb6657a45.jpg",
       "AssetKind": "All",
@@ -1157,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\695c7cd2-6b69-4e07-9982-42adb6657a45.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\6b59cc2f-c76f-4384-8a67-df05f072c1d5.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\6b59cc2f-c76f-4384-8a67-df05f072c1d5.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/6b59cc2f-c76f-4384-8a67-df05f072c1d5.jpg",
       "AssetKind": "All",
@@ -1176,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\6b59cc2f-c76f-4384-8a67-df05f072c1d5.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\71bbacfe-68f0-4102-80f2-f95bf1037a85.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\71bbacfe-68f0-4102-80f2-f95bf1037a85.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/71bbacfe-68f0-4102-80f2-f95bf1037a85.jpg",
       "AssetKind": "All",
@@ -1195,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\71bbacfe-68f0-4102-80f2-f95bf1037a85.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\7a2536d5-ee2e-4c26-89dd-a44402fec586.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\7a2536d5-ee2e-4c26-89dd-a44402fec586.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/7a2536d5-ee2e-4c26-89dd-a44402fec586.jpg",
       "AssetKind": "All",
@@ -1214,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\7a2536d5-ee2e-4c26-89dd-a44402fec586.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\8bddb6c9-7a7a-475f-a492-3a6469c5d3fc.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\8bddb6c9-7a7a-475f-a492-3a6469c5d3fc.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/8bddb6c9-7a7a-475f-a492-3a6469c5d3fc.jpg",
       "AssetKind": "All",
@@ -1233,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\8bddb6c9-7a7a-475f-a492-3a6469c5d3fc.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\8bf7fc1b-03c2-47d7-aac6-ef09f6959a8b.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\8bf7fc1b-03c2-47d7-aac6-ef09f6959a8b.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/8bf7fc1b-03c2-47d7-aac6-ef09f6959a8b.jpg",
       "AssetKind": "All",
@@ -1252,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\8bf7fc1b-03c2-47d7-aac6-ef09f6959a8b.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\91ac4bf5-1481-49cc-bf1d-e14f5919fa82.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\91ac4bf5-1481-49cc-bf1d-e14f5919fa82.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/91ac4bf5-1481-49cc-bf1d-e14f5919fa82.jpg",
       "AssetKind": "All",
@@ -1271,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\91ac4bf5-1481-49cc-bf1d-e14f5919fa82.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\92f09eac-1605-4552-965d-db09b1146449.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\92f09eac-1605-4552-965d-db09b1146449.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/92f09eac-1605-4552-965d-db09b1146449.jpg",
       "AssetKind": "All",
@@ -1290,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\92f09eac-1605-4552-965d-db09b1146449.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\95e79a23-fb1c-43f8-a88e-6dcd812e18ae.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\95e79a23-fb1c-43f8-a88e-6dcd812e18ae.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/95e79a23-fb1c-43f8-a88e-6dcd812e18ae.jpg",
       "AssetKind": "All",
@@ -1309,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\95e79a23-fb1c-43f8-a88e-6dcd812e18ae.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\974b4448-4ed5-4e48-a4f1-998a21925741.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\974b4448-4ed5-4e48-a4f1-998a21925741.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/974b4448-4ed5-4e48-a4f1-998a21925741.png",
       "AssetKind": "All",
@@ -1328,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\974b4448-4ed5-4e48-a4f1-998a21925741.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\9c50e74c-6b79-4913-9f7d-4eb36f3fa267.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\9c50e74c-6b79-4913-9f7d-4eb36f3fa267.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/9c50e74c-6b79-4913-9f7d-4eb36f3fa267.jpg",
       "AssetKind": "All",
@@ -1347,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\9c50e74c-6b79-4913-9f7d-4eb36f3fa267.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\9cd31e1a-12e0-457d-815b-9d3e31cbe6d2.webp",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\9cd31e1a-12e0-457d-815b-9d3e31cbe6d2.webp",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/9cd31e1a-12e0-457d-815b-9d3e31cbe6d2.webp",
       "AssetKind": "All",
@@ -1366,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\9cd31e1a-12e0-457d-815b-9d3e31cbe6d2.webp"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\9f8364fe-71ea-4c5d-8581-871dfde5d24c.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\9f8364fe-71ea-4c5d-8581-871dfde5d24c.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/9f8364fe-71ea-4c5d-8581-871dfde5d24c.jpg",
       "AssetKind": "All",
@@ -1385,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\9f8364fe-71ea-4c5d-8581-871dfde5d24c.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\a0c85643-0968-4a31-bae0-7c25bc4da811.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\a0c85643-0968-4a31-bae0-7c25bc4da811.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/a0c85643-0968-4a31-bae0-7c25bc4da811.png",
       "AssetKind": "All",
@@ -1404,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\a0c85643-0968-4a31-bae0-7c25bc4da811.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\a591260f-a44b-4193-934f-13f81a1b0bd0.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\a591260f-a44b-4193-934f-13f81a1b0bd0.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/a591260f-a44b-4193-934f-13f81a1b0bd0.jpg",
       "AssetKind": "All",
@@ -1423,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\a591260f-a44b-4193-934f-13f81a1b0bd0.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\a5c59a64-82b2-4756-8e39-9312297abeae.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\a5c59a64-82b2-4756-8e39-9312297abeae.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/a5c59a64-82b2-4756-8e39-9312297abeae.jpg",
       "AssetKind": "All",
@@ -1442,10 +1461,29 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\a5c59a64-82b2-4756-8e39-9312297abeae.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ab37d929-c5d8-476a-b89f-13b330aea8f6.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\a716d091-59a1-44ed-b907-580e1bc3a2d5.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "images/product-images/a716d091-59a1-44ed-b907-580e1bc3a2d5.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product-images\\a716d091-59a1-44ed-b907-580e1bc3a2d5.jpg"
+    },
+    {
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ab37d929-c5d8-476a-b89f-13b330aea8f6.jpg",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/ab37d929-c5d8-476a-b89f-13b330aea8f6.jpg",
       "AssetKind": "All",
@@ -1461,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\ab37d929-c5d8-476a-b89f-13b330aea8f6.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ab7ab79d-bda1-4d69-a94c-82b49eea02e0.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ab7ab79d-bda1-4d69-a94c-82b49eea02e0.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/ab7ab79d-bda1-4d69-a94c-82b49eea02e0.png",
       "AssetKind": "All",
@@ -1480,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\ab7ab79d-bda1-4d69-a94c-82b49eea02e0.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ac807f1a-45b5-4d49-9955-1634895f9680.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ac807f1a-45b5-4d49-9955-1634895f9680.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/ac807f1a-45b5-4d49-9955-1634895f9680.jpg",
       "AssetKind": "All",
@@ -1499,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\ac807f1a-45b5-4d49-9955-1634895f9680.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b0734742-17f9-45f8-a13b-ef3b0a36f0b2.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b0734742-17f9-45f8-a13b-ef3b0a36f0b2.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/b0734742-17f9-45f8-a13b-ef3b0a36f0b2.jpg",
       "AssetKind": "All",
@@ -1518,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\b0734742-17f9-45f8-a13b-ef3b0a36f0b2.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b1b4c276-c105-4895-b29c-5088e1d04d26.webp",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b1b4c276-c105-4895-b29c-5088e1d04d26.webp",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/b1b4c276-c105-4895-b29c-5088e1d04d26.webp",
       "AssetKind": "All",
@@ -1537,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\b1b4c276-c105-4895-b29c-5088e1d04d26.webp"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b20df1e9-ec1b-4ce9-9cfc-a4e6670ab8ed.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b20df1e9-ec1b-4ce9-9cfc-a4e6670ab8ed.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/b20df1e9-ec1b-4ce9-9cfc-a4e6670ab8ed.jpg",
       "AssetKind": "All",
@@ -1556,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\b20df1e9-ec1b-4ce9-9cfc-a4e6670ab8ed.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b53893bb-326c-4d52-87ab-647958b85e59.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b53893bb-326c-4d52-87ab-647958b85e59.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/b53893bb-326c-4d52-87ab-647958b85e59.png",
       "AssetKind": "All",
@@ -1575,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\b53893bb-326c-4d52-87ab-647958b85e59.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b7e8d12d-f531-484a-86f4-61693efb87b9.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b7e8d12d-f531-484a-86f4-61693efb87b9.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/b7e8d12d-f531-484a-86f4-61693efb87b9.jpg",
       "AssetKind": "All",
@@ -1594,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\b7e8d12d-f531-484a-86f4-61693efb87b9.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b830613f-82d5-4664-b5f7-52db99ea535c.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b830613f-82d5-4664-b5f7-52db99ea535c.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/b830613f-82d5-4664-b5f7-52db99ea535c.jpg",
       "AssetKind": "All",
@@ -1613,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\b830613f-82d5-4664-b5f7-52db99ea535c.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b91ab8ca-b49f-4f02-b908-b32443783f80.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b91ab8ca-b49f-4f02-b908-b32443783f80.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/b91ab8ca-b49f-4f02-b908-b32443783f80.jpg",
       "AssetKind": "All",
@@ -1632,10 +1670,29 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\b91ab8ca-b49f-4f02-b908-b32443783f80.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b9e30fd1-17d8-405b-8d6e-13d337ae288d.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b9933f77-f64b-4c4b-86d8-5529fae4d229.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "images/product-images/b9933f77-f64b-4c4b-86d8-5529fae4d229.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product-images\\b9933f77-f64b-4c4b-86d8-5529fae4d229.jpg"
+    },
+    {
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b9e30fd1-17d8-405b-8d6e-13d337ae288d.jpg",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/b9e30fd1-17d8-405b-8d6e-13d337ae288d.jpg",
       "AssetKind": "All",
@@ -1651,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\b9e30fd1-17d8-405b-8d6e-13d337ae288d.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ba292780-76e6-45ca-bfb3-87cdc821d925.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ba292780-76e6-45ca-bfb3-87cdc821d925.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/ba292780-76e6-45ca-bfb3-87cdc821d925.png",
       "AssetKind": "All",
@@ -1670,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\ba292780-76e6-45ca-bfb3-87cdc821d925.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ba5f14e4-e791-4e3f-84c2-16f6d9f682ee.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ba5f14e4-e791-4e3f-84c2-16f6d9f682ee.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/ba5f14e4-e791-4e3f-84c2-16f6d9f682ee.png",
       "AssetKind": "All",
@@ -1689,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\ba5f14e4-e791-4e3f-84c2-16f6d9f682ee.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\baec27b2-21c9-46d0-bbc3-7162fbb285bf.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\baec27b2-21c9-46d0-bbc3-7162fbb285bf.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/baec27b2-21c9-46d0-bbc3-7162fbb285bf.jpg",
       "AssetKind": "All",
@@ -1708,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\baec27b2-21c9-46d0-bbc3-7162fbb285bf.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\beebc689-0bef-4bae-90b7-4dbc78d8e700.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\beebc689-0bef-4bae-90b7-4dbc78d8e700.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/beebc689-0bef-4bae-90b7-4dbc78d8e700.jpg",
       "AssetKind": "All",
@@ -1727,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\beebc689-0bef-4bae-90b7-4dbc78d8e700.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\bf903bff-2c80-419e-956e-7fdfb9935469.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\bf903bff-2c80-419e-956e-7fdfb9935469.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/bf903bff-2c80-419e-956e-7fdfb9935469.jpg",
       "AssetKind": "All",
@@ -1746,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\bf903bff-2c80-419e-956e-7fdfb9935469.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\c1fd77c1-2e40-4d2f-8267-116965445e84.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\c1fd77c1-2e40-4d2f-8267-116965445e84.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/c1fd77c1-2e40-4d2f-8267-116965445e84.jpg",
       "AssetKind": "All",
@@ -1765,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\c1fd77c1-2e40-4d2f-8267-116965445e84.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\c5a58ea9-46c6-4d59-847c-794aaa66c7c0.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\c5a58ea9-46c6-4d59-847c-794aaa66c7c0.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/c5a58ea9-46c6-4d59-847c-794aaa66c7c0.png",
       "AssetKind": "All",
@@ -1784,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\c5a58ea9-46c6-4d59-847c-794aaa66c7c0.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\c669c9d9-4b6b-4b00-a36d-4d8368926254.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\c669c9d9-4b6b-4b00-a36d-4d8368926254.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/c669c9d9-4b6b-4b00-a36d-4d8368926254.jpg",
       "AssetKind": "All",
@@ -1803,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\c669c9d9-4b6b-4b00-a36d-4d8368926254.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\c6dec16e-8077-4510-833d-b1a5e8159bf5.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\c6dec16e-8077-4510-833d-b1a5e8159bf5.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/c6dec16e-8077-4510-833d-b1a5e8159bf5.png",
       "AssetKind": "All",
@@ -1822,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\c6dec16e-8077-4510-833d-b1a5e8159bf5.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\cb10a72c-1174-4632-9f89-85c72d4c99c9.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\cb10a72c-1174-4632-9f89-85c72d4c99c9.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/cb10a72c-1174-4632-9f89-85c72d4c99c9.jpg",
       "AssetKind": "All",
@@ -1841,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\cb10a72c-1174-4632-9f89-85c72d4c99c9.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\cd2b32ad-011d-4868-8c15-9a8d5510d912.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\cd2b32ad-011d-4868-8c15-9a8d5510d912.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/cd2b32ad-011d-4868-8c15-9a8d5510d912.jpg",
       "AssetKind": "All",
@@ -1860,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\cd2b32ad-011d-4868-8c15-9a8d5510d912.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ce524acd-4ccb-4575-9803-e26b34133d86.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ce524acd-4ccb-4575-9803-e26b34133d86.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/ce524acd-4ccb-4575-9803-e26b34133d86.jpg",
       "AssetKind": "All",
@@ -1879,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\ce524acd-4ccb-4575-9803-e26b34133d86.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\d06b769c-2c6f-4766-ac73-6e9e3efc665f.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\d06b769c-2c6f-4766-ac73-6e9e3efc665f.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/d06b769c-2c6f-4766-ac73-6e9e3efc665f.jpg",
       "AssetKind": "All",
@@ -1898,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\d06b769c-2c6f-4766-ac73-6e9e3efc665f.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\d0c635ad-378d-45c8-82e4-b740fd51126e.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\d0c635ad-378d-45c8-82e4-b740fd51126e.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/d0c635ad-378d-45c8-82e4-b740fd51126e.jpg",
       "AssetKind": "All",
@@ -1917,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\d0c635ad-378d-45c8-82e4-b740fd51126e.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\d2593582-a2b9-4e14-84af-84cd4446eb78.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\d2593582-a2b9-4e14-84af-84cd4446eb78.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/d2593582-a2b9-4e14-84af-84cd4446eb78.png",
       "AssetKind": "All",
@@ -1936,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\d2593582-a2b9-4e14-84af-84cd4446eb78.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\d5126ff8-710e-4223-8f95-2fe70bdfc488.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\d5126ff8-710e-4223-8f95-2fe70bdfc488.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/d5126ff8-710e-4223-8f95-2fe70bdfc488.jpg",
       "AssetKind": "All",
@@ -1955,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\d5126ff8-710e-4223-8f95-2fe70bdfc488.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\d76ff44d-c925-4e1e-ba09-10ef88610137.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\d76ff44d-c925-4e1e-ba09-10ef88610137.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/d76ff44d-c925-4e1e-ba09-10ef88610137.png",
       "AssetKind": "All",
@@ -1974,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\d76ff44d-c925-4e1e-ba09-10ef88610137.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\d84b7702-59eb-4422-bcba-b14b493af149.webp",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\d84b7702-59eb-4422-bcba-b14b493af149.webp",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/d84b7702-59eb-4422-bcba-b14b493af149.webp",
       "AssetKind": "All",
@@ -1993,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\d84b7702-59eb-4422-bcba-b14b493af149.webp"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\da71c572-5bad-49a8-8d1c-a49f8d4ea320.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\da71c572-5bad-49a8-8d1c-a49f8d4ea320.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/da71c572-5bad-49a8-8d1c-a49f8d4ea320.jpg",
       "AssetKind": "All",
@@ -2012,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\da71c572-5bad-49a8-8d1c-a49f8d4ea320.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\dfb65b34-ad99-4230-87fc-e827a5d255db.webp",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\dfb65b34-ad99-4230-87fc-e827a5d255db.webp",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/dfb65b34-ad99-4230-87fc-e827a5d255db.webp",
       "AssetKind": "All",
@@ -2031,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\dfb65b34-ad99-4230-87fc-e827a5d255db.webp"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\e16a022a-f224-4b8d-825d-25f4b240e502.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\e16a022a-f224-4b8d-825d-25f4b240e502.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/e16a022a-f224-4b8d-825d-25f4b240e502.jpg",
       "AssetKind": "All",
@@ -2050,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\e16a022a-f224-4b8d-825d-25f4b240e502.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\e6b879ba-afd4-4239-bd96-81c241d212f2.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\e6b879ba-afd4-4239-bd96-81c241d212f2.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/e6b879ba-afd4-4239-bd96-81c241d212f2.png",
       "AssetKind": "All",
@@ -2069,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\e6b879ba-afd4-4239-bd96-81c241d212f2.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\e78e23a1-0341-421d-9aaa-f73f2a5924c3.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\e78e23a1-0341-421d-9aaa-f73f2a5924c3.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/e78e23a1-0341-421d-9aaa-f73f2a5924c3.jpg",
       "AssetKind": "All",
@@ -2088,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\e78e23a1-0341-421d-9aaa-f73f2a5924c3.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\e8f8d9b6-713f-47ec-8ba6-2cbeaccb5671.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\e8f8d9b6-713f-47ec-8ba6-2cbeaccb5671.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/e8f8d9b6-713f-47ec-8ba6-2cbeaccb5671.png",
       "AssetKind": "All",
@@ -2107,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\e8f8d9b6-713f-47ec-8ba6-2cbeaccb5671.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\e8f8da61-1152-4522-b834-0cd0b686ed65.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\e8f8da61-1152-4522-b834-0cd0b686ed65.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/e8f8da61-1152-4522-b834-0cd0b686ed65.jpg",
       "AssetKind": "All",
@@ -2126,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\e8f8da61-1152-4522-b834-0cd0b686ed65.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\e9bbd287-aafb-46d4-b0dd-78feb2288dcd.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\e9bbd287-aafb-46d4-b0dd-78feb2288dcd.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/e9bbd287-aafb-46d4-b0dd-78feb2288dcd.jpg",
       "AssetKind": "All",
@@ -2145,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\e9bbd287-aafb-46d4-b0dd-78feb2288dcd.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ed5486f0-c601-47d5-aa62-9a5d087514d0.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ed5486f0-c601-47d5-aa62-9a5d087514d0.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/ed5486f0-c601-47d5-aa62-9a5d087514d0.png",
       "AssetKind": "All",
@@ -2164,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\ed5486f0-c601-47d5-aa62-9a5d087514d0.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\f33f8193-02f9-4e32-9839-59759659ad5f.webp",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\f33f8193-02f9-4e32-9839-59759659ad5f.webp",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/f33f8193-02f9-4e32-9839-59759659ad5f.webp",
       "AssetKind": "All",
@@ -2183,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\f33f8193-02f9-4e32-9839-59759659ad5f.webp"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\f8f8c2a3-746d-4fec-b134-8e54a0b4ab1d.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\f8f8c2a3-746d-4fec-b134-8e54a0b4ab1d.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/f8f8c2a3-746d-4fec-b134-8e54a0b4ab1d.jpg",
       "AssetKind": "All",
@@ -2202,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\f8f8c2a3-746d-4fec-b134-8e54a0b4ab1d.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\f97b72c1-3c98-4f1d-ad4c-3e1afae10bbc.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\f97b72c1-3c98-4f1d-ad4c-3e1afae10bbc.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/f97b72c1-3c98-4f1d-ad4c-3e1afae10bbc.jpg",
       "AssetKind": "All",
@@ -2221,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\f97b72c1-3c98-4f1d-ad4c-3e1afae10bbc.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\fb5ff000-1129-4297-9d87-9140f9e7a2fd.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\fb5ff000-1129-4297-9d87-9140f9e7a2fd.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/fb5ff000-1129-4297-9d87-9140f9e7a2fd.jpg",
       "AssetKind": "All",
@@ -2240,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\fb5ff000-1129-4297-9d87-9140f9e7a2fd.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\feabc6ce-52a4-4808-abc8-2b3560badd28.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\feabc6ce-52a4-4808-abc8-2b3560badd28.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/feabc6ce-52a4-4808-abc8-2b3560badd28.jpg",
       "AssetKind": "All",
@@ -2259,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\feabc6ce-52a4-4808-abc8-2b3560badd28.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\hp-27.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\hp-27.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/hp-27.jpg",
       "AssetKind": "All",
@@ -2278,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\hp-27.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\iMac-24.jfif",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\iMac-24.jfif",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/product-images/iMac-24.jfif",
       "AssetKind": "All",
@@ -2297,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\images\\product-images\\iMac-24.jfif"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\079b3115-5669-4b06-9633-366e24521ef6.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\079b3115-5669-4b06-9633-366e24521ef6.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/079b3115-5669-4b06-9633-366e24521ef6.png",
       "AssetKind": "All",
@@ -2316,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\079b3115-5669-4b06-9633-366e24521ef6.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\10fcc74f-9853-46bf-8ea2-444b19835cca.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\10fcc74f-9853-46bf-8ea2-444b19835cca.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/10fcc74f-9853-46bf-8ea2-444b19835cca.png",
       "AssetKind": "All",
@@ -2335,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\10fcc74f-9853-46bf-8ea2-444b19835cca.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\1f8de0e7-f535-4816-aef3-487a2a2022d2.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\1f8de0e7-f535-4816-aef3-487a2a2022d2.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/1f8de0e7-f535-4816-aef3-487a2a2022d2.png",
       "AssetKind": "All",
@@ -2354,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\1f8de0e7-f535-4816-aef3-487a2a2022d2.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\2c4d6f16-5e3e-4c82-9142-52e8e35a5deb.jfif",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\2c4d6f16-5e3e-4c82-9142-52e8e35a5deb.jfif",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/2c4d6f16-5e3e-4c82-9142-52e8e35a5deb.jfif",
       "AssetKind": "All",
@@ -2373,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\2c4d6f16-5e3e-4c82-9142-52e8e35a5deb.jfif"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\2df20178-49d3-4440-9155-a0a3dcf77008.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\2df20178-49d3-4440-9155-a0a3dcf77008.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/2df20178-49d3-4440-9155-a0a3dcf77008.jpg",
       "AssetKind": "All",
@@ -2392,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\2df20178-49d3-4440-9155-a0a3dcf77008.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\3538be29-a480-4f8f-834e-e590eca8b39e.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\3538be29-a480-4f8f-834e-e590eca8b39e.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/3538be29-a480-4f8f-834e-e590eca8b39e.png",
       "AssetKind": "All",
@@ -2411,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\3538be29-a480-4f8f-834e-e590eca8b39e.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\3ce0508f-f2ea-47a9-a9b4-47c7204ef7b4.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\3ce0508f-f2ea-47a9-a9b4-47c7204ef7b4.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/3ce0508f-f2ea-47a9-a9b4-47c7204ef7b4.png",
       "AssetKind": "All",
@@ -2430,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\3ce0508f-f2ea-47a9-a9b4-47c7204ef7b4.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\4aa8daac-2ac2-47d2-a1e1-3be99652423d.jfif",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\4aa8daac-2ac2-47d2-a1e1-3be99652423d.jfif",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/4aa8daac-2ac2-47d2-a1e1-3be99652423d.jfif",
       "AssetKind": "All",
@@ -2449,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\4aa8daac-2ac2-47d2-a1e1-3be99652423d.jfif"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\6037217c-9f88-457b-ae5a-7433e9b8a1c4.jfif",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\6037217c-9f88-457b-ae5a-7433e9b8a1c4.jfif",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/6037217c-9f88-457b-ae5a-7433e9b8a1c4.jfif",
       "AssetKind": "All",
@@ -2468,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\6037217c-9f88-457b-ae5a-7433e9b8a1c4.jfif"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\68b73d98-6353-4b7a-b939-2566fb2dac47.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\68b73d98-6353-4b7a-b939-2566fb2dac47.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/68b73d98-6353-4b7a-b939-2566fb2dac47.png",
       "AssetKind": "All",
@@ -2487,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\68b73d98-6353-4b7a-b939-2566fb2dac47.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\786fb4ea-1ba1-4857-abcf-8eb5ae207c51.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\786fb4ea-1ba1-4857-abcf-8eb5ae207c51.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/786fb4ea-1ba1-4857-abcf-8eb5ae207c51.png",
       "AssetKind": "All",
@@ -2506,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\786fb4ea-1ba1-4857-abcf-8eb5ae207c51.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\79a159d8-4e82-4763-9ce0-c1dafc6ca9dc.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\79a159d8-4e82-4763-9ce0-c1dafc6ca9dc.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/79a159d8-4e82-4763-9ce0-c1dafc6ca9dc.png",
       "AssetKind": "All",
@@ -2525,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\79a159d8-4e82-4763-9ce0-c1dafc6ca9dc.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\7b401f3f-35d4-49b1-aaeb-bb707a44b1e0.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\7b401f3f-35d4-49b1-aaeb-bb707a44b1e0.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/7b401f3f-35d4-49b1-aaeb-bb707a44b1e0.png",
       "AssetKind": "All",
@@ -2544,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\7b401f3f-35d4-49b1-aaeb-bb707a44b1e0.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\876ed9e7-f937-4397-b33e-32e33ac041c1.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\876ed9e7-f937-4397-b33e-32e33ac041c1.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/876ed9e7-f937-4397-b33e-32e33ac041c1.png",
       "AssetKind": "All",
@@ -2563,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\876ed9e7-f937-4397-b33e-32e33ac041c1.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\9fb59fa3-6212-4656-bcc0-073dbdf01053.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\9fb59fa3-6212-4656-bcc0-073dbdf01053.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/9fb59fa3-6212-4656-bcc0-073dbdf01053.png",
       "AssetKind": "All",
@@ -2582,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\9fb59fa3-6212-4656-bcc0-073dbdf01053.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\a50c853a-90d1-4f8a-ad89-f339b1c4e618.jfif",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\a50c853a-90d1-4f8a-ad89-f339b1c4e618.jfif",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/a50c853a-90d1-4f8a-ad89-f339b1c4e618.jfif",
       "AssetKind": "All",
@@ -2601,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\a50c853a-90d1-4f8a-ad89-f339b1c4e618.jfif"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\a70cecf1-8f88-496b-bef4-cb25613792f5.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\a70cecf1-8f88-496b-bef4-cb25613792f5.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/a70cecf1-8f88-496b-bef4-cb25613792f5.jpg",
       "AssetKind": "All",
@@ -2620,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\a70cecf1-8f88-496b-bef4-cb25613792f5.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\b0844d9b-d9f6-45d1-95d4-e67b758ac164.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\b0844d9b-d9f6-45d1-95d4-e67b758ac164.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/b0844d9b-d9f6-45d1-95d4-e67b758ac164.png",
       "AssetKind": "All",
@@ -2639,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\b0844d9b-d9f6-45d1-95d4-e67b758ac164.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\b85eb20c-39ba-4c71-82e8-bfd4672441e4.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\b85eb20c-39ba-4c71-82e8-bfd4672441e4.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/b85eb20c-39ba-4c71-82e8-bfd4672441e4.jpg",
       "AssetKind": "All",
@@ -2658,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\b85eb20c-39ba-4c71-82e8-bfd4672441e4.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\c5a0b2c3-2d65-49af-a1f3-deae484751fa.jfif",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\c5a0b2c3-2d65-49af-a1f3-deae484751fa.jfif",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/c5a0b2c3-2d65-49af-a1f3-deae484751fa.jfif",
       "AssetKind": "All",
@@ -2677,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\c5a0b2c3-2d65-49af-a1f3-deae484751fa.jfif"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\c9ad0766-9b69-448d-9c31-310495a6081f.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\c9ad0766-9b69-448d-9c31-310495a6081f.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/c9ad0766-9b69-448d-9c31-310495a6081f.png",
       "AssetKind": "All",
@@ -2696,10 +2753,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\c9ad0766-9b69-448d-9c31-310495a6081f.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\ca241f14-3317-42b7-9a2d-778bd9585307.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\ca241f14-3317-42b7-9a2d-778bd9585307.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/ca241f14-3317-42b7-9a2d-778bd9585307.png",
       "AssetKind": "All",
@@ -2715,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\ca241f14-3317-42b7-9a2d-778bd9585307.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\d28c850a-20fe-4e12-84cf-2dbb2ff7ea48.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\d28c850a-20fe-4e12-84cf-2dbb2ff7ea48.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/d28c850a-20fe-4e12-84cf-2dbb2ff7ea48.png",
       "AssetKind": "All",
@@ -2734,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\d28c850a-20fe-4e12-84cf-2dbb2ff7ea48.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\d6e2d44c-a4e0-4478-8531-016859d1fdc3.jfif",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\d6e2d44c-a4e0-4478-8531-016859d1fdc3.jfif",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/d6e2d44c-a4e0-4478-8531-016859d1fdc3.jfif",
       "AssetKind": "All",
@@ -2753,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\d6e2d44c-a4e0-4478-8531-016859d1fdc3.jfif"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\d9cd543a-7cec-4b6b-b074-a7210990701c.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\d9cd543a-7cec-4b6b-b074-a7210990701c.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/d9cd543a-7cec-4b6b-b074-a7210990701c.png",
       "AssetKind": "All",
@@ -2772,10 +2829,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\d9cd543a-7cec-4b6b-b074-a7210990701c.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\dac29b39-05ee-4e31-bf5c-f926f11a4466.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\dac29b39-05ee-4e31-bf5c-f926f11a4466.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/dac29b39-05ee-4e31-bf5c-f926f11a4466.png",
       "AssetKind": "All",
@@ -2791,10 +2848,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\dac29b39-05ee-4e31-bf5c-f926f11a4466.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\e7930ae2-8f28-4b87-a176-8b190aa4ded4.jpg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\e7930ae2-8f28-4b87-a176-8b190aa4ded4.jpg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/e7930ae2-8f28-4b87-a176-8b190aa4ded4.jpg",
       "AssetKind": "All",
@@ -2810,10 +2867,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\e7930ae2-8f28-4b87-a176-8b190aa4ded4.jpg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\f031c642-a4fa-4ddc-97bc-35431ef4bcfb.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\f031c642-a4fa-4ddc-97bc-35431ef4bcfb.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/f031c642-a4fa-4ddc-97bc-35431ef4bcfb.png",
       "AssetKind": "All",
@@ -2829,10 +2886,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\f031c642-a4fa-4ddc-97bc-35431ef4bcfb.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\f72192aa-761e-4c76-8c12-97edfd46b1a1.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\f72192aa-761e-4c76-8c12-97edfd46b1a1.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/f72192aa-761e-4c76-8c12-97edfd46b1a1.png",
       "AssetKind": "All",
@@ -2848,10 +2905,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\f72192aa-761e-4c76-8c12-97edfd46b1a1.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\ffdb7a72-ac6b-4c92-8914-27ee1297dcdb.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\ffdb7a72-ac6b-4c92-8914-27ee1297dcdb.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/profile-images/ffdb7a72-ac6b-4c92-8914-27ee1297dcdb.png",
       "AssetKind": "All",
@@ -2867,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile-images\\ffdb7a72-ac6b-4c92-8914-27ee1297dcdb.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\rated-star.svg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\rated-star.svg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/rated-star.svg",
       "AssetKind": "All",
@@ -2886,10 +2943,10 @@
       "OriginalItemSpec": "wwwroot\\images\\rated-star.svg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\rating-fill.svg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\rating-fill.svg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/rating-fill.svg",
       "AssetKind": "All",
@@ -2905,10 +2962,10 @@
       "OriginalItemSpec": "wwwroot\\images\\rating-fill.svg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\rating.svg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\rating.svg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/rating.svg",
       "AssetKind": "All",
@@ -2924,10 +2981,10 @@
       "OriginalItemSpec": "wwwroot\\images\\rating.svg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\show-password.svg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\show-password.svg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/show-password.svg",
       "AssetKind": "All",
@@ -2943,10 +3000,10 @@
       "OriginalItemSpec": "wwwroot\\images\\show-password.svg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\user-management.png",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\user-management.png",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/user-management.png",
       "AssetKind": "All",
@@ -2962,10 +3019,10 @@
       "OriginalItemSpec": "wwwroot\\images\\user-management.png"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\warning.svg",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\warning.svg",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "images/warning.svg",
       "AssetKind": "All",
@@ -2981,10 +3038,10 @@
       "OriginalItemSpec": "wwwroot\\images\\warning.svg"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\auth.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\auth.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "js/auth.js",
       "AssetKind": "All",
@@ -3000,10 +3057,10 @@
       "OriginalItemSpec": "wwwroot\\js\\auth.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\changePassword.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\changePassword.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "js/changePassword.js",
       "AssetKind": "All",
@@ -3019,10 +3076,10 @@
       "OriginalItemSpec": "wwwroot\\js\\changePassword.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\cla.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\cla.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "js/cla.js",
       "AssetKind": "All",
@@ -3038,10 +3095,10 @@
       "OriginalItemSpec": "wwwroot\\js\\cla.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\contactUs.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\contactUs.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "js/contactUs.js",
       "AssetKind": "All",
@@ -3057,10 +3114,10 @@
       "OriginalItemSpec": "wwwroot\\js\\contactUs.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\editProfile.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\editProfile.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "js/editProfile.js",
       "AssetKind": "All",
@@ -3076,10 +3133,10 @@
       "OriginalItemSpec": "wwwroot\\js\\editProfile.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\forgotPassword.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\forgotPassword.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "js/forgotPassword.js",
       "AssetKind": "All",
@@ -3095,10 +3152,10 @@
       "OriginalItemSpec": "wwwroot\\js\\forgotPassword.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\home.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\home.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "js/home.js",
       "AssetKind": "All",
@@ -3114,10 +3171,10 @@
       "OriginalItemSpec": "wwwroot\\js\\home.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\login.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\login.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "js/login.js",
       "AssetKind": "All",
@@ -3133,10 +3190,10 @@
       "OriginalItemSpec": "wwwroot\\js\\login.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\payment.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\payment.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "js/payment.js",
       "AssetKind": "All",
@@ -3152,10 +3209,10 @@
       "OriginalItemSpec": "wwwroot\\js\\payment.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\product.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\product.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "js/product.js",
       "AssetKind": "All",
@@ -3171,10 +3228,10 @@
       "OriginalItemSpec": "wwwroot\\js\\product.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\productImage.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\productImage.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "js/productImage.js",
       "AssetKind": "All",
@@ -3190,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\js\\productImage.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\registration.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\registration.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "js/registration.js",
       "AssetKind": "All",
@@ -3209,10 +3266,10 @@
       "OriginalItemSpec": "wwwroot\\js\\registration.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\resetPassword.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\resetPassword.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "js/resetPassword.js",
       "AssetKind": "All",
@@ -3228,10 +3285,10 @@
       "OriginalItemSpec": "wwwroot\\js\\resetPassword.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\site.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\site.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -3247,10 +3304,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\subscribe.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\subscribe.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "js/subscribe.js",
       "AssetKind": "All",
@@ -3266,10 +3323,10 @@
       "OriginalItemSpec": "wwwroot\\js\\subscribe.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\verifyOtp.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\verifyOtp.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "js/verifyOtp.js",
       "AssetKind": "All",
@@ -3285,10 +3342,10 @@
       "OriginalItemSpec": "wwwroot\\js\\verifyOtp.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -3304,10 +3361,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -3323,10 +3380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -3342,10 +3399,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -3361,10 +3418,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -3380,10 +3437,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -3399,10 +3456,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -3418,10 +3475,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -3437,10 +3494,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -3456,10 +3513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -3475,10 +3532,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -3494,10 +3551,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -3513,10 +3570,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -3532,10 +3589,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -3551,10 +3608,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -3570,10 +3627,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -3589,10 +3646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -3608,10 +3665,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -3627,10 +3684,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -3646,10 +3703,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -3665,10 +3722,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -3684,10 +3741,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -3703,10 +3760,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -3722,10 +3779,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -3741,10 +3798,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -3760,10 +3817,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -3779,10 +3836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -3798,10 +3855,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -3817,10 +3874,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -3836,10 +3893,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -3855,10 +3912,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -3874,10 +3931,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -3893,10 +3950,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -3912,10 +3969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -3931,10 +3988,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -3950,10 +4007,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -3969,10 +4026,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -3988,10 +4045,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -4007,10 +4064,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -4026,10 +4083,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -4045,10 +4102,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -4064,10 +4121,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -4083,10 +4140,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -4102,10 +4159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -4121,10 +4178,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -4140,10 +4197,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -4159,10 +4216,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -4178,10 +4235,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -4197,10 +4254,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -4216,10 +4273,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -4235,10 +4292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -4254,10 +4311,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -4273,10 +4330,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -4292,10 +4349,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -4311,10 +4368,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -4330,10 +4387,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -4349,10 +4406,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Demo.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
       "BasePath": "_content/Demo.Web",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

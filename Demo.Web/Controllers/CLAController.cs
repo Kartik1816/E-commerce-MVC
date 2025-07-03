@@ -20,10 +20,16 @@ public class CLAController : Controller
     }
 
     [HttpGet]
-    [Route("CLA/{categoryId}")]
-    public async Task<IActionResult> Index(int categoryId)
+    [Route("CLA/{encryptedCategoryId}")]
+    public async Task<IActionResult> Index(string encryptedCategoryId)
     {
-         string? token = Request.Cookies["token"];
+        if (string.IsNullOrEmpty(encryptedCategoryId))
+        {
+            return RedirectToAction("Index", "Home");
+        }
+        int categoryId = EncryptDecryptService.DecryptId(encryptedCategoryId);
+
+        string? token = Request.Cookies["token"];
         int userId = 0;
         if (token != null)
         {
@@ -56,7 +62,7 @@ public class CLAController : Controller
         {
             return new JsonResult(new { success = false, message = "Please Enter Valid data" });
         }
-        if (productViewModel.Id <= 0 && productViewModel.ProductImage == null)
+        if (productViewModel.Id <= 0 && productViewModel.ProductImages == null)
         {
             return new JsonResult(new { success = false, message = "Image can not be null for new Product" });
         }
@@ -217,14 +223,19 @@ public class CLAController : Controller
     }
 
     [HttpGet]
-    [Route("/CLA/ViewProduct/{productId}")]
+    [Route("/CLA/ViewProduct/{encryptedProductId}")]
     [JwtMiddleware]
-    public async Task<IActionResult> ProductDetails(int productId)
+    public async Task<IActionResult> ProductDetails(string encryptedProductId)
     {
         string? token = Request.Cookies["token"];
         if (string.IsNullOrEmpty(token))
         {
             return RedirectToAction("Index", "Auth");
+        }
+        int productId = EncryptDecryptService.DecryptId(encryptedProductId);
+        if (productId <= 0)
+        {
+            return RedirectToAction("Index", "Home");
         }
         int userId = JwtService.GetUserIdFromJwtToken(token);
         string queryString = $"?ProductId={productId}&UserId={userId}";
@@ -240,5 +251,17 @@ public class CLAController : Controller
             }
         );
         return View(productDetails);
+    }
+
+    [HttpGet]
+    [Route("/CLA/GetEncryptedId")]
+    public IActionResult GetEncryptedId(int Id)
+    {
+        if (Id <= 0)
+        {
+            return new JsonResult(new { success = false, message = "Invalid ID" });
+        }
+        string encryptedId = EncryptDecryptService.EncryptId(Id);
+        return new JsonResult(new { success = true, encryptedId = encryptedId });
     }
 }

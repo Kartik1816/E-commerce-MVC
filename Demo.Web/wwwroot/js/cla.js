@@ -111,6 +111,18 @@ function deleteProduct(productId)
 
 function viewProductDetails(productId)
 {
-    window.location.href=`/CLA/ViewProduct/${productId}`;
+    $.ajax({
+        type: 'GET',
+        url: '/CLA/GetEncryptedId',
+        data : { Id: productId },
+        success: function (data) {
+            if (data.success) {
+                window.location.href=`/CLA/ViewProduct/${data.encryptedId}`;
+            } else {
+                toastr.error(data.message);
+            }
+        },
+    });
+    
 }
 

@@ -24,7 +24,7 @@
         foreach (ProductViewModel product in Model.Products)
         {
             string productImage = string.IsNullOrEmpty(product.ImageUrl)
-                ? "/images/Default_pfp.svg.png"
+                ? "/images/Default_pfp.png"
                 : $"/images/product-images/{product.ImageUrl}";
             
             <div class="card d-flex flex-column align-items-center justify-content-center col-2 h-100 cursor-pointer px-3" onclick="viewProductDetails(@product.Id)">
