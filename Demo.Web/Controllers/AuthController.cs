@@ -38,9 +38,10 @@ public class AuthController : Controller
             if (responseData != null)
             {
                 string message = responseData.message;
-                bool success = responseData.success;
-                string token = responseData.token;
-                string refreshToken = responseData.refreshToken;
+                bool success = responseData.isSuccess;
+                dynamic? data = responseData.data;
+                string token = data?.token ?? string.Empty;
+                string refreshToken = data?.refreshToken ?? string.Empty;
                 return new JsonResult(new { success = success, message = message, token = token, refreshToken = refreshToken });
             }
             else
