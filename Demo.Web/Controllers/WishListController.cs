@@ -29,15 +29,8 @@ public class WishListController : Controller
         int userId = JwtService.GetUserIdFromJwtToken(token);
         HttpResponseMessage response = await _httpClient.GetAsync(_apiBaseUrl + "wishListProducts/" + userId);
         string jsonString = await response.Content.ReadAsStringAsync();
-        JsonDocument jsonObject = JsonDocument.Parse(jsonString);
-        JsonElement dataObject = jsonObject.RootElement.GetProperty("data");
-        List<ProductViewModel>? products = System.Text.Json.JsonSerializer.Deserialize<List<ProductViewModel>>(
-            dataObject.ToString(),
-            new JsonSerializerOptions
-            {
-                PropertyNameCaseInsensitive = true
-            }
-        );
+        ResponseModel? responseModel = JsonConvert.DeserializeObject<ResponseModel>(jsonString);
+        List<ProductViewModel>? products = JsonConvert.DeserializeObject<List<ProductViewModel>>(responseModel?.Data?.ToString() ?? string.Empty);
         WishListViewModel productListViewModel = new()
         {
             Products = products ?? new List<ProductViewModel>(),
@@ -64,11 +57,11 @@ public class WishListController : Controller
         if (response.IsSuccessStatusCode)
         {
             string responseContent = await response.Content.ReadAsStringAsync();
-            dynamic? responseData = JsonConvert.DeserializeObject<dynamic>(responseContent);
+            ResponseModel? responseData = JsonConvert.DeserializeObject<ResponseModel>(responseContent);
             if (responseData != null)
             {
-                string message = responseData.message;
-                bool success = responseData.success;
+                string? message = responseData.Message;
+                bool success = responseData.IsSuccess;
                 return new JsonResult(new { success = success, message = message });
 
             }

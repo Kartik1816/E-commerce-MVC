@@ -34,15 +34,32 @@ public class AuthController : Controller
         if (response.IsSuccessStatusCode)
         {
             string responseContent = await response.Content.ReadAsStringAsync();
-            dynamic? responseData = JsonConvert.DeserializeObject<dynamic>(responseContent);
+            ResponseModel? responseData = JsonConvert.DeserializeObject<ResponseModel>(responseContent);
+
             if (responseData != null)
             {
-                string message = responseData.message;
-                bool success = responseData.isSuccess;
-                dynamic? data = responseData.data;
-                string token = data?.token ?? string.Empty;
-                string refreshToken = data?.refreshToken ?? string.Empty;
-                return new JsonResult(new { success = success, message = message, token = token, refreshToken = refreshToken });
+                if (responseData.IsSuccess)
+                {
+                    dynamic? data = responseData.Data as dynamic;
+                    string token = data?.token ?? string.Empty;
+                    string refreshToken = data?.refreshToken ?? string.Empty;
+
+                    return new JsonResult(new 
+                    { 
+                        success = responseData.IsSuccess, 
+                        message = responseData.Message, 
+                        token = token, 
+                        refreshToken = refreshToken 
+                    });
+                }
+                else
+                {
+                    return new JsonResult(new 
+                    { 
+                        success = responseData.IsSuccess, 
+                        message = responseData.Message 
+                    });
+                }
             }
             else
             {
@@ -124,8 +141,12 @@ public class AuthController : Controller
             if (response.IsSuccessStatusCode)
             {
                 string responseContent = await response.Content.ReadAsStringAsync();
-                dynamic? responseData = JsonConvert.DeserializeObject<dynamic>(responseContent);
-                return new JsonResult(new { success = responseData.success, message = responseData.message });
+                ResponseModel? responseData = JsonConvert.DeserializeObject<ResponseModel>(responseContent);
+                if( responseData == null)
+                {
+                    return new JsonResult(new { success = false, message = "Invalid response from server." });
+                }
+                return new JsonResult(new { success = responseData.IsSuccess, message = responseData.Message });
             }
             else
             {

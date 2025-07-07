@@ -32,12 +32,12 @@ public class ForgotPasswordController : Controller
         if (response.IsSuccessStatusCode)
         {
             string responseContent = await response.Content.ReadAsStringAsync();
-            dynamic? responseData = JsonConvert.DeserializeObject<dynamic>(responseContent);
+            ResponseModel? responseData = JsonConvert.DeserializeObject<ResponseModel>(responseContent);
             if (responseData != null)
             {
-                string message = responseData.message;
-                bool success = responseData.success;
-                int otp = responseData.otp;
+                string? message = responseData.Message;
+                bool success = responseData.IsSuccess;
+                int otp = responseData.Data != null ? (int)responseData.Data : 0;
                 if (success)
                 {
                     await _emailservice.SendEmailAsync(forgotPasswordViewModel.Email, otp);

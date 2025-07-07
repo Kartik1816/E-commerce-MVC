@@ -29,21 +29,29 @@ public class CartController : Controller
         int userId = JwtService.GetUserIdFromJwtToken(token);
 
         HttpResponseMessage response = await _httpClient.GetAsync(_apiBaseUrl + "cartProducts/" + userId);
-        string jsonString = await response.Content.ReadAsStringAsync();
-        JsonDocument jsonObject = JsonDocument.Parse(jsonString);
-        JsonElement dataObject = jsonObject.RootElement.GetProperty("data");
-        List<CartProductViewModel>? products = System.Text.Json.JsonSerializer.Deserialize<List<CartProductViewModel>>(
-            dataObject.ToString(),
-            new JsonSerializerOptions
-            {
-                PropertyNameCaseInsensitive = true
-            }
-        );
-        CartViewModel productListViewModel = new()
+        if (response.IsSuccessStatusCode)
         {
-            CartProductViewModels = products,
-        };
-        return View(productListViewModel);
+            string responseContent = await response.Content.ReadAsStringAsync();
+            ResponseModel? responseData = JsonConvert.DeserializeObject<ResponseModel>(responseContent);
+
+            if (responseData != null && responseData.IsSuccess)
+            {
+                List<CartProductViewModel>? products = JsonConvert.DeserializeObject<List<CartProductViewModel>>(responseData.Data.ToString());
+                CartViewModel productListViewModel = new()
+                {
+                    CartProductViewModels = products ?? new List<CartProductViewModel>(),
+                };
+                return View(productListViewModel);
+            }
+            else
+            {
+                return View(new CartViewModel { CartProductViewModels = new List<CartProductViewModel>() });
+            }
+        }
+        else
+        {
+            return StatusCode((int)response.StatusCode, "Error occurred while fetching cart products.");
+        }
     }
 
     [HttpPost]
@@ -68,11 +76,11 @@ public class CartController : Controller
         if (response.IsSuccessStatusCode)
         {
             string responseContent = await response.Content.ReadAsStringAsync();
-            dynamic? responseData = JsonConvert.DeserializeObject<dynamic>(responseContent);
+            ResponseModel? responseData = JsonConvert.DeserializeObject<ResponseModel>(responseContent);
             if (responseData != null)
             {
-                string message = responseData.message;
-                bool success = responseData.success;
+                string? message = responseData.Message;
+                bool success = responseData.IsSuccess;
                 return new JsonResult(new { success = true, message = message });
 
             }
@@ -105,11 +113,11 @@ public class CartController : Controller
         if (response.IsSuccessStatusCode)
         {
             string responseContent = await response.Content.ReadAsStringAsync();
-            dynamic? responseData = JsonConvert.DeserializeObject<dynamic>(responseContent);
+            ResponseModel? responseData = JsonConvert.DeserializeObject<ResponseModel>(responseContent);
             if (responseData != null)
             {
-                string message = responseData.message;
-                bool success = responseData.success;
+                string? message = responseData.Message;
+                bool success = responseData.IsSuccess;
                 return new JsonResult(new { success = success, message = message });
 
             }

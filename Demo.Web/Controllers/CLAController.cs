@@ -102,36 +102,29 @@ public class CLAController : Controller
         if (response.IsSuccessStatusCode)
         {
             string responseContent = await response.Content.ReadAsStringAsync();
-            dynamic? responseData = JsonConvert.DeserializeObject<dynamic>(responseContent);
+            ResponseModel? responseData = JsonConvert.DeserializeObject<ResponseModel>(responseContent);
             if (responseData != null)
             {
-                string message = responseData.message;
-                bool success = responseData.success;
-                bool offer = responseData.offer ?? false;
+                string? message = responseData.Message;
+                bool success = responseData.IsSuccess;
+
+                ProductOfferModel? productOfferModel = responseData.Data != null 
+                    ? JsonConvert.DeserializeObject<ProductOfferModel>(responseData.Data.ToString()) 
+                    : null;
+
+                bool offer = productOfferModel?.IsOffer ?? false;
+
                 if (offer)
                 {
                     HttpResponseMessage userData = await _httpClient.GetAsync(_apiBaseUrl + "GetAllSubscribedUsers");
                     string jsonString = await userData.Content.ReadAsStringAsync();
-                    JsonDocument jsonObject = JsonDocument.Parse(jsonString);
-                    JsonElement dataObject = jsonObject.RootElement.GetProperty("data");
-                    SubscribedUsersModel? subscribedUsersModel = System.Text.Json.JsonSerializer.Deserialize<SubscribedUsersModel>(
-                        dataObject.ToString(),
-                        new JsonSerializerOptions
-                        {
-                            PropertyNameCaseInsensitive = true
-                        }
-                    );
+                    SubscribedUsersModel? subscribedUsersModel = JsonConvert.DeserializeObject<SubscribedUsersModel>(jsonString);
 
-                    JsonDocument jsonObjectOfDiscountedProduct = JsonDocument.Parse(responseContent);
-                    JsonElement productObject = jsonObjectOfDiscountedProduct.RootElement.GetProperty("data");
-                    ProductViewModel? discountedProduct = System.Text.Json.JsonSerializer.Deserialize<ProductViewModel>(
-                        productObject.ToString(),
-                        new JsonSerializerOptions
-                        {
-                            PropertyNameCaseInsensitive = true
-                        }
-                    );
-
+                    ProductViewModel? discountedProduct = productOfferModel?.ProductViewModel;
+                    if (subscribedUsersModel == null || discountedProduct == null)
+                    {
+                        return new JsonResult(new { success = false, message = "Failed to retrieve subscribed users or product details." });
+                    }
                     if (subscribedUsersModel != null && discountedProduct != null && subscribedUsersModel.SubscribedUsers != null && subscribedUsersModel.SubscribedUsers.Count > 0)
                     {
                         try
@@ -164,15 +157,8 @@ public class CLAController : Controller
     {
         HttpResponseMessage response = await _httpClient.GetAsync(_apiBaseUrl + productId);
         string jsonString = await response.Content.ReadAsStringAsync();
-        JsonDocument jsonObject = JsonDocument.Parse(jsonString);
-        JsonElement dataObject = jsonObject.RootElement.GetProperty("data");
-        ProductViewModel? productDetails = System.Text.Json.JsonSerializer.Deserialize<ProductViewModel>(
-            dataObject.ToString(),
-            new JsonSerializerOptions
-            {
-                PropertyNameCaseInsensitive = true
-            }
-        );
+        ResponseModel? responseData = JsonConvert.DeserializeObject<ResponseModel>(jsonString);
+        ProductViewModel? productDetails = JsonConvert.DeserializeObject<ProductViewModel>(responseData?.Data?.ToString() ?? string.Empty);
 
         CLAViewModel cLAViewModel = new()
         {
@@ -203,11 +189,11 @@ public class CLAController : Controller
         if (response.IsSuccessStatusCode)
         {
             string responseContent = await response.Content.ReadAsStringAsync();
-            dynamic? responseData = JsonConvert.DeserializeObject<dynamic>(responseContent);
+            ResponseModel? responseData = JsonConvert.DeserializeObject<ResponseModel>(responseContent);
             if (responseData != null)
             {
-                string message = responseData.message;
-                bool success = responseData.success;
+                string? message = responseData.Message;
+                bool success = responseData.IsSuccess;
                 return new JsonResult(new { success = success, message = message });
 
             }
@@ -241,15 +227,12 @@ public class CLAController : Controller
         string queryString = $"?ProductId={productId}&UserId={userId}";
         HttpResponseMessage response = await _httpClient.GetAsync(_apiBaseUrl + "GetProductDetails/" + queryString);
         string jsonString = await response.Content.ReadAsStringAsync();
-        JsonDocument jsonObject = JsonDocument.Parse(jsonString);
-        JsonElement dataObject = jsonObject.RootElement.GetProperty("data");
-        ProductViewModel? productDetails = System.Text.Json.JsonSerializer.Deserialize<ProductViewModel>(
-            dataObject.ToString(),
-            new JsonSerializerOptions
-            {
-                PropertyNameCaseInsensitive = true
-            }
-        );
+        ResponseModel? responseData = JsonConvert.DeserializeObject<ResponseModel>(jsonString);
+        ProductViewModel? productDetails = JsonConvert.DeserializeObject<ProductViewModel>(responseData?.Data?.ToString() ?? string.Empty);
+        if (productDetails == null)
+        {
+            return RedirectToAction("Index", "Home");
+        }
         return View(productDetails);
     }
 

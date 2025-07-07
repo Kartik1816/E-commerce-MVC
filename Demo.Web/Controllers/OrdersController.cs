@@ -2,6 +2,7 @@ using System.Text.Json;
 using Demo.Web.Models;
 using Demo.Web.Services;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace Demo.Web.Controllers;
 
@@ -25,15 +26,9 @@ public class OrdersController : Controller
         int userId = JwtService.GetUserIdFromJwtToken(token);
         HttpResponseMessage response = await _httpClient.GetAsync(_apiBaseUrl + "get-user-orders/" + userId);
         string jsonString = await response.Content.ReadAsStringAsync();
-        JsonDocument jsonObject = JsonDocument.Parse(jsonString);
-        JsonElement dataObject = jsonObject.RootElement.GetProperty("data");
-        UserOrders? userOrders = System.Text.Json.JsonSerializer.Deserialize<UserOrders>(
-            dataObject.ToString(),
-            new JsonSerializerOptions
-            {
-                PropertyNameCaseInsensitive = true
-            }
-        );
+        ResponseModel? responseModel = JsonConvert.DeserializeObject<ResponseModel>(jsonString);
+        UserOrders? userOrders = JsonConvert.DeserializeObject<UserOrders>(responseModel?.Data.ToString() ?? string.Empty);
+        
         return View(userOrders);
     }
 
@@ -54,11 +49,11 @@ public class OrdersController : Controller
         if (response.IsSuccessStatusCode)
         {
             string responseContent = response.Content.ReadAsStringAsync().Result;
-            dynamic? responseData = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(responseContent);
+            ResponseModel? responseData = JsonConvert.DeserializeObject<ResponseModel>(responseContent);
             if (responseData != null)
             {
-                string message = responseData.message;
-                bool success = responseData.success;
+                string? message = responseData.Message;
+                bool success = responseData.IsSuccess;
                 return new JsonResult(new { success = success, message = message });
             }
             else

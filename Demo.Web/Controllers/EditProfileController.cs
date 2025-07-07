@@ -32,15 +32,13 @@ public class EditProfileController : Controller
         }
         HttpResponseMessage response = await _httpClient.GetAsync(_apiBaseUrl + userId);
         string jsonString = await response.Content.ReadAsStringAsync();
-        JsonDocument jsonObject = JsonDocument.Parse(jsonString);
-        JsonElement dataObject = jsonObject.RootElement.GetProperty("data");
-        EditProfileViewModel? profileDetails = System.Text.Json.JsonSerializer.Deserialize<EditProfileViewModel>(
-            dataObject.ToString(),
-            new JsonSerializerOptions
-            {
-                PropertyNameCaseInsensitive = true
-            }
-        );
+        ResponseModel? responseModel = JsonConvert.DeserializeObject<ResponseModel>(jsonString);
+
+        EditProfileViewModel? profileDetails = null;
+        if (responseModel != null && responseModel.IsSuccess)
+        {
+            profileDetails = JsonConvert.DeserializeObject<EditProfileViewModel>(responseModel.Data.ToString());
+        }
         if (profileDetails != null)
         {
             return View(profileDetails);
@@ -52,7 +50,7 @@ public class EditProfileController : Controller
     }
     [HttpPost]
     [Route("/EditProfile/SaveProfile")]
-    public async Task<IActionResult> Registration([FromForm] EditProfileViewModel editProfileViewModel)
+    public async Task<IActionResult> SaveProfile([FromForm] EditProfileViewModel editProfileViewModel)
     {
         if (!ModelState.IsValid)
         {
@@ -79,10 +77,10 @@ public class EditProfileController : Controller
         if (response.IsSuccessStatusCode)
         {
             string responseContent = await response.Content.ReadAsStringAsync();
-            dynamic? responseData = JsonConvert.DeserializeObject<dynamic>(responseContent);
+            ResponseModel? responseData = JsonConvert.DeserializeObject<ResponseModel>(responseContent);
             if (responseData != null)
             {
-                if (responseData.success == false)
+                if (responseData.IsSuccess == false)
                 {
                     //remove the image if registration fails
                     if (editProfileViewModel.ImageUrl != null)
@@ -94,8 +92,8 @@ public class EditProfileController : Controller
                         }
                     }
                 }
-                string message = responseData.message;
-                bool success = responseData.success;
+                string? message = responseData.Message;
+                bool success = responseData.IsSuccess;
                 return new JsonResult(new { success = success, message = message });
             }
             else

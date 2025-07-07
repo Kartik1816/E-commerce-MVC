@@ -42,11 +42,17 @@ public class ChangePassword : Controller
         if (response.IsSuccessStatusCode)
         {
             string responseContent = response.Content.ReadAsStringAsync().Result;
-            dynamic? responseData = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(responseContent);
+            ResponseModel? responseData = System.Text.Json.JsonSerializer.Deserialize<ResponseModel>(
+                responseContent,
+                new System.Text.Json.JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                }
+            );
             if (responseData != null)
             {
-                string message = responseData.message;
-                bool success = responseData.success;
+                string? message = responseData.Message;
+                bool success = responseData.IsSuccess;
                 return new JsonResult(new { success = success, message = message });
             }
             else

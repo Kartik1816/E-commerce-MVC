@@ -29,28 +29,14 @@ public class HomeController : Controller
     {
         HttpResponseMessage response = await _httpClient.GetAsync(_apiBaseUrl + "categories");
         string jsonString = await response.Content.ReadAsStringAsync();
-        JsonDocument jsonObject = JsonDocument.Parse(jsonString);
-        JsonElement dataObject = jsonObject.RootElement.GetProperty("data");
-        List<CategoryViewModel>? categories = System.Text.Json.JsonSerializer.Deserialize<List<CategoryViewModel>>(
-            dataObject.ToString(),
-            new JsonSerializerOptions
-            {
-                PropertyNameCaseInsensitive = true
-            }
-        );
+        ResponseModel? responseModel = JsonConvert.DeserializeObject<ResponseModel>(jsonString);
+        List<CategoryViewModel>? categories = JsonConvert.DeserializeObject<List<CategoryViewModel>>(responseModel?.Data?.ToString() ?? string.Empty);
 
         //Get Top 5 Products List 
         HttpResponseMessage productResponse = await _httpClient.GetAsync(_apiBaseUrl + "GetTopFiveOfferedProducts");
         string productJsonString = await productResponse.Content.ReadAsStringAsync();
-        JsonDocument productJsonObject = JsonDocument.Parse(productJsonString);
-        JsonElement productDataObject = productJsonObject.RootElement.GetProperty("data");
-        List<ProductViewModel>? products = System.Text.Json.JsonSerializer.Deserialize<List<ProductViewModel>>(
-            productDataObject.ToString(),
-            new JsonSerializerOptions
-            {
-                PropertyNameCaseInsensitive = true
-            }
-        );
+        ResponseModel? productResponseModel = JsonConvert.DeserializeObject<ResponseModel>(productJsonString);
+        List<ProductViewModel>? products = JsonConvert.DeserializeObject<List<ProductViewModel>>(productResponseModel?.Data?.ToString() ?? string.Empty);
 
         HomeViewModel homeViewModel = new HomeViewModel
         {
@@ -74,15 +60,8 @@ public class HomeController : Controller
             string _apiBaseUrlForProfile = "http://localhost:5114/api/EditProfile/";
             HttpResponseMessage profileData = await _httpClient.GetAsync(_apiBaseUrlForProfile + userId);
             string jsonStringOfProfile = await profileData.Content.ReadAsStringAsync();
-            JsonDocument jsonObjectOfProfile = JsonDocument.Parse(jsonStringOfProfile);
-            JsonElement dataObjectofProfile = jsonObjectOfProfile.RootElement.GetProperty("data");
-            EditProfileViewModel? profile = System.Text.Json.JsonSerializer.Deserialize<EditProfileViewModel>(
-                dataObjectofProfile.ToString(),
-                new JsonSerializerOptions
-                {
-                    PropertyNameCaseInsensitive = true
-                }
-            );
+            ResponseModel? responseModelOfProfile = JsonConvert.DeserializeObject<ResponseModel>(jsonStringOfProfile);
+            EditProfileViewModel? profile = JsonConvert.DeserializeObject<EditProfileViewModel>(responseModelOfProfile?.Data?.ToString() ?? string.Empty);
 
             if (profile?.ImageUrl != null)
             {
@@ -110,23 +89,16 @@ public class HomeController : Controller
         if (response.IsSuccessStatusCode)
         {
             string responseContent = await response.Content.ReadAsStringAsync();
-            dynamic? responseData = JsonConvert.DeserializeObject<dynamic>(responseContent);
+            ResponseModel? responseData = JsonConvert.DeserializeObject<ResponseModel>(responseContent);
             if (responseData != null)
             {
-                bool success = responseData.success;
+                bool success = responseData.IsSuccess;
                 if (success)
                 {
                     HttpResponseMessage discountData = await _httpClient.GetAsync(_apiBaseUrl + "GetMinMaxDiscount");
                     string discount = await discountData.Content.ReadAsStringAsync();
-                    JsonDocument discountDocument = JsonDocument.Parse(discount);
-                    JsonElement objectOfDiscount = discountDocument.RootElement.GetProperty("data");
-                    NewSubscriberModel? newSubscriberModel = System.Text.Json.JsonSerializer.Deserialize<NewSubscriberModel>(
-                        objectOfDiscount.ToString(),
-                        new JsonSerializerOptions
-                        {
-                            PropertyNameCaseInsensitive = true
-                        }
-                    );
+                    ResponseModel? discountResponse = JsonConvert.DeserializeObject<ResponseModel>(discount);
+                    NewSubscriberModel? newSubscriberModel = JsonConvert.DeserializeObject<NewSubscriberModel>(discountResponse?.Data?.ToString() ?? string.Empty);
                     if (newSubscriberModel != null)
                     {
                         try
