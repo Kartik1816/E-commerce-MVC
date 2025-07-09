@@ -22,6 +22,10 @@
                     <div class="d-flex justify-content-between">
                         <div><strong>Order Date:</strong> @order.CreatedAt.ToString("dd MMM yyyy")</div>
                         <div><strong>Status:</strong> @order.Status</div>
+                        @if (order.Status == "Paid")
+                        {
+                            <button class="btn btn-secondary" onclick="downloadInvoice(@order.OrderId)">Download Invoice</button>
+                        }
                     </div>
                 </div>
                 <div class="card-body">
@@ -128,4 +132,43 @@
             });
         });
     }
+
+    function downloadInvoice(orderId) {
+        $.ajax({
+            url: '/Orders/GenerateInvoice',
+            data: { orderId: orderId },
+            method: 'GET',
+            xhrFields: {
+                responseType: 'blob' // Important: Tells jQuery to expect binary data
+            },
+            success: function (blobData, status, xhr) {
+                // Get filename from content-disposition header
+                var filename = "";
+                var disposition = xhr.getResponseHeader('Content-Disposition');
+                if (disposition && disposition.indexOf('attachment') !== -1) {
+                    var match = disposition.match(/filename[^;=\n]*=((['"]).*?\2|[^;\n]*)/);
+                    if (match != null && match[1]) {
+                        filename = match[1].replace(/['"]/g, '');
+                    }
+                }
+                if (!filename) {
+                    filename = `Invoice_${orderId}.pdf`; // fallback
+                }
+
+                var url = window.URL.createObjectURL(blobData);
+                var a = document.createElement('a');
+                a.href = url;
+                a.download = filename;
+                document.body.appendChild(a);
+                a.click();
+                window.URL.revokeObjectURL(url);
+                document.body.removeChild(a);
+            },
+            error: function (xhr, status, error) {
+                alert("Failed to download invoice.");
+                console.error(error);
+            }
+        });
+    }
+
 </script>

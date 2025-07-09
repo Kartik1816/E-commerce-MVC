@@ -4,6 +4,8 @@ using Demo.Web.Models;
 using Demo.Web.Services;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using PdfSharpCore.Drawing;
+using PdfSharpCore.Pdf;
 
 namespace Demo.Web.Controllers;
 
@@ -21,7 +23,7 @@ public class CLAController : Controller
 
     [HttpGet]
     [Route("CLA/{encryptedCategoryId}")]
-    public async Task<IActionResult> Index(string encryptedCategoryId)
+    public async Task<IActionResult> Index(string encryptedCategoryId, int pageNumber = 1, int pageSize = 10)
     {
         if (string.IsNullOrEmpty(encryptedCategoryId))
         {
@@ -35,21 +37,21 @@ public class CLAController : Controller
         {
             userId = JwtService.GetUserIdFromJwtToken(token);
         }
-        string queryString = $"?CategoryId={categoryId}&UserId={userId}";
+        string queryString = $"?CategoryId={categoryId}&UserId={userId}&PageNumber={pageNumber}&PageSize={pageSize}";
         HttpResponseMessage response = await _httpClient.GetAsync(_apiBaseUrl + "products/" + queryString);
         string jsonString = await response.Content.ReadAsStringAsync();
-        JsonDocument jsonObject = JsonDocument.Parse(jsonString);
-        JsonElement dataObject = jsonObject.RootElement.GetProperty("data");
-        List<ProductViewModel>? products = System.Text.Json.JsonSerializer.Deserialize<List<ProductViewModel>>(
-            dataObject.ToString(),
-            new JsonSerializerOptions
-            {
-                PropertyNameCaseInsensitive = true
-            }
-        );
+        ResponseModel? dataObject = JsonConvert.DeserializeObject<ResponseModel>(jsonString);
+        PaginatedResponse<ProductViewModel>? paginatedResponse = dataObject?.Data != null
+            ? JsonConvert.DeserializeObject<PaginatedResponse<ProductViewModel>>(dataObject.Data.ToString())
+            : new PaginatedResponse<ProductViewModel>();
+
+        List<ProductViewModel>? products = paginatedResponse?.Data ?? new List<ProductViewModel>();
         CLAViewModel productListViewModel = new CLAViewModel
         {
             Products = products ?? new List<ProductViewModel>(),
+            PageNumber = paginatedResponse?.PageNumber ?? 1,
+            PageSize = paginatedResponse?.PageSize ?? 10,
+            TotalRecords = paginatedResponse?.TotalRecords ?? 0,
         };
         return View(productListViewModel);
     }
@@ -108,8 +110,8 @@ public class CLAController : Controller
                 string? message = responseData.Message;
                 bool success = responseData.IsSuccess;
 
-                ProductOfferModel? productOfferModel = responseData.Data != null 
-                    ? JsonConvert.DeserializeObject<ProductOfferModel>(responseData.Data.ToString()) 
+                ProductOfferModel? productOfferModel = responseData.Data != null
+                    ? JsonConvert.DeserializeObject<ProductOfferModel>(responseData.Data.ToString())
                     : null;
 
                 bool offer = productOfferModel?.IsOffer ?? false;
@@ -245,6 +247,63 @@ public class CLAController : Controller
             return new JsonResult(new { success = false, message = "Invalid ID" });
         }
         string encryptedId = EncryptDecryptService.EncryptId(Id);
+
         return new JsonResult(new { success = true, encryptedId = encryptedId });
     }
+
+    [HttpGet]
+    [Route("/CLA/GetPaginatedProducts")]
+    public async Task<IActionResult> GetPaginatedProducts(int pageNo, string encryptedCategoryId)
+    {
+        string? token = Request.Cookies["token"];
+
+        if (string.IsNullOrEmpty(token))
+        {
+            return RedirectToAction("Index", "Auth");
+        }
+
+        int userId = JwtService.GetUserIdFromJwtToken(token);
+
+        PaginationRequestModel paginationRequestModel = new PaginationRequestModel
+        {
+            PageNumber = pageNo,
+            PageSize = 10
+        };
+
+        if (string.IsNullOrEmpty(encryptedCategoryId))
+        {
+            return RedirectToAction("Index", "Home");
+        }
+
+        int categoryId = EncryptDecryptService.DecryptId(encryptedCategoryId);
+
+        if (categoryId <= 0)
+        {
+            return RedirectToAction("Index", "Home");
+        }
+
+        string queryString = $"?CategoryId={categoryId}&UserId={userId}&PageNumber={paginationRequestModel.PageNumber}&PageSize={paginationRequestModel.PageSize}";
+        HttpResponseMessage response = await _httpClient.GetAsync(_apiBaseUrl + "products/" + queryString);
+
+        string jsonString = response.Content.ReadAsStringAsync().Result;
+
+        ResponseModel? dataObject = JsonConvert.DeserializeObject<ResponseModel>(jsonString);
+
+        PaginatedResponse<ProductViewModel>? paginatedResponse = dataObject?.Data != null
+            ? JsonConvert.DeserializeObject<PaginatedResponse<ProductViewModel>>(dataObject.Data.ToString())
+            : new PaginatedResponse<ProductViewModel>();
+
+        List<ProductViewModel>? products = paginatedResponse?.Data ?? new List<ProductViewModel>();
+
+        CLAViewModel productListViewModel = new CLAViewModel
+        {
+            Products = products ?? new List<ProductViewModel>(),
+            PageNumber = paginatedResponse?.PageNumber ?? 1,
+            PageSize = paginatedResponse?.PageSize ?? 10,
+            TotalRecords = paginatedResponse?.TotalRecords ?? 0,
+        };
+
+        return PartialView("_ProductList", productListViewModel);
+    }
+
 }

@@ -18,61 +18,8 @@
             </div>
           </div>
       </div>
-    <div class="row d-flex align-items-center justify-content-center gap-4  px-4 h-350">
-    @if(Model != null && Model.Products != null && Model.Products.Count > 0)
-    {
-        foreach (ProductViewModel product in Model.Products)
-        {
-            string productImage = string.IsNullOrEmpty(product.ImageUrl)
-                ? "/images/Default_pfp.png"
-                : $"/images/product-images/{product.ImageUrl}";
-            
-            <div class="card d-flex flex-column align-items-center justify-content-center col-2 h-100 cursor-pointer px-3" onclick="viewProductDetails(@product.Id)">
-                <div class="d-flex flex-column  align-items-center">
-                    <div class="position-relative overflow-hidden cla-product-image">
-                        <img src="@productImage" alt="Product Image" 
-                            class="img-fluid w-100 h-100 object-fit-contain p-3">
-                        @if (product.Discount > 0)
-                        {
-                            <div class="position-absolute top-0 end-0 bg-danger text-white px-2 py-1 small">
-                                @product.Discount% OFF
-                            </div>
-                        }
-                    </div>
-                         <div class="card-body p-3">
-                            <!-- Product Name -->
-                            <h6 class="card-title text-dark mb-2 cla-product-name-font">
-                                @product.Name
-                            </h6>
-
-                            <!-- Price -->
-                            <div class="d-flex align-items-baseline">
-                                @if (product.Discount > 0)
-                                {
-                                    <span class="text-success fw-bold me-2">₹@Math.Round((product.Price - (product.Price * product.Discount)/100),2)</span>
-                                    <span class="text-muted text-decoration-line-through small">₹@product.Price.ToString("F2")</span>
-                                }
-                                else
-                                {
-                                    <span class="text-dark fw-bold">₹@product.Price.ToString("F2")</span>
-                                }
-                            </div>
-                        
-                        @if(userRole != null && userRole=="Admin")
-                        {
-                          if(userId > 0 && product.UserId == userId)
-                          {
-                            <div class="d-flex justify-content-end align-items-center h-50 gap-2">
-                                <button class="btn btn-sm btn-primary" onclick="event.stopPropagation();getProductDetails(@product.Id)">Edit</button>
-                                <button class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#deleteProductModal" onclick="event.stopPropagation();deleteProduct(@product.Id)">Delete</button>
-                            </div>
-                          }
-                        }
-                        </div>
-                </div>
-            </div>
-        }
-    }
+    <div class="row d-flex align-items-center justify-content-center gap-4  px-4 h-350" id="productListContainer">
+        <partial name="_ProductList" model="Model" />
     </div>
     @if(Model == null || Model.Products==null || Model.Products.Count <=0 )
     {
@@ -115,3 +62,4 @@
   }
 }
 <script src="~/js/cla.js"></script>
+<script src="~/js/pagination.js"></script>

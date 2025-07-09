@@ -9,107 +9,111 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Demo.Web
 build_property.RootNamespace = Demo.Web
-build_property.ProjectDir = c:\Users\pca158\Desktop\Frontend\Demo.Web\
+build_property.ProjectDir = C:\Users\pca158\Desktop\Frontend\Demo.WEb\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\pca158\Desktop\Frontend\Demo.Web
+build_property.MSBuildProjectDirectory = C:\Users\pca158\Desktop\Frontend\Demo.WEb
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Auth/Index.cshtml]
+[C:/Users/pca158/Desktop/Frontend/Demo.WEb/Views/Auth/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Auth/Registration.cshtml]
+[C:/Users/pca158/Desktop/Frontend/Demo.WEb/Views/Auth/Registration.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3RyYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Cart/Index.cshtml]
+[C:/Users/pca158/Desktop/Frontend/Demo.WEb/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Cart/_CartProductList.cshtml]
+[C:/Users/pca158/Desktop/Frontend/Demo.WEb/Views/Cart/_CartProductList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxfQ2FydFByb2R1Y3RMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/ChangePassword/Index.cshtml]
+[C:/Users/pca158/Desktop/Frontend/Demo.WEb/Views/ChangePassword/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhbmdlUGFzc3dvcmRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/CLA/Index.cshtml]
+[C:/Users/pca158/Desktop/Frontend/Demo.WEb/Views/CLA/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ0xBXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/CLA/ProductDetails.cshtml]
+[C:/Users/pca158/Desktop/Frontend/Demo.WEb/Views/CLA/ProductDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ0xBXFByb2R1Y3REZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/CLA/_AddEditProduct.cshtml]
+[C:/Users/pca158/Desktop/Frontend/Demo.WEb/Views/CLA/_AddEditProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ0xBXF9BZGRFZGl0UHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/ContactUs/Index.cshtml]
+[C:/Users/pca158/Desktop/Frontend/Demo.WEb/Views/CLA/_ProductList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ0xBXF9Qcm9kdWN0TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pca158/Desktop/Frontend/Demo.WEb/Views/ContactUs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/EditProfile/Index.cshtml]
+[C:/Users/pca158/Desktop/Frontend/Demo.WEb/Views/EditProfile/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdFByb2ZpbGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/ForgotPassword/Index.cshtml]
+[C:/Users/pca158/Desktop/Frontend/Demo.WEb/Views/ForgotPassword/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9yZ290UGFzc3dvcmRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Home/Index.cshtml]
+[C:/Users/pca158/Desktop/Frontend/Demo.WEb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Home/Privacy.cshtml]
+[C:/Users/pca158/Desktop/Frontend/Demo.WEb/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Offer/Index.cshtml]
+[C:/Users/pca158/Desktop/Frontend/Demo.WEb/Views/Offer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Orders/Index.cshtml]
+[C:/Users/pca158/Desktop/Frontend/Demo.WEb/Views/Orders/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Orders/_CustomerReviewModal.cshtml]
+[C:/Users/pca158/Desktop/Frontend/Demo.WEb/Views/Orders/_CustomerReviewModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXF9DdXN0b21lclJldmlld01vZGFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/ResetPassword/Index.cshtml]
+[C:/Users/pca158/Desktop/Frontend/Demo.WEb/Views/ResetPassword/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXRQYXNzd29yZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Shared/Error.cshtml]
+[C:/Users/pca158/Desktop/Frontend/Demo.WEb/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/pca158/Desktop/Frontend/Demo.WEb/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Verify/Index.cshtml]
+[C:/Users/pca158/Desktop/Frontend/Demo.WEb/Views/Verify/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVyaWZ5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/WishList/Index.cshtml]
+[C:/Users/pca158/Desktop/Frontend/Demo.WEb/Views/WishList/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2lzaExpc3RcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/_ViewImports.cshtml]
+[C:/Users/pca158/Desktop/Frontend/Demo.WEb/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/_ViewStart.cshtml]
+[C:/Users/pca158/Desktop/Frontend/Demo.WEb/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Shared/_Layout.cshtml]
+[C:/Users/pca158/Desktop/Frontend/Demo.WEb/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-t5a52x1g1q
