@@ -1,0 +1,39 @@
+@model Demo.Web.Models.CategoryListViewModel
+<table class="table table-hover shadow mt-2 w-75" style="white-space: nowrap">
+    <thead>
+        <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(CategoryViewModel category in Model.Categories)
+        {
+        <tr>
+            <td style="white-space: nowrap;">
+                @category.Id
+            </td>
+            <td>    
+                @category.Name
+            </td>
+            <td>
+                <button type="button" class="btn btn-sm @(category.IsReleased ? "btn-success" : "btn-danger")">
+                    @if(category.IsReleased)
+                    {
+                        <i class="fas fa-check"></i><span>Released</span>
+                    }
+                    else
+                    {
+                        <i class="fas fa-times"></i><span>Release</span>
+                    }
+                </button>
+                <button type="button" onclick="editCategory(@category.Id)" class="btn btn-light btn-sm"><i class="fas fa-pencil"></i></button>
+                <button type="button" class="btn-light btn btn-sm delete-icon-border" data-bs-toggle="modal"  data-bs-target="#deleteCategoryModal" onclick="deleteCategory(@category.Id)">
+                    <a href="#" class="delete-icon">  <i class="fas fa-trash"></i></a>
+                </button>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,43 @@
+@model Demo.Web.Models.CategoryListViewModel
+
+<div class="add-user-back">
+    <div class="mt-3 me-3 ms-4 d-flex flex-column table-responsive">
+        <div class="d-flex justify-content-md-between flex-md-row flex-column">
+            <div>
+                <h2>Categories</h2>
+            </div>
+            <div class="d-flex gap-md-3 gap-2">
+                <a class="text-decoration-none">
+                    <button type="button" 
+                        class="btn btn-primary text-nowrap px-4 p-2" onclick="resetModal()">New Category+</button>
+                </a>
+            </div>
+        </div>
+        <div id="categoryListView">
+            <partial name="_CategoryList" model="Model"/>
+        </div>
+    </div>
+</div>
+
+<div id="categoryView">
+    <partial name="_AddEditCategoryModal" model="Model"/>
+</div>
+
+<script>
+function resetModal()
+{
+    $.ajax({
+        url: '/Category/ResetModal',
+        type: 'GET',
+        success: function (result) {
+            $('#categoryView').html(result);
+            $('#addEditCategory').modal('show');
+            saveCategory();
+        },
+    });
+}
+
+
+</script>
+
+<script src="~/js/category.js"></script>

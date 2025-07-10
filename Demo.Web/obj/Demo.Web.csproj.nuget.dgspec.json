@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\Demo.Web.csproj": {}
+    "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\Demo.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\Demo.Web.csproj": {
+    "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\Demo.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\Demo.Web.csproj",
+        "projectUniqueName": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\Demo.Web.csproj",
         "projectName": "Demo.Web",
-        "projectPath": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\Demo.Web.csproj",
+        "projectPath": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\Demo.Web.csproj",
         "packagesPath": "C:\\Users\\pca158\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\obj\\",
+        "outputPath": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pca158\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,931 +1,975 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Demo.Web.bundle.scp.css",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Demo.Web.bundle.scp.css",
       "PackagePath": "staticwebassets\\Demo.Web.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\css\\site.css",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\css\\style.css",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\favicon.ico",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\Default_pfp.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\Default_pfp.png",
       "PackagePath": "staticwebassets\\images\\Default_pfp.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\accessories.svg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\accessories.svg",
       "PackagePath": "staticwebassets\\images\\accessories.svg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\bg-image.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\bg-image.png",
       "PackagePath": "staticwebassets\\images\\bg-image.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\cart.svg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\cart.svg",
       "PackagePath": "staticwebassets\\images\\cart.svg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\change-password.svg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\category-images\\1148828e-a3ca-42ef-a972-62ef066fb0ab.svg",
+      "PackagePath": "staticwebassets\\images\\category-images\\1148828e-a3ca-42ef-a972-62ef066fb0ab.svg"
+    },
+    {
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\category-images\\3233c771-2e8e-49c4-b3c5-c393d2ad8ae8.svg",
+      "PackagePath": "staticwebassets\\images\\category-images\\3233c771-2e8e-49c4-b3c5-c393d2ad8ae8.svg"
+    },
+    {
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\category-images\\4574cf8e-ed18-42b9-ba16-8337494136f7.svg",
+      "PackagePath": "staticwebassets\\images\\category-images\\4574cf8e-ed18-42b9-ba16-8337494136f7.svg"
+    },
+    {
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\category-images\\7d494ec3-6812-4682-a044-91b7013303cf.svg",
+      "PackagePath": "staticwebassets\\images\\category-images\\7d494ec3-6812-4682-a044-91b7013303cf.svg"
+    },
+    {
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\category-images\\b15bf728-149d-4065-bded-07aca6d25682.svg",
+      "PackagePath": "staticwebassets\\images\\category-images\\b15bf728-149d-4065-bded-07aca6d25682.svg"
+    },
+    {
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\category-images\\b7fa7872-8ed6-4dcd-b793-b5019896e995.svg",
+      "PackagePath": "staticwebassets\\images\\category-images\\b7fa7872-8ed6-4dcd-b793-b5019896e995.svg"
+    },
+    {
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\category-images\\c3e1185c-be8b-4952-8f7d-df6feb1694cb.svg",
+      "PackagePath": "staticwebassets\\images\\category-images\\c3e1185c-be8b-4952-8f7d-df6feb1694cb.svg"
+    },
+    {
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\category-images\\d9333af5-bd3b-4633-95a9-f8920f051f63.svg",
+      "PackagePath": "staticwebassets\\images\\category-images\\d9333af5-bd3b-4633-95a9-f8920f051f63.svg"
+    },
+    {
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\category-images\\e260240c-ee3e-485c-913f-a365cc76ad5c.svg",
+      "PackagePath": "staticwebassets\\images\\category-images\\e260240c-ee3e-485c-913f-a365cc76ad5c.svg"
+    },
+    {
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\category-images\\e9bbafd1-3dfa-4aaa-8300-1e1511e497b0.svg",
+      "PackagePath": "staticwebassets\\images\\category-images\\e9bbafd1-3dfa-4aaa-8300-1e1511e497b0.svg"
+    },
+    {
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\change-password.svg",
       "PackagePath": "staticwebassets\\images\\change-password.svg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\cla.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\cla.png",
       "PackagePath": "staticwebassets\\images\\cla.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\computers.svg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\computers.svg",
       "PackagePath": "staticwebassets\\images\\computers.svg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\edit-profile.svg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\edit-profile.svg",
       "PackagePath": "staticwebassets\\images\\edit-profile.svg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\empty-rated.svg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\empty-rated.svg",
       "PackagePath": "staticwebassets\\images\\empty-rated.svg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\heart.svg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\heart.svg",
       "PackagePath": "staticwebassets\\images\\heart.svg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\hide-password.svg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\hide-password.svg",
       "PackagePath": "staticwebassets\\images\\hide-password.svg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\laptops.svg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\laptops.svg",
       "PackagePath": "staticwebassets\\images\\laptops.svg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\logout.svg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\logout.svg",
       "PackagePath": "staticwebassets\\images\\logout.svg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\orders.svg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\orders.svg",
       "PackagePath": "staticwebassets\\images\\orders.svg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\person.svg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\person.svg",
       "PackagePath": "staticwebassets\\images\\person.svg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\02a5beb8-de18-4704-b1db-f3fe3728c74b.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\02a5beb8-de18-4704-b1db-f3fe3728c74b.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\02a5beb8-de18-4704-b1db-f3fe3728c74b.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\051c86ce-104f-402d-aca2-d5b062f33fac.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\051c86ce-104f-402d-aca2-d5b062f33fac.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\051c86ce-104f-402d-aca2-d5b062f33fac.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\05fc8f4c-5c44-4ebb-b50b-17cbbf377e75.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\05fc8f4c-5c44-4ebb-b50b-17cbbf377e75.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\05fc8f4c-5c44-4ebb-b50b-17cbbf377e75.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\0c29b246-f844-43c7-b2f1-e1614010024c.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\0c29b246-f844-43c7-b2f1-e1614010024c.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\0c29b246-f844-43c7-b2f1-e1614010024c.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\0f700b46-17be-4f1d-b6d4-9d149b376c39.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\0f700b46-17be-4f1d-b6d4-9d149b376c39.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\0f700b46-17be-4f1d-b6d4-9d149b376c39.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\0f751b92-265e-490d-9a90-b20594d42305.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\0f751b92-265e-490d-9a90-b20594d42305.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\0f751b92-265e-490d-9a90-b20594d42305.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\10a7659f-f4ae-4c5e-91d0-203366d79711.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\10a7659f-f4ae-4c5e-91d0-203366d79711.png",
       "PackagePath": "staticwebassets\\images\\product-images\\10a7659f-f4ae-4c5e-91d0-203366d79711.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\1353da52-eac1-4a24-bb4b-8dd6d7f32951.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\1353da52-eac1-4a24-bb4b-8dd6d7f32951.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\1353da52-eac1-4a24-bb4b-8dd6d7f32951.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\16d0a597-60f3-4a80-8fc0-a4a4d0406f97.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\16d0a597-60f3-4a80-8fc0-a4a4d0406f97.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\16d0a597-60f3-4a80-8fc0-a4a4d0406f97.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\185f71ff-3beb-4e4c-9540-42afa2717b44.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\185f71ff-3beb-4e4c-9540-42afa2717b44.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\185f71ff-3beb-4e4c-9540-42afa2717b44.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\1d37dcb8-4c08-42e1-8633-377b4619eed6.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\1d37dcb8-4c08-42e1-8633-377b4619eed6.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\1d37dcb8-4c08-42e1-8633-377b4619eed6.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\1e7605a4-2ba6-4f91-acde-0b8713e4ba06.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\1e7605a4-2ba6-4f91-acde-0b8713e4ba06.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\1e7605a4-2ba6-4f91-acde-0b8713e4ba06.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\1f7af706-cce3-4046-9065-7ef94a1af74c.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\1f7af706-cce3-4046-9065-7ef94a1af74c.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\1f7af706-cce3-4046-9065-7ef94a1af74c.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\22ff0d4c-98be-4679-8410-9b62adfdfca7.webp",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\22ff0d4c-98be-4679-8410-9b62adfdfca7.webp",
       "PackagePath": "staticwebassets\\images\\product-images\\22ff0d4c-98be-4679-8410-9b62adfdfca7.webp"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\2410bf0b-789b-4d94-968b-c574d21dbc32.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\2410bf0b-789b-4d94-968b-c574d21dbc32.png",
       "PackagePath": "staticwebassets\\images\\product-images\\2410bf0b-789b-4d94-968b-c574d21dbc32.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\24c7ae28-869d-430f-8d0e-615c9b880439.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\24c7ae28-869d-430f-8d0e-615c9b880439.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\24c7ae28-869d-430f-8d0e-615c9b880439.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\26d686e5-62e9-495a-8d77-58cab7a3d4c6.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\26d686e5-62e9-495a-8d77-58cab7a3d4c6.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\26d686e5-62e9-495a-8d77-58cab7a3d4c6.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\2e697227-d722-4946-ab0d-60eb27f035b4.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\2e697227-d722-4946-ab0d-60eb27f035b4.png",
       "PackagePath": "staticwebassets\\images\\product-images\\2e697227-d722-4946-ab0d-60eb27f035b4.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\370abc4f-8b9b-49b1-8b39-c688693a9a73.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\370abc4f-8b9b-49b1-8b39-c688693a9a73.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\370abc4f-8b9b-49b1-8b39-c688693a9a73.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\378496d7-73b4-4176-8a28-1176b49251c9.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\378496d7-73b4-4176-8a28-1176b49251c9.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\378496d7-73b4-4176-8a28-1176b49251c9.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\3d2469ab-a162-4888-8fa0-30f89278fd78.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\3d2469ab-a162-4888-8fa0-30f89278fd78.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\3d2469ab-a162-4888-8fa0-30f89278fd78.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\3d704e1d-84a2-4ee6-a7a6-f6f3799977f1.webp",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\3d704e1d-84a2-4ee6-a7a6-f6f3799977f1.webp",
       "PackagePath": "staticwebassets\\images\\product-images\\3d704e1d-84a2-4ee6-a7a6-f6f3799977f1.webp"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\3e08bfab-9dd8-4117-97f2-126ced32275b.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\3e08bfab-9dd8-4117-97f2-126ced32275b.png",
       "PackagePath": "staticwebassets\\images\\product-images\\3e08bfab-9dd8-4117-97f2-126ced32275b.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\41e03f0c-df5f-42c0-bf60-760f2dc37e87.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\41e03f0c-df5f-42c0-bf60-760f2dc37e87.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\41e03f0c-df5f-42c0-bf60-760f2dc37e87.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\42baab44-b24e-4953-b450-bf2413d9c1c8.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\42baab44-b24e-4953-b450-bf2413d9c1c8.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\42baab44-b24e-4953-b450-bf2413d9c1c8.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\448ec662-153c-428b-82c0-7504b4519d7a.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\448ec662-153c-428b-82c0-7504b4519d7a.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\448ec662-153c-428b-82c0-7504b4519d7a.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\46c45714-af67-4be5-9e29-98e86384536c.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\46c45714-af67-4be5-9e29-98e86384536c.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\46c45714-af67-4be5-9e29-98e86384536c.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\4927f4e1-3c33-4844-8336-6f512f8c3dc1.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\4927f4e1-3c33-4844-8336-6f512f8c3dc1.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\4927f4e1-3c33-4844-8336-6f512f8c3dc1.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\4cf538c6-e6fc-434c-9bbf-0710e4666e62.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\4cf538c6-e6fc-434c-9bbf-0710e4666e62.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\4cf538c6-e6fc-434c-9bbf-0710e4666e62.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\50a048b1-8b27-400b-94a9-00489ea395e3.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\50a048b1-8b27-400b-94a9-00489ea395e3.png",
       "PackagePath": "staticwebassets\\images\\product-images\\50a048b1-8b27-400b-94a9-00489ea395e3.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\50a4f298-94ec-4227-9112-e0dcca547807.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\50a4f298-94ec-4227-9112-e0dcca547807.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\50a4f298-94ec-4227-9112-e0dcca547807.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\51f895ac-414c-4d13-a004-ea89034692fa.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\51f895ac-414c-4d13-a004-ea89034692fa.png",
       "PackagePath": "staticwebassets\\images\\product-images\\51f895ac-414c-4d13-a004-ea89034692fa.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\5aaa7117-a498-419b-9591-f61076c66e68.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\5aaa7117-a498-419b-9591-f61076c66e68.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\5aaa7117-a498-419b-9591-f61076c66e68.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\5c7ccf36-1601-4f28-b3bb-7194cfecd521.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\5c7ccf36-1601-4f28-b3bb-7194cfecd521.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\5c7ccf36-1601-4f28-b3bb-7194cfecd521.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\5f22b1c3-70a3-42e5-b215-c1925447f5b1.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\5f22b1c3-70a3-42e5-b215-c1925447f5b1.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\5f22b1c3-70a3-42e5-b215-c1925447f5b1.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\603eb8c0-0ef5-4ea8-ba82-64fb980c71b6.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\603eb8c0-0ef5-4ea8-ba82-64fb980c71b6.png",
       "PackagePath": "staticwebassets\\images\\product-images\\603eb8c0-0ef5-4ea8-ba82-64fb980c71b6.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\611de89f-75e5-4c41-936c-cf991bbb695b.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\611de89f-75e5-4c41-936c-cf991bbb695b.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\611de89f-75e5-4c41-936c-cf991bbb695b.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\63eabcaf-2bd9-41a9-9891-b77e52c0000d.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\63eabcaf-2bd9-41a9-9891-b77e52c0000d.png",
       "PackagePath": "staticwebassets\\images\\product-images\\63eabcaf-2bd9-41a9-9891-b77e52c0000d.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\67d3b2d0-b999-4878-aafc-ecab2dbc7f78.webp",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\67d3b2d0-b999-4878-aafc-ecab2dbc7f78.webp",
       "PackagePath": "staticwebassets\\images\\product-images\\67d3b2d0-b999-4878-aafc-ecab2dbc7f78.webp"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\67dc59b9-8425-4633-836d-5bda227525e1.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\67dc59b9-8425-4633-836d-5bda227525e1.png",
       "PackagePath": "staticwebassets\\images\\product-images\\67dc59b9-8425-4633-836d-5bda227525e1.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\695c7cd2-6b69-4e07-9982-42adb6657a45.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\695c7cd2-6b69-4e07-9982-42adb6657a45.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\695c7cd2-6b69-4e07-9982-42adb6657a45.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\6b59cc2f-c76f-4384-8a67-df05f072c1d5.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\6b59cc2f-c76f-4384-8a67-df05f072c1d5.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\6b59cc2f-c76f-4384-8a67-df05f072c1d5.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\71bbacfe-68f0-4102-80f2-f95bf1037a85.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\71bbacfe-68f0-4102-80f2-f95bf1037a85.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\71bbacfe-68f0-4102-80f2-f95bf1037a85.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\7a2536d5-ee2e-4c26-89dd-a44402fec586.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\7a2536d5-ee2e-4c26-89dd-a44402fec586.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\7a2536d5-ee2e-4c26-89dd-a44402fec586.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\8bddb6c9-7a7a-475f-a492-3a6469c5d3fc.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\8bddb6c9-7a7a-475f-a492-3a6469c5d3fc.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\8bddb6c9-7a7a-475f-a492-3a6469c5d3fc.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\8bf7fc1b-03c2-47d7-aac6-ef09f6959a8b.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\8bf7fc1b-03c2-47d7-aac6-ef09f6959a8b.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\8bf7fc1b-03c2-47d7-aac6-ef09f6959a8b.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\91ac4bf5-1481-49cc-bf1d-e14f5919fa82.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\91ac4bf5-1481-49cc-bf1d-e14f5919fa82.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\91ac4bf5-1481-49cc-bf1d-e14f5919fa82.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\92f09eac-1605-4552-965d-db09b1146449.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\92f09eac-1605-4552-965d-db09b1146449.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\92f09eac-1605-4552-965d-db09b1146449.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\95e79a23-fb1c-43f8-a88e-6dcd812e18ae.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\95e79a23-fb1c-43f8-a88e-6dcd812e18ae.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\95e79a23-fb1c-43f8-a88e-6dcd812e18ae.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\974b4448-4ed5-4e48-a4f1-998a21925741.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\974b4448-4ed5-4e48-a4f1-998a21925741.png",
       "PackagePath": "staticwebassets\\images\\product-images\\974b4448-4ed5-4e48-a4f1-998a21925741.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\9c50e74c-6b79-4913-9f7d-4eb36f3fa267.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\9c50e74c-6b79-4913-9f7d-4eb36f3fa267.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\9c50e74c-6b79-4913-9f7d-4eb36f3fa267.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\9cd31e1a-12e0-457d-815b-9d3e31cbe6d2.webp",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\9cd31e1a-12e0-457d-815b-9d3e31cbe6d2.webp",
       "PackagePath": "staticwebassets\\images\\product-images\\9cd31e1a-12e0-457d-815b-9d3e31cbe6d2.webp"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\9f8364fe-71ea-4c5d-8581-871dfde5d24c.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\9f8364fe-71ea-4c5d-8581-871dfde5d24c.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\9f8364fe-71ea-4c5d-8581-871dfde5d24c.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\a0c85643-0968-4a31-bae0-7c25bc4da811.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\a0c85643-0968-4a31-bae0-7c25bc4da811.png",
       "PackagePath": "staticwebassets\\images\\product-images\\a0c85643-0968-4a31-bae0-7c25bc4da811.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\a591260f-a44b-4193-934f-13f81a1b0bd0.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\a591260f-a44b-4193-934f-13f81a1b0bd0.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\a591260f-a44b-4193-934f-13f81a1b0bd0.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\a5c59a64-82b2-4756-8e39-9312297abeae.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\a5c59a64-82b2-4756-8e39-9312297abeae.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\a5c59a64-82b2-4756-8e39-9312297abeae.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\a716d091-59a1-44ed-b907-580e1bc3a2d5.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\a716d091-59a1-44ed-b907-580e1bc3a2d5.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\a716d091-59a1-44ed-b907-580e1bc3a2d5.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\ab37d929-c5d8-476a-b89f-13b330aea8f6.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ab37d929-c5d8-476a-b89f-13b330aea8f6.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\ab37d929-c5d8-476a-b89f-13b330aea8f6.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\ab7ab79d-bda1-4d69-a94c-82b49eea02e0.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ab7ab79d-bda1-4d69-a94c-82b49eea02e0.png",
       "PackagePath": "staticwebassets\\images\\product-images\\ab7ab79d-bda1-4d69-a94c-82b49eea02e0.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\ac807f1a-45b5-4d49-9955-1634895f9680.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ac807f1a-45b5-4d49-9955-1634895f9680.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\ac807f1a-45b5-4d49-9955-1634895f9680.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\b0734742-17f9-45f8-a13b-ef3b0a36f0b2.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b0734742-17f9-45f8-a13b-ef3b0a36f0b2.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\b0734742-17f9-45f8-a13b-ef3b0a36f0b2.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\b1b4c276-c105-4895-b29c-5088e1d04d26.webp",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b1b4c276-c105-4895-b29c-5088e1d04d26.webp",
       "PackagePath": "staticwebassets\\images\\product-images\\b1b4c276-c105-4895-b29c-5088e1d04d26.webp"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\b20df1e9-ec1b-4ce9-9cfc-a4e6670ab8ed.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b20df1e9-ec1b-4ce9-9cfc-a4e6670ab8ed.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\b20df1e9-ec1b-4ce9-9cfc-a4e6670ab8ed.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\b53893bb-326c-4d52-87ab-647958b85e59.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b53893bb-326c-4d52-87ab-647958b85e59.png",
       "PackagePath": "staticwebassets\\images\\product-images\\b53893bb-326c-4d52-87ab-647958b85e59.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\b7e8d12d-f531-484a-86f4-61693efb87b9.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b7e8d12d-f531-484a-86f4-61693efb87b9.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\b7e8d12d-f531-484a-86f4-61693efb87b9.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\b830613f-82d5-4664-b5f7-52db99ea535c.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b830613f-82d5-4664-b5f7-52db99ea535c.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\b830613f-82d5-4664-b5f7-52db99ea535c.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\b91ab8ca-b49f-4f02-b908-b32443783f80.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b91ab8ca-b49f-4f02-b908-b32443783f80.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\b91ab8ca-b49f-4f02-b908-b32443783f80.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\b9933f77-f64b-4c4b-86d8-5529fae4d229.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b9933f77-f64b-4c4b-86d8-5529fae4d229.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\b9933f77-f64b-4c4b-86d8-5529fae4d229.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\b9e30fd1-17d8-405b-8d6e-13d337ae288d.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\b9e30fd1-17d8-405b-8d6e-13d337ae288d.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\b9e30fd1-17d8-405b-8d6e-13d337ae288d.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\ba292780-76e6-45ca-bfb3-87cdc821d925.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ba292780-76e6-45ca-bfb3-87cdc821d925.png",
       "PackagePath": "staticwebassets\\images\\product-images\\ba292780-76e6-45ca-bfb3-87cdc821d925.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\ba5f14e4-e791-4e3f-84c2-16f6d9f682ee.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ba5f14e4-e791-4e3f-84c2-16f6d9f682ee.png",
       "PackagePath": "staticwebassets\\images\\product-images\\ba5f14e4-e791-4e3f-84c2-16f6d9f682ee.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\baec27b2-21c9-46d0-bbc3-7162fbb285bf.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\baec27b2-21c9-46d0-bbc3-7162fbb285bf.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\baec27b2-21c9-46d0-bbc3-7162fbb285bf.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\beebc689-0bef-4bae-90b7-4dbc78d8e700.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\beebc689-0bef-4bae-90b7-4dbc78d8e700.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\beebc689-0bef-4bae-90b7-4dbc78d8e700.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\bf903bff-2c80-419e-956e-7fdfb9935469.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\bf903bff-2c80-419e-956e-7fdfb9935469.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\bf903bff-2c80-419e-956e-7fdfb9935469.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\c1fd77c1-2e40-4d2f-8267-116965445e84.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\c1fd77c1-2e40-4d2f-8267-116965445e84.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\c1fd77c1-2e40-4d2f-8267-116965445e84.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\c5a58ea9-46c6-4d59-847c-794aaa66c7c0.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\c5a58ea9-46c6-4d59-847c-794aaa66c7c0.png",
       "PackagePath": "staticwebassets\\images\\product-images\\c5a58ea9-46c6-4d59-847c-794aaa66c7c0.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\c669c9d9-4b6b-4b00-a36d-4d8368926254.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\c669c9d9-4b6b-4b00-a36d-4d8368926254.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\c669c9d9-4b6b-4b00-a36d-4d8368926254.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\c6dec16e-8077-4510-833d-b1a5e8159bf5.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\c6dec16e-8077-4510-833d-b1a5e8159bf5.png",
       "PackagePath": "staticwebassets\\images\\product-images\\c6dec16e-8077-4510-833d-b1a5e8159bf5.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\cb10a72c-1174-4632-9f89-85c72d4c99c9.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\cb10a72c-1174-4632-9f89-85c72d4c99c9.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\cb10a72c-1174-4632-9f89-85c72d4c99c9.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\cd2b32ad-011d-4868-8c15-9a8d5510d912.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\cd2b32ad-011d-4868-8c15-9a8d5510d912.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\cd2b32ad-011d-4868-8c15-9a8d5510d912.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\ce524acd-4ccb-4575-9803-e26b34133d86.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ce524acd-4ccb-4575-9803-e26b34133d86.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\ce524acd-4ccb-4575-9803-e26b34133d86.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\d06b769c-2c6f-4766-ac73-6e9e3efc665f.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\d06b769c-2c6f-4766-ac73-6e9e3efc665f.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\d06b769c-2c6f-4766-ac73-6e9e3efc665f.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\d0c635ad-378d-45c8-82e4-b740fd51126e.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\d0c635ad-378d-45c8-82e4-b740fd51126e.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\d0c635ad-378d-45c8-82e4-b740fd51126e.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\d2593582-a2b9-4e14-84af-84cd4446eb78.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\d2593582-a2b9-4e14-84af-84cd4446eb78.png",
       "PackagePath": "staticwebassets\\images\\product-images\\d2593582-a2b9-4e14-84af-84cd4446eb78.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\d5126ff8-710e-4223-8f95-2fe70bdfc488.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\d5126ff8-710e-4223-8f95-2fe70bdfc488.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\d5126ff8-710e-4223-8f95-2fe70bdfc488.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\d76ff44d-c925-4e1e-ba09-10ef88610137.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\d76ff44d-c925-4e1e-ba09-10ef88610137.png",
       "PackagePath": "staticwebassets\\images\\product-images\\d76ff44d-c925-4e1e-ba09-10ef88610137.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\d84b7702-59eb-4422-bcba-b14b493af149.webp",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\d84b7702-59eb-4422-bcba-b14b493af149.webp",
       "PackagePath": "staticwebassets\\images\\product-images\\d84b7702-59eb-4422-bcba-b14b493af149.webp"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\da71c572-5bad-49a8-8d1c-a49f8d4ea320.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\da71c572-5bad-49a8-8d1c-a49f8d4ea320.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\da71c572-5bad-49a8-8d1c-a49f8d4ea320.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\dfb65b34-ad99-4230-87fc-e827a5d255db.webp",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\dfb65b34-ad99-4230-87fc-e827a5d255db.webp",
       "PackagePath": "staticwebassets\\images\\product-images\\dfb65b34-ad99-4230-87fc-e827a5d255db.webp"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\e16a022a-f224-4b8d-825d-25f4b240e502.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\e16a022a-f224-4b8d-825d-25f4b240e502.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\e16a022a-f224-4b8d-825d-25f4b240e502.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\e6b879ba-afd4-4239-bd96-81c241d212f2.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\e6b879ba-afd4-4239-bd96-81c241d212f2.png",
       "PackagePath": "staticwebassets\\images\\product-images\\e6b879ba-afd4-4239-bd96-81c241d212f2.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\e78e23a1-0341-421d-9aaa-f73f2a5924c3.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\e78e23a1-0341-421d-9aaa-f73f2a5924c3.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\e78e23a1-0341-421d-9aaa-f73f2a5924c3.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\e8f8d9b6-713f-47ec-8ba6-2cbeaccb5671.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\e8f8d9b6-713f-47ec-8ba6-2cbeaccb5671.png",
       "PackagePath": "staticwebassets\\images\\product-images\\e8f8d9b6-713f-47ec-8ba6-2cbeaccb5671.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\e8f8da61-1152-4522-b834-0cd0b686ed65.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\e8f8da61-1152-4522-b834-0cd0b686ed65.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\e8f8da61-1152-4522-b834-0cd0b686ed65.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\e9bbd287-aafb-46d4-b0dd-78feb2288dcd.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\e9bbd287-aafb-46d4-b0dd-78feb2288dcd.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\e9bbd287-aafb-46d4-b0dd-78feb2288dcd.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\ed5486f0-c601-47d5-aa62-9a5d087514d0.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\ed5486f0-c601-47d5-aa62-9a5d087514d0.png",
       "PackagePath": "staticwebassets\\images\\product-images\\ed5486f0-c601-47d5-aa62-9a5d087514d0.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\f33f8193-02f9-4e32-9839-59759659ad5f.webp",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\f33f8193-02f9-4e32-9839-59759659ad5f.webp",
       "PackagePath": "staticwebassets\\images\\product-images\\f33f8193-02f9-4e32-9839-59759659ad5f.webp"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\f8f8c2a3-746d-4fec-b134-8e54a0b4ab1d.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\f8f8c2a3-746d-4fec-b134-8e54a0b4ab1d.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\f8f8c2a3-746d-4fec-b134-8e54a0b4ab1d.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\f97b72c1-3c98-4f1d-ad4c-3e1afae10bbc.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\f97b72c1-3c98-4f1d-ad4c-3e1afae10bbc.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\f97b72c1-3c98-4f1d-ad4c-3e1afae10bbc.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\fb5ff000-1129-4297-9d87-9140f9e7a2fd.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\fb5ff000-1129-4297-9d87-9140f9e7a2fd.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\fb5ff000-1129-4297-9d87-9140f9e7a2fd.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\feabc6ce-52a4-4808-abc8-2b3560badd28.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\feabc6ce-52a4-4808-abc8-2b3560badd28.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\feabc6ce-52a4-4808-abc8-2b3560badd28.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\hp-27.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\hp-27.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\hp-27.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\product-images\\iMac-24.jfif",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\iMac-24.jfif",
       "PackagePath": "staticwebassets\\images\\product-images\\iMac-24.jfif"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\079b3115-5669-4b06-9633-366e24521ef6.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\079b3115-5669-4b06-9633-366e24521ef6.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\079b3115-5669-4b06-9633-366e24521ef6.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\10fcc74f-9853-46bf-8ea2-444b19835cca.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\10fcc74f-9853-46bf-8ea2-444b19835cca.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\10fcc74f-9853-46bf-8ea2-444b19835cca.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\1f8de0e7-f535-4816-aef3-487a2a2022d2.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\1f8de0e7-f535-4816-aef3-487a2a2022d2.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\1f8de0e7-f535-4816-aef3-487a2a2022d2.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\2c4d6f16-5e3e-4c82-9142-52e8e35a5deb.jfif",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\2c4d6f16-5e3e-4c82-9142-52e8e35a5deb.jfif",
       "PackagePath": "staticwebassets\\images\\profile-images\\2c4d6f16-5e3e-4c82-9142-52e8e35a5deb.jfif"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\2df20178-49d3-4440-9155-a0a3dcf77008.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\2df20178-49d3-4440-9155-a0a3dcf77008.jpg",
       "PackagePath": "staticwebassets\\images\\profile-images\\2df20178-49d3-4440-9155-a0a3dcf77008.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\3538be29-a480-4f8f-834e-e590eca8b39e.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\3538be29-a480-4f8f-834e-e590eca8b39e.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\3538be29-a480-4f8f-834e-e590eca8b39e.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\3ce0508f-f2ea-47a9-a9b4-47c7204ef7b4.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\3ce0508f-f2ea-47a9-a9b4-47c7204ef7b4.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\3ce0508f-f2ea-47a9-a9b4-47c7204ef7b4.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\4aa8daac-2ac2-47d2-a1e1-3be99652423d.jfif",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\4aa8daac-2ac2-47d2-a1e1-3be99652423d.jfif",
       "PackagePath": "staticwebassets\\images\\profile-images\\4aa8daac-2ac2-47d2-a1e1-3be99652423d.jfif"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\6037217c-9f88-457b-ae5a-7433e9b8a1c4.jfif",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\6037217c-9f88-457b-ae5a-7433e9b8a1c4.jfif",
       "PackagePath": "staticwebassets\\images\\profile-images\\6037217c-9f88-457b-ae5a-7433e9b8a1c4.jfif"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\68b73d98-6353-4b7a-b939-2566fb2dac47.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\68b73d98-6353-4b7a-b939-2566fb2dac47.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\68b73d98-6353-4b7a-b939-2566fb2dac47.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\786fb4ea-1ba1-4857-abcf-8eb5ae207c51.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\786fb4ea-1ba1-4857-abcf-8eb5ae207c51.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\786fb4ea-1ba1-4857-abcf-8eb5ae207c51.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\79a159d8-4e82-4763-9ce0-c1dafc6ca9dc.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\79a159d8-4e82-4763-9ce0-c1dafc6ca9dc.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\79a159d8-4e82-4763-9ce0-c1dafc6ca9dc.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\7b401f3f-35d4-49b1-aaeb-bb707a44b1e0.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\7b401f3f-35d4-49b1-aaeb-bb707a44b1e0.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\7b401f3f-35d4-49b1-aaeb-bb707a44b1e0.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\876ed9e7-f937-4397-b33e-32e33ac041c1.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\876ed9e7-f937-4397-b33e-32e33ac041c1.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\876ed9e7-f937-4397-b33e-32e33ac041c1.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\9fb59fa3-6212-4656-bcc0-073dbdf01053.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\9fb59fa3-6212-4656-bcc0-073dbdf01053.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\9fb59fa3-6212-4656-bcc0-073dbdf01053.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\a50c853a-90d1-4f8a-ad89-f339b1c4e618.jfif",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\a50c853a-90d1-4f8a-ad89-f339b1c4e618.jfif",
       "PackagePath": "staticwebassets\\images\\profile-images\\a50c853a-90d1-4f8a-ad89-f339b1c4e618.jfif"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\a70cecf1-8f88-496b-bef4-cb25613792f5.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\a70cecf1-8f88-496b-bef4-cb25613792f5.jpg",
       "PackagePath": "staticwebassets\\images\\profile-images\\a70cecf1-8f88-496b-bef4-cb25613792f5.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\b0844d9b-d9f6-45d1-95d4-e67b758ac164.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\b0844d9b-d9f6-45d1-95d4-e67b758ac164.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\b0844d9b-d9f6-45d1-95d4-e67b758ac164.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\b85eb20c-39ba-4c71-82e8-bfd4672441e4.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\b85eb20c-39ba-4c71-82e8-bfd4672441e4.jpg",
       "PackagePath": "staticwebassets\\images\\profile-images\\b85eb20c-39ba-4c71-82e8-bfd4672441e4.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\c5a0b2c3-2d65-49af-a1f3-deae484751fa.jfif",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\c5a0b2c3-2d65-49af-a1f3-deae484751fa.jfif",
       "PackagePath": "staticwebassets\\images\\profile-images\\c5a0b2c3-2d65-49af-a1f3-deae484751fa.jfif"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\c9ad0766-9b69-448d-9c31-310495a6081f.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\c9ad0766-9b69-448d-9c31-310495a6081f.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\c9ad0766-9b69-448d-9c31-310495a6081f.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\ca241f14-3317-42b7-9a2d-778bd9585307.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\ca241f14-3317-42b7-9a2d-778bd9585307.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\ca241f14-3317-42b7-9a2d-778bd9585307.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\d28c850a-20fe-4e12-84cf-2dbb2ff7ea48.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\d28c850a-20fe-4e12-84cf-2dbb2ff7ea48.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\d28c850a-20fe-4e12-84cf-2dbb2ff7ea48.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\d6e2d44c-a4e0-4478-8531-016859d1fdc3.jfif",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\d6e2d44c-a4e0-4478-8531-016859d1fdc3.jfif",
       "PackagePath": "staticwebassets\\images\\profile-images\\d6e2d44c-a4e0-4478-8531-016859d1fdc3.jfif"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\d9cd543a-7cec-4b6b-b074-a7210990701c.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\d9cd543a-7cec-4b6b-b074-a7210990701c.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\d9cd543a-7cec-4b6b-b074-a7210990701c.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\dac29b39-05ee-4e31-bf5c-f926f11a4466.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\dac29b39-05ee-4e31-bf5c-f926f11a4466.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\dac29b39-05ee-4e31-bf5c-f926f11a4466.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\e7930ae2-8f28-4b87-a176-8b190aa4ded4.jpg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\e7930ae2-8f28-4b87-a176-8b190aa4ded4.jpg",
       "PackagePath": "staticwebassets\\images\\profile-images\\e7930ae2-8f28-4b87-a176-8b190aa4ded4.jpg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\f031c642-a4fa-4ddc-97bc-35431ef4bcfb.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\f031c642-a4fa-4ddc-97bc-35431ef4bcfb.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\f031c642-a4fa-4ddc-97bc-35431ef4bcfb.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\f72192aa-761e-4c76-8c12-97edfd46b1a1.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\f72192aa-761e-4c76-8c12-97edfd46b1a1.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\f72192aa-761e-4c76-8c12-97edfd46b1a1.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\profile-images\\ffdb7a72-ac6b-4c92-8914-27ee1297dcdb.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\profile-images\\ffdb7a72-ac6b-4c92-8914-27ee1297dcdb.png",
       "PackagePath": "staticwebassets\\images\\profile-images\\ffdb7a72-ac6b-4c92-8914-27ee1297dcdb.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\rated-star.svg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\rated-star.svg",
       "PackagePath": "staticwebassets\\images\\rated-star.svg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\rating-fill.svg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\rating-fill.svg",
       "PackagePath": "staticwebassets\\images\\rating-fill.svg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\rating.svg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\rating.svg",
       "PackagePath": "staticwebassets\\images\\rating.svg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\show-password.svg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\show-password.svg",
       "PackagePath": "staticwebassets\\images\\show-password.svg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\user-management.png",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\user-management.png",
       "PackagePath": "staticwebassets\\images\\user-management.png"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\images\\warning.svg",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\warning.svg",
       "PackagePath": "staticwebassets\\images\\warning.svg"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\js\\auth.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\auth.js",
       "PackagePath": "staticwebassets\\js\\auth.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\js\\changePassword.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\category.js",
+      "PackagePath": "staticwebassets\\js\\category.js"
+    },
+    {
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\changePassword.js",
       "PackagePath": "staticwebassets\\js\\changePassword.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\js\\cla.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\cla.js",
       "PackagePath": "staticwebassets\\js\\cla.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\js\\contactUs.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\contactUs.js",
       "PackagePath": "staticwebassets\\js\\contactUs.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\js\\editProfile.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\editProfile.js",
       "PackagePath": "staticwebassets\\js\\editProfile.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\js\\forgotPassword.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\forgotPassword.js",
       "PackagePath": "staticwebassets\\js\\forgotPassword.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\js\\home.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\home.js",
       "PackagePath": "staticwebassets\\js\\home.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\js\\login.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\login.js",
       "PackagePath": "staticwebassets\\js\\login.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\js\\pagination.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\pagination.js",
       "PackagePath": "staticwebassets\\js\\pagination.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\js\\payment.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\payment.js",
       "PackagePath": "staticwebassets\\js\\payment.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\js\\product.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\product.js",
       "PackagePath": "staticwebassets\\js\\product.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\js\\productImage.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\productImage.js",
       "PackagePath": "staticwebassets\\js\\productImage.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\js\\registration.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\registration.js",
       "PackagePath": "staticwebassets\\js\\registration.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\js\\resetPassword.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\resetPassword.js",
       "PackagePath": "staticwebassets\\js\\resetPassword.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\js\\site.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\js\\subscribe.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\subscribe.js",
       "PackagePath": "staticwebassets\\js\\subscribe.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\js\\verifyOtp.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\js\\verifyOtp.js",
       "PackagePath": "staticwebassets\\js\\verifyOtp.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\pca158\\Desktop\\Frontend\\Demo.WEb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
