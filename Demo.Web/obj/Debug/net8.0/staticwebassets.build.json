@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dDvn8PyshneDTHAjsazAvYK18N+t+Bfn8IvjQD0oVN8=",
+  "Hash": "/MY+b8tODVE0oS6VZIS/oAIJDlgSBMQBQ1I+IFu4TIM=",
   "Source": "Demo.Web",
   "BasePath": "_content/Demo.Web",
   "Mode": "Default",
@@ -300,6 +300,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\category-images\\c3e1185c-be8b-4952-8f7d-df6feb1694cb.svg"
+    },
+    {
+      "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\category-images\\d0080bdc-ee72-4771-b0fc-3095b385831f.svg",
+      "SourceId": "Demo.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\",
+      "BasePath": "_content/Demo.Web",
+      "RelativePath": "images/category-images/d0080bdc-ee72-4771-b0fc-3095b385831f.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\category-images\\d0080bdc-ee72-4771-b0fc-3095b385831f.svg"
     },
     {
       "Identity": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\category-images\\d9333af5-bd3b-4633-95a9-f8920f051f63.svg",

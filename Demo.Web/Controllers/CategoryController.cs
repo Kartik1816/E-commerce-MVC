@@ -60,13 +60,64 @@ public class CategoryController : Controller
 
         if (response.IsSuccessStatusCode)
         {
-            string responseContent =await response.Content.ReadAsStringAsync();
+            string responseContent = await response.Content.ReadAsStringAsync();
             ResponseModel? responseData = JsonConvert.DeserializeObject<ResponseModel>(responseContent);
             if (responseData != null)
             {
                 string? message = responseData.Message;
                 bool success = responseData.IsSuccess;
                 return new JsonResult(new { success = success, message = message });
+            }
+            else
+            {
+                return new JsonResult(new { success = false, message = "Invalid response from server." });
+            }
+        }
+        else
+        {
+            return StatusCode((int)response.StatusCode, "Error occurred while processing the request.");
+        }
+    }
+
+    [HttpPost]
+    [Route("Category/DeleteCategory")]
+    public async Task<IActionResult> DeleteCategory([FromForm] int id)
+    {
+        HttpResponseMessage response = await _httpClient.DeleteAsync(_apiBaseUrl + "delete-category/" + id);
+        if (response.IsSuccessStatusCode)
+        {
+            string responseContent = await response.Content.ReadAsStringAsync();
+            ResponseModel? responseData = JsonConvert.DeserializeObject<ResponseModel>(responseContent);
+            if (responseData != null)
+            {
+                bool success = responseData.IsSuccess;
+                string? message = responseData.Message;
+                return new JsonResult(new { success = success, message = message });
+            }
+            else
+            {
+                return new JsonResult(new { success = false, message = "Invalid response from server." });
+            }
+        }
+        else
+        {
+            return StatusCode((int)response.StatusCode, "Error occurred while processing the request.");
+        }
+    }
+
+    [HttpGet]
+    [Route("Category/GetCategoryById")]
+    public async Task<IActionResult> GetCategoryById(int id)
+    {
+        HttpResponseMessage response = await _httpClient.GetAsync(_apiBaseUrl + "get-category-by-id/" + id);
+        if (response.IsSuccessStatusCode)
+        {
+            string responseContent = await response.Content.ReadAsStringAsync();
+            ResponseModel? responseData = JsonConvert.DeserializeObject<ResponseModel>(responseContent);
+            if (responseData != null)
+            {
+                CategoryViewModel? category = JsonConvert.DeserializeObject<CategoryViewModel>(responseData.Data?.ToString() ?? string.Empty);
+                return PartialView("_AddEditCategoryModal", new CategoryListViewModel { CategoryViewModel = category });
             }
             else
             {

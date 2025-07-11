@@ -37,3 +37,19 @@
         }
     </tbody>
 </table>
+
+
+<script>
+function editCategory(id) {
+    $.ajax({
+        url: '/Category/GetCategoryById',
+        type: 'GET',
+        data: { id: id },
+        success: function (result) {
+            $('#categoryView').html(result);
+            $('#addEditCategory').modal('show');
+            saveCategory();
+        }
+    });
+}
+</script>

@@ -27,7 +27,7 @@ public class HomeController : Controller
 
     public async Task<IActionResult> Index()
     {
-        HttpResponseMessage response = await _httpClient.GetAsync(_apiBaseUrl + "categories");
+        HttpResponseMessage response = await _httpClient.GetAsync(_apiBaseUrl + "released-categories");
         string jsonString = await response.Content.ReadAsStringAsync();
         ResponseModel? responseModel = JsonConvert.DeserializeObject<ResponseModel>(jsonString);
         List<CategoryViewModel>? categories = JsonConvert.DeserializeObject<List<CategoryViewModel>>(responseModel?.Data?.ToString() ?? string.Empty);
