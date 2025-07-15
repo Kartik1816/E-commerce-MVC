@@ -52,6 +52,10 @@ public class CLAController : Controller
             PageNumber = paginatedResponse?.PageNumber ?? 1,
             PageSize = paginatedResponse?.PageSize ?? 10,
             TotalRecords = paginatedResponse?.TotalRecords ?? 0,
+            TotalPages = paginatedResponse?.TotalPages ?? 0,
+            HasNextPage = paginatedResponse?.HasNextPage ?? false,
+            HasPreviousPage = paginatedResponse?.HasPreviousPage ?? false,
+            TotalDataOfPage = paginatedResponse?.TotalDataOfPage ?? 0
         };
         return View(productListViewModel);
     }
@@ -301,9 +305,28 @@ public class CLAController : Controller
             PageNumber = paginatedResponse?.PageNumber ?? 1,
             PageSize = paginatedResponse?.PageSize ?? 10,
             TotalRecords = paginatedResponse?.TotalRecords ?? 0,
+            TotalPages = paginatedResponse?.TotalPages ?? 0,
+            HasNextPage = paginatedResponse?.HasNextPage ?? false,
+            HasPreviousPage = paginatedResponse?.HasPreviousPage ?? false,
+            TotalDataOfPage = paginatedResponse?.TotalDataOfPage ?? 0
         };
 
         return PartialView("_ProductList", productListViewModel);
     }
 
+    [HttpGet]
+    [Route("/CLA/GetDecryptedId")]
+    public IActionResult GetDecryptedId(string id)
+    {
+        if (string.IsNullOrEmpty(id))
+        {
+            return new JsonResult(new { success = false, message = "Invalid ID" });
+        }
+        int decryptedId = EncryptDecryptService.DecryptId(id);
+        if (decryptedId <= 0)
+        {
+            return new JsonResult(new { success = false, message = "Invalid ID" });
+        }
+        return new JsonResult(new { success = true, decryptedId = decryptedId });
+    }
 }

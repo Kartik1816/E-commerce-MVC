@@ -17,7 +17,7 @@
             <div class="d-flex flex-column  align-items-center">
                 <div class="position-relative overflow-hidden cla-product-image">
                     <img src="@productImage" alt="Product Image" 
-                        class="img-fluid w-100 h-100 object-fit-contain p-3">
+                        class="img-fluid w-100 h-100 object-fit-contain p-1">
                     @if (product.Discount > 0)
                     {
                         <div class="position-absolute top-0 end-0 bg-danger text-white px-2 py-1 small">
@@ -30,7 +30,34 @@
                         <h6 class="card-title text-dark mb-2 cla-product-name-font">
                             @product.Name
                         </h6>
+                        @if(userRole != null && userRole=="Admin")
+                        {
+                            <h6 class="py-1">
+                                <span class="badge text-primary d-flex align-items-center justify-content-center border border-primary bg-white unit-badge-size">
+                                    Unit: @product.StockQuantity
+                                </span>
+                            </h6>
+                        }
+                        else
+                        {
+                            if(product.StockQuantity > 0 && product.StockQuantity <=5)
+                            {
+                                <h6 class="py-1">
+                                    <span class="badge text-warning border border-warning bg-white d-flex align-items-center justify-content-center unit-badge-size">
+                                        Few quantity left
+                                    </span>
+                                </h6>
 
+                            }
+                            else if(product.StockQuantity == 0)
+                            {
+                                <h6 class="py-1">
+                                    <span class="badge text-danger border border-danger bg-white d-flex align-items-center justify-content-center unit-badge-size">
+                                        Out of Stock
+                                    </span>
+                                </h6>
+                            }
+                        }
                         <!-- Price -->
                         <div class="d-flex align-items-baseline">
                             @if (product.Discount > 0)
@@ -61,16 +88,15 @@
 }
 
 <div class="pagination d-flex justify-content-end mt-2 gap-3">
-    @if (Model.TotalRecords > Model.PageSize)
+    @if (Model?.TotalRecords > Model?.PageSize)
     {
-        int totalPages = (int)Math.Ceiling((double)Model.TotalRecords / Model.PageSize);
 
-        if (Model.PageNumber > 1)
+        if (Model.HasPreviousPage)
         {
-            <button class="btn btn-primary" onclick="loadPage(@(Model.PageNumber - 1))">previous</button>
+            <button class="btn btn-primary" onclick="loadPage(@(Model.PageNumber - 1))">Previous</button>
         }
 
-        if (Model.PageNumber < totalPages)
+        if (Model.HasNextPage)
         {
             <button class="btn btn-primary" onclick="loadPage(@(Model.PageNumber + 1))">Next</button>
         }

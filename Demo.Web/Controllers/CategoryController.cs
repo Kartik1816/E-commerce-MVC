@@ -129,4 +129,29 @@ public class CategoryController : Controller
             return StatusCode((int)response.StatusCode, "Error occurred while processing the request.");
         }
     }
+
+    [HttpPost]
+    public async Task<IActionResult> ReleaseCategory(int id)
+    {
+        HttpResponseMessage response = await _httpClient.PostAsJsonAsync(_apiBaseUrl + "release-category", id);
+        if (response.IsSuccessStatusCode)
+        {
+            string responseContent = await response.Content.ReadAsStringAsync();
+            ResponseModel? responseData = JsonConvert.DeserializeObject<ResponseModel>(responseContent);
+            if (responseData != null)
+            {
+                bool success = responseData.IsSuccess;
+                string? message = responseData.Message;
+                return new JsonResult(new { success = success, message = message });
+            }
+            else
+            {
+                return new JsonResult(new { success = false, message = "Invalid response from server." });
+            }
+        }
+        else
+        {
+            return StatusCode((int)response.StatusCode, "Error occurred while processing the request.");
+        }
+    }
 }

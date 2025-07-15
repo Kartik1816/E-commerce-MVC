@@ -25,7 +25,7 @@
                     }
                     else
                     {
-                        <i class="fas fa-times"></i><span>Release</span>
+                        <i class="fas fa-times"></i><span onclick="releaseCategory(@category.Id)">Release</span>
                     }
                 </button>
                 <button type="button" onclick="editCategory(@category.Id)" class="btn btn-light btn-sm"><i class="fas fa-pencil"></i></button>
@@ -49,6 +49,25 @@ function editCategory(id) {
             $('#categoryView').html(result);
             $('#addEditCategory').modal('show');
             saveCategory();
+        }
+    });
+}
+
+function releaseCategory(id)
+{
+    $.ajax({
+        url: '/Category/ReleaseCategory',
+        type: 'POST',
+        data: { id: id },
+        success: function (result) {
+            if (result.success) {
+                toastr.success(result.message);
+                setTimeout(()=> {
+                    location.reload();
+                }, 1000);
+            } else {
+                alert(result.message);
+            }
         }
     });
 }

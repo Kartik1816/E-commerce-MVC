@@ -1,0 +1,50 @@
+@model Demo.Web.Models.HomeViewModel
+
+@if(Model!= null && Model.FilteredCategories!=null)
+{
+    foreach (var category in Model.FilteredCategories)
+    {
+        string ImageUrl = string.IsNullOrEmpty(category.ImageUrl)
+            ? "/images/Default_pfp.png"
+            : $"/images/category-images/{category.ImageUrl}";
+
+        <div class="card shadow card-bg d-flex flex-column align-items-center justify-content-center p-5 col-3 h-450 w-450 cursor-pointer" onclick="getProductsByCategory('@category.Id')">
+            <img src="@ImageUrl" alt="Category Image" class="img-fluid mb-4 w-25">
+            <h3 class="text-center mb-4">@category.Name</h3>
+            <p class="text-center mb-4 description-text">@category.Description</p>
+        </div>
+    }
+}
+
+
+<script>
+    // ALready returned categories are selected
+    $(document).ready(function () {
+        $('.category-checkbox').each(function () {
+            var categoryId = $(this).val();
+            var checkboxId = "cat_" + categoryId;
+            
+            var FilteredCategories= @Html.Raw(Json.Serialize(Model?.FilteredCategories))
+            
+            if (FilteredCategories.length === 1) {
+                $('.selected-category-text').text(FilteredCategories[0].name);
+            } else if (FilteredCategories.length > 1) {
+                var first = FilteredCategories[0].name;
+                var count = FilteredCategories.length - 1;
+                $('.selected-category-text').text(`${first} and ${count} more`);
+            } else {
+                $('.selected-category-text').text('Filter Categories');
+            }
+
+            FilteredCategories.forEach(function (category) {
+
+               var checkbox =  document.getElementById("cat_" + category.id);
+
+                if (checkbox && category.id === parseInt(categoryId)) {
+                    checkbox.checked = true;
+                }
+
+            });
+        });
+    });
+</script>

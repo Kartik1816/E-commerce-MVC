@@ -89,6 +89,26 @@
                                 <span asp-validation-for="@Model.productViewModel.Price" class="text-danger"></span>
                         </div>
                     }
+                    @if(Model.productViewModel != null && Model.productViewModel.StockQuantity > 0)
+                    {
+                        <div class="d-flex flex-column p-2">
+                            <label for="quantity" class="form-label">Quantity</label>
+                            <div class="input-group" class="py-2 d-flex flex-column">
+                                <input type="number" class="form-control" placeholder="Quantity*" id="quantity" asp-for="@Model.productViewModel.StockQuantity" name="productViewModel.StockQuantity" value="@Model.productViewModel.StockQuantity">
+                            </div>
+                                <span asp-validation-for="@Model.productViewModel.StockQuantity" class="text-danger"></span>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="d-flex flex-column p-2">
+                            <label for="quantity" class="form-label">Quantity</label>
+                            <div class="input-group" class="py-2 d-flex flex-column">
+                                <input type="number" class="form-control" placeholder="Quantity*" id="quantity" asp-for="@Model.productViewModel.StockQuantity" name="productViewModel.StockQuantity">
+                            </div>
+                                <span asp-validation-for="@Model.productViewModel.StockQuantity" class="text-danger"></span>
+                        </div>
+                    }
                     @if(Model.productViewModel != null && Model.productViewModel.Discount > 0)
                     {
                         <div class="d-flex flex-column p-2">

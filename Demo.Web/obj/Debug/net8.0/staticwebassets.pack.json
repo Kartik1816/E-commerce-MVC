@@ -21,10 +21,6 @@
       "PackagePath": "staticwebassets\\images\\Default_pfp.png"
     },
     {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\accessories.svg",
-      "PackagePath": "staticwebassets\\images\\accessories.svg"
-    },
-    {
       "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\bg-image.png",
       "PackagePath": "staticwebassets\\images\\bg-image.png"
     },
@@ -49,6 +45,10 @@
       "PackagePath": "staticwebassets\\images\\category-images\\7d494ec3-6812-4682-a044-91b7013303cf.svg"
     },
     {
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\category-images\\accessories.svg",
+      "PackagePath": "staticwebassets\\images\\category-images\\accessories.svg"
+    },
+    {
       "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\category-images\\b15bf728-149d-4065-bded-07aca6d25682.svg",
       "PackagePath": "staticwebassets\\images\\category-images\\b15bf728-149d-4065-bded-07aca6d25682.svg"
     },
@@ -59,6 +59,10 @@
     {
       "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\category-images\\c3e1185c-be8b-4952-8f7d-df6feb1694cb.svg",
       "PackagePath": "staticwebassets\\images\\category-images\\c3e1185c-be8b-4952-8f7d-df6feb1694cb.svg"
+    },
+    {
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\category-images\\computers.svg",
+      "PackagePath": "staticwebassets\\images\\category-images\\computers.svg"
     },
     {
       "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\category-images\\d0080bdc-ee72-4771-b0fc-3095b385831f.svg",
@@ -77,16 +81,16 @@
       "PackagePath": "staticwebassets\\images\\category-images\\e9bbafd1-3dfa-4aaa-8300-1e1511e497b0.svg"
     },
     {
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\category-images\\laptops.svg",
+      "PackagePath": "staticwebassets\\images\\category-images\\laptops.svg"
+    },
+    {
       "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\change-password.svg",
       "PackagePath": "staticwebassets\\images\\change-password.svg"
     },
     {
       "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\cla.png",
       "PackagePath": "staticwebassets\\images\\cla.png"
-    },
-    {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\computers.svg",
-      "PackagePath": "staticwebassets\\images\\computers.svg"
     },
     {
       "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\edit-profile.svg",
@@ -103,10 +107,6 @@
     {
       "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\hide-password.svg",
       "PackagePath": "staticwebassets\\images\\hide-password.svg"
-    },
-    {
-      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\laptops.svg",
-      "PackagePath": "staticwebassets\\images\\laptops.svg"
     },
     {
       "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\logout.svg",
@@ -155,6 +155,10 @@
     {
       "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\16d0a597-60f3-4a80-8fc0-a4a4d0406f97.jpg",
       "PackagePath": "staticwebassets\\images\\product-images\\16d0a597-60f3-4a80-8fc0-a4a4d0406f97.jpg"
+    },
+    {
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\16e12729-2baf-4c22-bdbb-b873264faa50.jpg",
+      "PackagePath": "staticwebassets\\images\\product-images\\16e12729-2baf-4c22-bdbb-b873264faa50.jpg"
     },
     {
       "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\185f71ff-3beb-4e4c-9540-42afa2717b44.jpg",
@@ -271,6 +275,10 @@
     {
       "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\63eabcaf-2bd9-41a9-9891-b77e52c0000d.png",
       "PackagePath": "staticwebassets\\images\\product-images\\63eabcaf-2bd9-41a9-9891-b77e52c0000d.png"
+    },
+    {
+      "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\6552e55e-ea70-4397-9ee9-693a42ff4144.jpg",
+      "PackagePath": "staticwebassets\\images\\product-images\\6552e55e-ea70-4397-9ee9-693a42ff4144.jpg"
     },
     {
       "Id": "c:\\Users\\pca158\\Desktop\\Frontend\\Demo.Web\\wwwroot\\images\\product-images\\67d3b2d0-b999-4878-aafc-ecab2dbc7f78.webp",

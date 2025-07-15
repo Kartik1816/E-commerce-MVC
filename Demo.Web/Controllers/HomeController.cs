@@ -41,7 +41,8 @@ public class HomeController : Controller
         HomeViewModel homeViewModel = new HomeViewModel
         {
             Categories = categories ?? new List<CategoryViewModel>(),
-            Products = products
+            Products = products,
+            FilteredCategories = categories?.Take(3).ToList()
         };
         string? token = Request.Cookies["token"];
         if (token != null)
@@ -138,8 +139,45 @@ public class HomeController : Controller
     public IActionResult Logout()
     {
         HttpContext.Session.Clear();
-        return Ok(new{success=true,message="session cleared"});
+        return Ok(new { success = true, message = "session cleared" });
     }
 
+    [HttpPost]
+    [Route("Home/FilterCategories")]
+    public async Task<IActionResult> FilterCategories([FromBody] List<int> selectedIds)
+    {
+        if (selectedIds == null || selectedIds.Count == 0)
+        {
+            HttpResponseMessage DefaultResponse = await _httpClient.GetAsync(_apiBaseUrl + "released-categories");
+            string jsonString = await DefaultResponse.Content.ReadAsStringAsync();
+            ResponseModel? responseModel = JsonConvert.DeserializeObject<ResponseModel>(jsonString);
+            List<CategoryViewModel>? categories = JsonConvert.DeserializeObject<List<CategoryViewModel>>(responseModel?.Data?.ToString() ?? string.Empty);
+            HomeViewModel homeViewModel = new HomeViewModel
+            {
+                FilteredCategories = categories?.Take(3).ToList() ?? new List<CategoryViewModel>(),
+            };
+
+            return PartialView("_CategoryPartial", homeViewModel);
+        }
+
+        string ids = string.Join(",", selectedIds);
+        string _catApiBaseUrl = "http://localhost:5114/api/Category/";
+        HttpResponseMessage response = await _httpClient.GetAsync(_catApiBaseUrl + "filter/" + ids);
+        if (response.IsSuccessStatusCode)
+        {
+            string responseContent = await response.Content.ReadAsStringAsync();
+            ResponseModel? responseData = JsonConvert.DeserializeObject<ResponseModel>(responseContent);
+            List<CategoryViewModel>? filteredCategories = JsonConvert.DeserializeObject<List<CategoryViewModel>>(responseData?.Data?.ToString() ?? string.Empty);
+            HomeViewModel homeViewModel = new HomeViewModel
+            {
+                FilteredCategories = filteredCategories ?? new List<CategoryViewModel>(),
+            };
+            return PartialView("_CategoryPartial", homeViewModel);
+        }
+        else
+        {
+            return StatusCode((int)response.StatusCode, "Error occurred while processing the request.");
+        }
+    }
 }
 

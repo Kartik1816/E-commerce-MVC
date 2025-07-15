@@ -197,7 +197,7 @@
     font-weight: bold;
 }
 .cla-product-image{
-    height: 200px;
+    height: 150px;
     background-color: #f8f9fa;
 }
 .cla-product-name-font{
@@ -268,4 +268,15 @@
   
   .notificationList-li {
     white-space: normal; /* ✅ ensures wrapping for each item */
+  }
+
+  .h-450{
+    height: 450px !important;
+  }
+  .w-450{
+    width: 456px !important;
+  }
+  .unit-badge-size{
+    height: 30px;
+    width: 120px;
   }

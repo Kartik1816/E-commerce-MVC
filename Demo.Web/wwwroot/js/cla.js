@@ -1,19 +1,34 @@
 
 //get Category Id from URL
 var categoryId = window.location.pathname.split('/').pop();
-$('#categoryId').val(parseInt(categoryId));
-if(parseInt(categoryId) == 1)
-{
-    $('#categoryName').text('Computers');
-}
-else if(parseInt(categoryId) == 2)
-{
-    $('#categoryName').text('Laptops');
-}
-else
-{
-    $('#categoryName').text('Accessories');
-}
+$.ajax({
+    type: 'GET',
+    url: '/CLA/GetDecryptedId',
+    data: { id: categoryId },
+    success: function (data) {
+        if (data.success) {
+            categoryId=data.decryptedId;
+            $('#categoryId').val(parseInt(categoryId));
+            
+            if(parseInt(categoryId) == 1)
+            {
+                $('#categoryName').text('Computers');
+            }
+            else if(parseInt(categoryId) == 2)
+            {
+                $('#categoryName').text('Laptops');
+            }
+            else
+            {
+                $('#categoryName').text('Accessories');
+            }
+        } else {
+            toastr.error(data.message);
+        }
+    }
+});
+
+
 
 function SaveProduct()
 {
