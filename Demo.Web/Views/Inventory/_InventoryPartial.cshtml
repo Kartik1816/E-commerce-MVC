@@ -1,0 +1,133 @@
+@model Demo.Web.Models.InventoryViewModel
+
+ <!-- Summary Cards -->
+<div class="row justify-content between badge-gap justify-content-center py-2">
+    <div class="col-md-3">
+        <div class="card shadow-sm text-white bg-primary">
+            <div class="card-body">
+                <h5 class="card-title">Monthly Revenue</h5>
+                <h3>₹ @Model.TotalRevenue.ToString("N0")</h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card shadow-sm text-white bg-success">
+            <div class="card-body">
+                <h5 class="card-title">Total Sold Products</h5>
+                <h3>@Model.TotalSoldQuantity</h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card shadow-sm text-white bg-warning">
+            <div class="card-body">
+                <h5 class="card-title">Remaining Stock</h5>
+                <h3>@Model.TotalRemainingStock</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Revenue Chart -->
+<div class="card shadow-sm mb-4 col-10">
+    <div class="card-body">
+        <h5 class="card-title">Monthly Revenue Chart</h5>
+        <canvas id="revenueChart" height="80"></canvas>
+    </div>
+</div>
+
+<!-- Inventory Table -->
+<div class="card shadow-sm col-10">
+    <div class="card-body">
+        <h5 class="card-title">Inventory Overview</h5>
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover mt-3">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Total Stock</th>
+                        <th>Sold Quantity</th>
+                        <th>Remaining Stock</th>
+                        <th>Revenue (₹)</th>
+                        <th>Last Sold Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.InventoryItems != null && Model.InventoryItems.Any())
+                    {
+                        foreach (var item in Model.InventoryItems)
+                        {
+                            <tr>
+                                <td>@item.ProductName</td>
+                                <td>@item.TotalStock</td>
+                                <td>@item.SoldQuantity</td>
+                                <td>@(item.TotalStock - item.SoldQuantity)</td>
+                                <td>₹ @item.Revenue.ToString("N0")</td>
+                                <td>@item.LastSoldDate.ToString("dd MMM yyyy")</td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="6" class="text-center">No inventory data available.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script>
+        var chartLabels = @Html.Raw(Json.Serialize(Model.ChartLabels));
+        var chartData = @Html.Raw(Json.Serialize(Model.ChartData));
+        console.log(chartLabels, chartData);
+        
+        var ctx = document.getElementById('revenueChart').getContext('2d');
+        var revenueChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: chartLabels,
+                datasets: [{
+                    label: 'Revenue (₹)',
+                    data: chartData,
+                    backgroundColor: 'rgba(204, 153, 255, 0.2)',
+                    borderColor: 'rgba(153, 51, 255, 1)',
+                    borderWidth: 2,
+                    tension: 0.4,
+                    fill: true,
+                    pointBackgroundColor: 'white',
+                    pointBorderColor: 'rgba(153, 51, 255, 1)',
+                    pointRadius: 5
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'top'
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function (context) {
+                                return '₹' + context.parsed.y.toLocaleString();
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            callback: function(value) {
+                                return '₹' + value.toLocaleString();
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+    </script>

@@ -1,0 +1,109 @@
+@model Demo.Web.Models.InventoryViewModel
+
+@{
+    ViewData["Title"] = "Inventory Dashboard";
+}
+
+    <div class="w-100 d-flex align-items-center justify-content-end p-2">
+        <select id="timeFilter" class="form-select w-auto me-2" onchange="filterInventory(this.value)">
+            <option value="">All Time</option>
+            <option value="last7days">This week</option>
+            <option value="last30days">Last 30 Days</option>
+            <option value="last12months">This year</option>
+            <option value="custom">Custom Range</option>
+        </select>
+    </div>
+<div class="row align-items-center justify-content-center mb-4" id="inventoryView">
+   <partial name="_InventoryPartial" model="Model" />
+</div>
+
+<div class="modal fade" id="CustomDateModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Select Date Range</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex mx-auto gap-3">
+                <div class="form-floating">
+                <input type="date" id="fromDate" class="form-control dateSize" placeholder="From Date" max="@DateTime.Now.ToString("yyyy-MM-dd")"/>
+                <label for="fromDate">From Date</label>
+                </div>
+            
+            <div class="form-floating">
+                <input type="date" id="toDate" class="form-control dateSize" placeholder="To Date" max="@DateTime.Now.ToString("yyyy-MM-dd")"/>
+                <label for="toDate">To Date</label>
+            </div>
+            </div>
+            <div class="modal-footer d-flex justify-content-center">
+                <button id="ApplyDateChangesButton" type="button" class="btn btn-primary px-3">Submit</button>
+                <a><button data-bs-dismiss="modal" aria-label="Close" type="button" class="btn btn-contrast px-3">Cancel</button></a>
+            </div>
+            </div>
+            </div>
+            
+</div>
+
+<script>
+function filterInventory(time)
+{
+    $('#timeFilter').val(time);
+    if (time === 'custom') {
+       getCustomDateData();
+    }
+    else
+    {
+        $.ajax({
+            url: '/Inventory/FilterInventory',
+            type: 'GET',
+            data: {
+                timeFilter: time,
+                fromDate: null,
+                toDate: null
+            },
+            success: function (data) {
+                // Update the inventory table and chart with the filtered data
+                $('#inventoryView').html(data);
+            },
+            error: function (xhr, status, error) {
+                console.error('Error fetching filtered inventory:', error);
+            }
+        });    
+    }
+}
+
+function getCustomDateData()
+{
+    $('#CustomDateModal').modal('show');
+    $('#ApplyDateChangesButton').click(function(){
+    var fromDate = $('#fromDate').val();
+    var toDate = $('#toDate').val();
+    var time= $('#timeFilter').val();
+    $.ajax({
+          url : "/Inventory/FilterInventory",
+          type: "GET", 
+          data :{
+            timeFilter: time,
+            fromDate:fromDate,
+            toDate:toDate
+          },
+          success:function(data){ 
+            $('#inventoryView').html(data);
+            $('#CustomDateModal').modal('hide');
+
+          }
+      });
+  });
+}
+
+document.getElementById('fromDate').addEventListener('change', function () {
+    const fromDate = this.value;
+    document.getElementById('toDate').setAttribute('min', fromDate);
+});
+
+document.getElementById('toDate').addEventListener('change', function () {
+    const toDate = this.value;
+    document.getElementById('fromDate').setAttribute('max', toDate);
+});
+</script>

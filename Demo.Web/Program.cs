@@ -28,6 +28,7 @@ builder.Services.AddHttpClient<OfferController>();
 builder.Services.AddHttpClient<PaymentController>();
 builder.Services.AddHttpClient<OrdersController>();
 builder.Services.AddHttpClient<CategoryController>();
+builder.Services.AddHttpClient<InventoryController>();
 builder.Services.AddSingleton<EmailService>();
 builder.Services.AddCors(options =>
 {

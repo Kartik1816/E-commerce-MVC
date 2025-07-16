@@ -280,3 +280,6 @@
     height: 30px;
     width: 120px;
   }
+  .badge-gap{
+    gap: 4.7rem !important;
+  }

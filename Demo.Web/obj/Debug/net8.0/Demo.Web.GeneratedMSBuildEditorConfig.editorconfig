@@ -90,6 +90,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfQ2F0ZWdvcnlQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Inventory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Inventory/_InventoryPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5XF9JbnZlbnRvcnlQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/Users/pca158/Desktop/Frontend/Demo.Web/Views/Offer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
